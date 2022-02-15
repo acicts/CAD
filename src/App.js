@@ -1,19 +1,12 @@
 import React from "react";
-import Home from "./sections/Home";
-import About from "./sections/About";
-import Themes from "./sections/Themes";
-import Rules from "./sections/Rules";
-import FAQ from "./sections/FAQ";
+import { Routes, Route } from "react-router-dom";
+import CodeFlow from "./pages/CodeFlow";
 
 const App = () => {
 	return (
-		<div>
-			<Home />
-			<About />
-			<Themes />
-			<Rules />
-			<FAQ />
-		</div>
+		<Routes>
+			<Route path="/codeflow" element={<CodeFlow />} />
+		</Routes>
 	);
 };
 

@@ -1,0 +1,67 @@
+.NavBar {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+.NavBar ul {
+	list-style: none;
+}
+
+.NavBar ul li {
+	margin-right: 45px;
+	display: inline-flex;
+}
+
+.NavBar ul li:last-child {
+	margin-right: none;
+}
+
+.NavBar ul li a {
+	font-size: 1.2rem;
+}
+
+.NavBar ul li:last-child a {
+	text-decoration: underline;
+}
+
+.Footer {
+	width: 90%;
+	height: 20vh;
+	margin: auto;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.Footer .BottomContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10px;
+	margin-bottom: 15px;
+}
+
+.Footer .BottomContainer .Bar {
+	width: 95%;
+	height: 2px;
+	background-color: white;
+}
+
+.Footer .BottomContainer .Ball {
+	width: 7px;
+	height: 7px;
+	background-color: white;
+}
+
+.Footer p.FooterTopic {
+	font-size: 1.2rem;
+	font-weight: 700;
+}

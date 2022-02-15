@@ -1,0 +1,20 @@
+{
+	"navbar": [
+		{
+			"text": "/Home",
+			"link": "#home"
+		},
+		{
+			"text": "/Rules",
+			"link": "#rules"
+		},
+		{
+			"text": "/FAQ",
+			"link": "#faq"
+		},
+		{
+			"text": "Register",
+			"link": "#home"
+		}
+	]
+}
