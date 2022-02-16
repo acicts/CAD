@@ -1,0 +1,52 @@
+.Container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: column;
+	height: 90vh
+}
+
+.Container h1 {
+	font-size: 3.0rem;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.Container h1 span:first-child {
+	color: #7ca9ffa1;
+	font-size: 3.5rem;
+
+}
+
+.TextContainer {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.TextContainer .children {
+	width: 90%;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.PendContainer {
+	width: 10%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Bar {
+	height: 75vh;
+	width: 3px;
+}
+
+.Box {
+	height: 10px;
+	width: 10px;
+}

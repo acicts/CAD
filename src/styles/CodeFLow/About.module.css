@@ -1,0 +1,10 @@
+.Container {
+	height: 100vh;
+	padding: 25px 50px;
+}
+.Para {
+	text-align: justify;
+}
+.Para:first-child {
+	margin-bottom: 20px;
+}
