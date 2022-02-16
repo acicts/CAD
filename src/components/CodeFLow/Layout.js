@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
 					{data.navbar.map((navItem) => {
 						return (
 							<li>
-								<Link to={navItem.link}>{navItem.text}</Link>
+								<a href={navItem.link}>{navItem.text}</a>
 							</li>
 						);
 					})}

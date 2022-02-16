@@ -29,12 +29,12 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
-				<Link to="#about" className={classes.Button}>
+				<a href="#about" className={classes.Button}>
 					<span>More Info</span>
 					<span>
 						<DoubleArrow />
 					</span>
-				</Link>
+				</a>
 			</div>
 			<div className={classes.RightContainer}>
 				<img src={CoverImage} alt="cover" />

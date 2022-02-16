@@ -1,0 +1,17 @@
+.Container {
+	height: 100vh;
+	padding: 25px 50px;
+}
+
+.Container ol {
+	height: 65vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.Container ol li {
+	width: 100%;
+
+}
