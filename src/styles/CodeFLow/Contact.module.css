@@ -1,0 +1,26 @@
+.Container {
+	height: 55vh;
+	padding: 25px 50px;
+}
+
+.Container ul {
+	list-style: none;
+}
+
+.Container ul li {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.Container ul li:last-child {
+	margin-bottom: none;
+}
+
+.Container p {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.Container a {
+	text-decoration: underline;
+}

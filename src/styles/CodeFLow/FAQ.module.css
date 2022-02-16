@@ -1,0 +1,13 @@
+.Container {
+	height: 100vh;
+	padding: 25px 50px;
+	background: white;
+}
+
+.QuestionContainer{
+	height: 70vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: column;
+}

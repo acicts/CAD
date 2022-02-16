@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "../../styles/CodeFLow/Layout.module.css";
 import data from "../../data.json";
 
@@ -9,7 +8,7 @@ const Layout = ({ children }) => {
 			<nav className={classes.NavBar}>
 				<div></div>
 				<ul>
-					{data.navbar.map((navItem) => {
+					{data.codeflow.navbar.map((navItem) => {
 						return (
 							<li>
 								<a href={navItem.link}>{navItem.text}</a>

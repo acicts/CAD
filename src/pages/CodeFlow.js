@@ -5,6 +5,7 @@ import About from "../components/CodeFLow/sections/About";
 import Themes from "../components/CodeFLow/sections/Themes";
 import Rules from "../components/CodeFLow/sections/Rules";
 import FAQ from "../components/CodeFLow/sections/FAQ";
+import Contact from "../components/CodeFLow/sections/Contact";
 import "./codeflow.css";
 
 const CodeFlow = () => {
@@ -15,6 +16,7 @@ const CodeFlow = () => {
 			<Themes />
 			<Rules />
 			<FAQ />
+			<Contact />
 		</Layout>
 	);
 };

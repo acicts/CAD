@@ -1,20 +1,46 @@
 {
-	"navbar": [
-		{
-			"text": "/Home",
-			"link": "#home"
-		},
-		{
-			"text": "/Rules",
-			"link": "#rules"
-		},
-		{
-			"text": "/FAQ",
-			"link": "#faq"
-		},
-		{
-			"text": "Register",
-			"link": "#home"
-		}
-	]
+	"codeflow": {
+		"navbar": [
+			{
+				"text": "/Home",
+				"link": "#home"
+			},
+			{
+				"text": "/Rules",
+				"link": "#rules"
+			},
+			{
+				"text": "/FAQ",
+				"link": "#faq"
+			},
+			{
+				"text": "Register",
+				"link": "#home"
+			}
+		],
+		"faq": [
+			{
+				"question": "Is this a dummy question?",
+				"Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+			},
+			{
+				"question": "Is this a dummy question?",
+				"Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+			},
+			{
+				"question": "Is this a dummy question?",
+				"Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+			},
+			{
+				"question": "Is this a dummy question?",
+				"Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+			},
+			{
+				"question": "Is this a dummy question?",
+				"Answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+			}
+
+		]
+	}
+	
 }

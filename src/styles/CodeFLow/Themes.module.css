@@ -1,0 +1,21 @@
+.Container {
+	height: 100vh;
+	padding: 25px 50px;
+	background: white;
+}
+
+.Container ul {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 24vh;
+}
+
+.Container ul:last-child{
+	justify-content: space-evenly;
+}
+
+.Container ul li {
+	color: #07253a;
+}

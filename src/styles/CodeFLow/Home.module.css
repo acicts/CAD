@@ -64,10 +64,31 @@
 	border: none;
 	cursor: pointer;
 }
+
 .Container .LeftContainer .Button span {
 	font-size: 1.8rem;
 	font-family: "PT Mono", monospace;
 	color: #07253a;
+}
+
+.Container .LeftContainer .Button span:last-child{
+	position: relative;
+	animation-name: buttonAnime;
+	animation-direction: normal;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+@keyframes buttonAnime {
+	from {
+		left: -20px;
+		opacity: 0.2;
+	}
+	to {
+		left: 0;
+		opacity: 1;
+	}
 }
 
 .Container .RightContainer {
