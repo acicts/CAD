@@ -4,6 +4,7 @@
 	font-family: "PT Mono", monospace;
 	background-color: #07253a;
 	overflow-y: scroll;
+	scroll-behavior: smooth;
 }
 
 .NavBar {
@@ -14,8 +15,16 @@
 	padding: 0px 20px;
 }
 
+.NavBar .Menu {
+	display: none;
+}
+
 .NavBar ul {
 	list-style: none;
+}
+
+.NavBar ul.Responsive {
+	display: none;
 }
 
 .NavBar ul li {
@@ -72,4 +81,65 @@
 .Footer p.FooterTopic {
 	font-size: 1.2rem;
 	font-weight: 700;
+}
+
+@media (max-width: 768px) {
+	.NavBar ul li a {
+		font-size: 1rem;
+	}
+
+	.NavBar ul {
+		width: 100%;
+	}
+}
+
+@media (max-width: 445px) {
+	.TempBox {
+		display: none;
+	}
+	.NavBar .Menu {
+		display: block;
+		position: relative;
+	}
+
+	.NavBar ul {
+		display: none;
+		z-index: 10;
+	}
+
+	.NavBar ul.Responsive {
+		display: block;
+		position: absolute;
+		width: 50%;
+		background-color: white;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		padding: 20px;
+	}
+
+	.NavBar ul li {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.NavBar ul.Responsive li a {
+		color: #07253a;
+		text-align: center;
+		width: 100%;
+	}
+	.Footer p {
+		font-size: 0.8rem;
+		font-weight: 300;
+	}
+	.Footer p.FooterTopic {
+		font-size: 1rem;
+		font-weight: 700;
+	}
+}
+
+@media (max-width: 320px) {
+	.NavBar ul.Responsive {
+		width: 55%;
+	}
 }
