@@ -10,12 +10,25 @@
 	justify-content: space-between;
 	flex-direction: column;
 	height: 24vh;
+	padding-left: 10px;
 }
 
-.Container ul:last-child{
+.Container ul:last-child {
 	justify-content: space-evenly;
 }
 
 .Container ul li {
 	color: #07253a;
+}
+
+@media (max-width: 768px) {
+	.Container ul li {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.Container {
+		padding: 25px;
+	}
 }
