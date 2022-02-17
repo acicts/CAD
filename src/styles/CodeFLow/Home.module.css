@@ -71,7 +71,7 @@
 	color: #07253a;
 }
 
-.Container .LeftContainer .Button span:last-child{
+.Container .LeftContainer .Button span:last-child {
 	position: relative;
 	animation-name: buttonAnime;
 	animation-direction: normal;

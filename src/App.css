@@ -1,3 +1,14 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
 body {
 	scroll-behavior: smooth;
 }
@@ -6,9 +17,3 @@ html {
 	overflow-x: hidden;
 }
 
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-    
-}
