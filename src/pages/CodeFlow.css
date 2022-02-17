@@ -4,12 +4,13 @@
 
 .navbar-menu {
 	display: none;
-	position: relative;
 }
 
 @media (max-width: 445px) {
 	.responsive-navbar {
 		display: block;
+	}
+	.responsive-navbar ul {
 		position: absolute;
 		width: 50%;
 		background-color: white;
@@ -31,6 +32,10 @@
 	}
 	.navbar-menu {
 		display: block;
+		width: 100%;
+	}
+	.navbar-menu div {
+		position: relative;
 	}
 }
 
