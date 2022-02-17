@@ -11,7 +11,7 @@ const SectionTopic = (props) => {
 					? props.barStyle.height
 					: "75vh",
 			opacity: 1,
-			transition: { duration: 1 },
+			transition: { duration: 1, ease: "easeIn", type: "spring" },
 		},
 		hidden: {
 			height: "0vh",
