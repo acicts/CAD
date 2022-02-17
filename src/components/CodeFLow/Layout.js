@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
 			<nav className={classes.NavBar}>
 				<div className={classes.TempBox}></div>
 				<motion.div
-					className={classes.Menu}
+					className={"navbar-menu"}
 					onClick={() => {
 						setIsNav((curr) => !curr);
 					}}
@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
 				>
 					<Menu />
 				</motion.div>
-				<ul>
+				<ul className={classes.PcNavbar}>
 					{data.codeflow.navbar.map((navItem) => {
 						return (
 							<li>
@@ -79,7 +79,7 @@ const Layout = ({ children }) => {
 				<motion.ul
 					variants={navbarVariants}
 					animate={isNav ? "clicked" : "notClicked"}
-					className={classes.Responsive}
+					className={"responsive-navbar"}
 				>
 					{data.codeflow.navbar.map((navItem) => {
 						return (

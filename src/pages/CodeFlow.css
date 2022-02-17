@@ -1,0 +1,41 @@
+.responsive-navbar {
+	display: none;
+}
+
+.navbar-menu {
+	display: none;
+	position: relative;
+}
+
+@media (max-width: 445px) {
+	.responsive-navbar {
+		display: block;
+		position: absolute;
+		width: 50%;
+		background-color: white;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		padding: 20px;
+		z-index: 10;
+	}
+	.responsive-navbar li {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.responsive-navbar li a {
+		color: #07253a;
+		text-align: center;
+		width: 100%;
+	}
+	.navbar-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 320px) {
+	.responsive-navbar {
+		width: 55%;
+	}
+}
