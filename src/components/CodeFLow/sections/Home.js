@@ -1,5 +1,4 @@
 import React from "react";
-import CoverImage from "../../../images/cover-image.png";
 import classes from "../../../styles/CodeFLow/Home.module.css";
 import DoubleArrow from "@material-ui/icons/DoubleArrow";
 import { Link } from "react-router-dom";
@@ -37,7 +36,7 @@ const Home = () => {
 				</a>
 			</div>
 			<div className={classes.RightContainer}>
-				<img src={CoverImage} alt="cover" />
+				<div className={classes.Img}></div>
 			</div>
 		</div>
 	);
