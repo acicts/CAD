@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "../../styles/DimensionX/Layout.module.css";
 import data from "../../DimensionXData.json";
+import '../../pages/DimensionX.css'
 
 const Layout = ({ children }) => {
 	return (
-		<>
+		<div className="appContainer">
 			<nav className={classes.NavBar}>
 				<div></div>
 				<ul>
@@ -18,18 +19,8 @@ const Layout = ({ children }) => {
 				</ul>
 			</nav>
 			<main>{children}</main>
-			{/* <footer className={classes.Footer}>
-				<div className={classes.BottomContainer}>
-					<div className={classes.Ball}></div>
-					<div className={classes.Bar}></div>
-					<div className={classes.Ball}></div>
-				</div>
-				<div>
-					<p className={classes.FooterTopic}>A Project by ACICTS</p>
-					<p>Copyright reserved 2022</p>
-				</div>
-			</footer> */}
-		</>
+			
+		</div>
 	);
 };
 

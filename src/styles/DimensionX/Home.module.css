@@ -1,14 +1,29 @@
 .homeContainer {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    /* position: absolute; */
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
+    
     background: url("../../images/DimensionX/homeBG.png");
     background-position: center;
-    background-size: cover;
+    background-size: 200%;
+    animation: BGanime 30s infinite;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+@keyframes BGanime {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
 
 .mainTitleWrapper {
     /* position: absolute; */
@@ -16,7 +31,8 @@
 
     justify-content: center;
     width: 100vw;
-    margin-top: 35vh;
+    /* margin-top: 35vh; */
+    padding-top: 35vh;
 }
 
 .titleContainer {

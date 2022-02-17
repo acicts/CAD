@@ -23,6 +23,7 @@
 
 .NavBar ul li a {
 	font-size: 1.2rem;
+	color: #4F9B8C;
 }
 
 .NavBar ul li:last-child a {
@@ -30,4 +31,14 @@
 	background: linear-gradient(to right, #33B161, #26B996); 
 	border-radius: 0.8rem;
 	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: #33B161;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #1f1f1f;
+	border-radius: 5px;
 }
