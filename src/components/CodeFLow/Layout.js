@@ -1,12 +1,72 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
+import Menu from "@material-ui/icons/Menu";
 import classes from "../../styles/CodeFLow/Layout.module.css";
 import data from "../../data.json";
 
 const Layout = ({ children }) => {
+	const [isNav, setIsNav] = useState(false);
+	const hamburgerVariants = {
+		clicked: {
+			left: "40%",
+			color: "#07253a",
+			zIndex: 20,
+			transition: {
+				duration: 0.3,
+				ease: "easeOut",
+			},
+		},
+		notClicked: {
+			left: "0%",
+			color: "white",
+			zIndex: 0,
+			transition: {
+				duration: 0.3,
+				ease: "easeOut",
+			},
+		},
+	};
+
+	const navbarVariants = {
+		clicked: {
+			scale: 1,
+			opacity: 1,
+			left: 0,
+			top: 0,
+			transition: {
+				duration: 0.3,
+				ease: "easeOut",
+			},
+		},
+		notClicked: {
+			scale: 0,
+			opacity: 0,
+			left: "-20%",
+			top: "-100vh",
+			transition: {
+				duration: 0.3,
+				ease: "easeOut",
+			},
+		},
+	};
+
 	return (
-		<div className={classes.Container}>
+		<div
+			className={classes.Container}
+			style={{ overflowY: isNav ? "hidden" : "scroll" }}
+		>
 			<nav className={classes.NavBar}>
-				<div></div>
+				<div className={classes.TempBox}></div>
+				<motion.div
+					className={classes.Menu}
+					onClick={() => {
+						setIsNav((curr) => !curr);
+					}}
+					variants={hamburgerVariants}
+					animate={isNav ? "clicked" : "notClicked"}
+				>
+					<Menu />
+				</motion.div>
 				<ul>
 					{data.codeflow.navbar.map((navItem) => {
 						return (
@@ -16,6 +76,19 @@ const Layout = ({ children }) => {
 						);
 					})}
 				</ul>
+				<motion.ul
+					variants={navbarVariants}
+					animate={isNav ? "clicked" : "notClicked"}
+					className={classes.Responsive}
+				>
+					{data.codeflow.navbar.map((navItem) => {
+						return (
+							<li>
+								<a href={navItem.link}>{navItem.text}</a>
+							</li>
+						);
+					})}
+				</motion.ul>
 			</nav>
 			<main>{children}</main>
 			<footer className={classes.Footer}>
