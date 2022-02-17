@@ -4,10 +4,16 @@
 	background: white;
 }
 
-.QuestionContainer{
+.QuestionContainer {
 	height: 70vh;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-evenly;
 	flex-direction: column;
+}
+
+@media (max-width: 425px) {
+	.Container {
+		padding: 25px;
+	}
 }

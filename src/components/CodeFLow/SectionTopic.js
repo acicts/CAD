@@ -51,7 +51,9 @@ const SectionTopic = (props) => {
 						className={classes.Box}
 					></div>
 				</div>
-				<div className={classes.children}>{props.children}</div>
+				<div className={classes.children} style={props.childrenStyle}>
+					{props.children}
+				</div>
 			</div>
 		</div>
 	);

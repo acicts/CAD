@@ -24,3 +24,9 @@
 .Container a {
 	text-decoration: underline;
 }
+
+@media (max-width: 425px) {
+	.Container {
+		padding: 25px;
+	}
+}

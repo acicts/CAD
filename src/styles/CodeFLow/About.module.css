@@ -8,3 +8,26 @@
 .Para:first-child {
 	margin-bottom: 20px;
 }
+
+@media (max-width: 425px) {
+	.Container {
+		padding: 25px;
+	}
+	.ParaContainer {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-evenly;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.ParaContainer p {
+		font-size: 0.6rem;
+	}
+}
+
+@media (max-width: 280px) {
+	.ParaContainer p {
+		font-size: 0.55rem;
+	}
+}

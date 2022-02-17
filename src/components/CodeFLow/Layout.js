@@ -100,7 +100,13 @@ const Layout = ({ children }) => {
 					</motion.ul>
 				</div>
 			</nav>
-			<main>{children}</main>
+			<main
+				onClick={() => {
+					if (isNav) setIsNav(false);
+				}}
+			>
+				{children}
+			</main>
 			<footer className={classes.Footer}>
 				<div className={classes.BottomContainer}>
 					<div className={classes.Ball}></div>

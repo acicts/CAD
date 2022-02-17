@@ -3,7 +3,7 @@
 	align-items: flex-start;
 	justify-content: space-evenly;
 	flex-direction: column;
-	height: 35vh
+	height: 35vh;
 }
 
 .Container h2 {
@@ -50,4 +50,10 @@
 .Box {
 	height: 7px;
 	width: 7px;
+}
+
+@media (max-width: 768px) {
+	.Container h2 {
+		font-size: 1.5rem;
+	}
 }
