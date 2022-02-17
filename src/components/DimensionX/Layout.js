@@ -5,7 +5,7 @@ import '../../pages/DimensionX.css'
 
 const Layout = ({ children }) => {
 	return (
-		<div className="appContainer">
+		<div className={classes.Container}>
 			<nav className={classes.NavBar}>
 				<div></div>
 				<ul>
