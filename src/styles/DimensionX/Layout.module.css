@@ -1,0 +1,33 @@
+.NavBar {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+	position: absolute;
+	right: 0;
+}
+
+.NavBar ul {
+	list-style: none;
+}
+
+.NavBar ul li {
+	margin-right: 45px;
+	display: inline-flex;
+}
+
+.NavBar ul li:last-child {
+	margin-right: none;
+}
+
+.NavBar ul li a {
+	font-size: 1.2rem;
+}
+
+.NavBar ul li:last-child a {
+	padding: 0.5rem 1.5rem;
+	background: linear-gradient(to right, #33B161, #26B996); 
+	border-radius: 0.8rem;
+	color: white;
+}
