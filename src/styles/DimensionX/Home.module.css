@@ -93,8 +93,8 @@
 
 .button {
     width: 12rem;
-    position: absolute;
-    bottom: -85px;
+    /* position: absolute;
+    bottom: -85px; */
     height: 12rem;
     border-radius: 100%;
     background-color: #F3FFF8;
@@ -135,6 +135,8 @@
 
     .homeContainer {
         background-size: 400%;
+        position: relative;
+        z-index: 9;
     }
 
     .subTextContainer {
@@ -163,5 +165,9 @@
         font-size: 18px;
         font-weight: bold;
         color: #555555;
+    }
+    .button {
+        position: absolute;
+        bottom: -85px;
     }
 }

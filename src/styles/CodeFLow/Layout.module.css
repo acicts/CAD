@@ -4,6 +4,7 @@
 	font-family: "PT Mono", monospace;
 	background-color: #07253a;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
 
@@ -82,6 +83,16 @@
 .Footer p.FooterTopic {
 	font-size: 1.2rem;
 	font-weight: 700;
+}
+
+.Container::-webkit-scrollbar {
+	width: 10px;
+	background: white;
+}
+
+.Container::-webkit-scrollbar-thumb {
+	background: #07253a;
+	border-radius: 5px;
 }
 
 @media (max-width: 768px) {

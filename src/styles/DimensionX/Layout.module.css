@@ -1,3 +1,13 @@
+.Container {
+	height: 100vh;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	background: #f3fff8;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
 .NavBar {
 	height: 10vh;
 	display: flex;
@@ -6,6 +16,7 @@
 	padding: 0px 20px;
 	position: absolute;
 	right: 0;
+	z-index: 99;
 }
 
 .NavBar ul {
@@ -23,22 +34,22 @@
 
 .NavBar ul li a {
 	font-size: 1.2rem;
-	color: #4F9B8C;
+	color: #4f9b8c;
 }
 
 .NavBar ul li:last-child a {
 	padding: 0.5rem 1.5rem;
-	background: linear-gradient(to right, #33B161, #26B996); 
+	background: linear-gradient(to right, #33b161, #26b996);
 	border-radius: 0.8rem;
 	color: white;
 }
 
-::-webkit-scrollbar {
+.Container::-webkit-scrollbar {
 	width: 10px;
-	background: #33B161;
+	background: #33b161;
 }
 
-::-webkit-scrollbar-thumb {
+.Container::-webkit-scrollbar-thumb {
 	background: #1f1f1f;
 	border-radius: 5px;
 }
