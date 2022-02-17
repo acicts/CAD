@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "../../styles/DimensionX/Layout.module.css";
 import data from "../../DimensionXData.json";
 

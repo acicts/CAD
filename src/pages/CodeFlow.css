@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 320px) {
-	.responsive-navbar {
+	.responsive-navbar ul {
 		width: 55%;
 	}
 }
