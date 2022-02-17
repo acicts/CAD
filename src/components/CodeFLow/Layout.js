@@ -4,7 +4,7 @@ import data from "../../data.json";
 
 const Layout = ({ children }) => {
 	return (
-		<>
+		<div className={classes.Container}>
 			<nav className={classes.NavBar}>
 				<div></div>
 				<ul>
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 					<p>Copyright reserved 2022</p>
 				</div>
 			</footer>
-		</>
+		</div>
 	);
 };
 
