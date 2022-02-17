@@ -1,7 +1,7 @@
 .aboutSection {
     display: flex;
     flex-direction: row;
-
+    overflow-x: hidden;
 }
 
 .image {
@@ -60,4 +60,14 @@
 .registerButton:hover {
     background: #1CD49F;
     color: white;
+}
+
+@media screen and (max-width: 580px) {
+    .image {
+        display: none;
+    }
+
+    .aboutContainer {
+        padding: 80px 30px;
+    }
 }
