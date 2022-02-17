@@ -86,7 +86,14 @@ const Layout = ({ children }) => {
 						{data.codeflow.navbar.map((navItem) => {
 							return (
 								<li>
-									<a href={navItem.link}>{navItem.text}</a>
+									<a
+										onClick={() => {
+											setIsNav(false);
+										}}
+										href={navItem.link}
+									>
+										{navItem.text}
+									</a>
 								</li>
 							);
 						})}
