@@ -19,8 +19,13 @@
 	display: none;
 }
 
+.NavBar ul {
+	display: none;
+}
+
 .NavBar ul.PcNavbar {
 	list-style: none;
+	display: block;
 }
 
 .NavBar ul.PcNavbar li {

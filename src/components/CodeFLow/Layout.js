@@ -57,16 +57,18 @@ const Layout = ({ children }) => {
 		>
 			<nav className={classes.NavBar}>
 				<div className={classes.TempBox}></div>
-				<motion.div
-					className={"navbar-menu"}
-					onClick={() => {
-						setIsNav((curr) => !curr);
-					}}
-					variants={hamburgerVariants}
-					animate={isNav ? "clicked" : "notClicked"}
-				>
-					<Menu />
-				</motion.div>
+				<div className="navbar-menu">
+					<motion.div
+						onClick={() => {
+							setIsNav((curr) => !curr);
+						}}
+						variants={hamburgerVariants}
+						animate={isNav ? "clicked" : "notClicked"}
+					>
+						<Menu />
+					</motion.div>
+				</div>
+
 				<ul className={classes.PcNavbar}>
 					{data.codeflow.navbar.map((navItem) => {
 						return (
@@ -76,19 +78,20 @@ const Layout = ({ children }) => {
 						);
 					})}
 				</ul>
-				<motion.ul
-					variants={navbarVariants}
-					animate={isNav ? "clicked" : "notClicked"}
-					className={"responsive-navbar"}
-				>
-					{data.codeflow.navbar.map((navItem) => {
-						return (
-							<li>
-								<a href={navItem.link}>{navItem.text}</a>
-							</li>
-						);
-					})}
-				</motion.ul>
+				<div className="responsive-navbar">
+					<motion.ul
+						variants={navbarVariants}
+						animate={isNav ? "clicked" : "notClicked"}
+					>
+						{data.codeflow.navbar.map((navItem) => {
+							return (
+								<li>
+									<a href={navItem.link}>{navItem.text}</a>
+								</li>
+							);
+						})}
+					</motion.ul>
+				</div>
 			</nav>
 			<main>{children}</main>
 			<footer className={classes.Footer}>
