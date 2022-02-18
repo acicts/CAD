@@ -1,35 +1,37 @@
 .Container {
-	height: 100vh;
-	padding: 25px 50px;
+	height: max-content;
+	padding: 25px;
 }
 
 .Container ol {
-	height: 65vh;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
+	height: max-content;
 	width: 100%;
-	padding: 20px;
+	padding: 15px;
 }
 
 .Container ol li {
-	width: 80%;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.Container ol li:last-child {
+	margin-bottom: none;
 }
 
 @media (max-width: 425px) {
 	.Container {
 		padding: 25px;
 	}
-}
-
-@media (max-width: 375px) {
 	.Container ol {
-		height: 75vh;
+		padding: 20px;
 	}
 }
 
 @media (max-width: 320px) {
+	.Container ol {
+		padding-right: 0;
+		padding-left: 20px;
+	}
 	.Container ol li {
 		width: 100%;
 	}

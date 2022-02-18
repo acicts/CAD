@@ -6,7 +6,9 @@
 	font-weight: 500;
 	cursor: pointer;
 }
-
+.Container {
+	width: 100%;
+}
 /*.BottomContainer {
 	display: flex;
 	align-items: center;
@@ -23,6 +25,10 @@
 	height: 100%;
 	background: gray;
 }*/
+
+.BottomContainer {
+	width: 100%;
+}
 
 .BottomContainer .Text {
 	width: 90%;
@@ -64,8 +70,18 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 	.TopContainer {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+	}
+	.BottomContainer .Text p {
+		width: 80%;
+		margin-left: 4%;
+	}
+}
+
+@media (max-width: 320px) {
+	.BottomContainer .Text p {
+		margin-left: 4.5%;
 	}
 }
