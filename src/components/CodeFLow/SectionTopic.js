@@ -25,9 +25,8 @@ const SectionTopic = (props) => {
 	useEffect(() => {
 		if (inView) {
 			controls.start("visible");
-			console.log(props.title + ": Is in view");
 		}
-	}, [inView, controls, props.title]);
+	}, [inView, controls]);
 	return (
 		<div
 			className={`${classes.Container} ${props.className}`}
