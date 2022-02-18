@@ -65,6 +65,7 @@ const Layout = ({ children }) => {
 						style={{ position: "relative" }}
 						variants={hamburgerVariants}
 						animate={isNav ? "clicked" : "notClicked"}
+						initial={"notClicked"}
 					>
 						<Menu />
 					</motion.div>
@@ -83,6 +84,7 @@ const Layout = ({ children }) => {
 					<motion.ul
 						variants={navbarVariants}
 						animate={isNav ? "clicked" : "notClicked"}
+						initial={"notClicked"}
 					>
 						{data.codeflow.navbar.map((navItem) => {
 							return (
