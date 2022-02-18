@@ -62,6 +62,7 @@ const Layout = ({ children }) => {
 						onClick={() => {
 							setIsNav((curr) => !curr);
 						}}
+						style={{ position: "relative" }}
 						variants={hamburgerVariants}
 						animate={isNav ? "clicked" : "notClicked"}
 					>
