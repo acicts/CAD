@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../../../styles/DimensionX/About.module.css'
+import classes from '../../../styles/AnalytIQ/About.module.css'
 import AboutImage from '../../../images/DimensionX/banner2.png'
 
 const About = () => {
@@ -7,8 +7,7 @@ const About = () => {
     <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
-         <p>What is</p>
-         <h1>DimensionX</h1>  
+         <h1>What is AnalytIQ</h1>  
         </div>
 
         <div className={classes.description}>
@@ -21,10 +20,8 @@ const About = () => {
           </p>
         </div>
 
-        <button className={classes.registerButton}>Register</button>
+        
       </div>
-
-      <img src={AboutImage} className={classes.image}/>
 
     </div>
   )

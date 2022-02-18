@@ -88,10 +88,6 @@
     margin-bottom: 30px;
 }
 
-a {
-    color: #0E9478;
-}
-
 @media screen and (max-width: 580px) {
     .image {
         display: none;

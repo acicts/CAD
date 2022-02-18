@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../../../styles/DimensionX/Contact.module.css'
+import classes from '../../../styles/AnalytIQ/Contact.module.css'
 import AboutImage from '../../../images/DimensionX/banner3.png'
 
 const Contact = () => {
@@ -7,8 +7,7 @@ const Contact = () => {
     <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
-         <p>Contact out</p>
-         <h1>Team</h1>  
+         <h1>Contact</h1>  
         </div>
 
         <div className={classes.description}>
@@ -27,13 +26,11 @@ const Contact = () => {
           
         </div>
 
-        <footer className={classes.footer}>
+        {/* <footer className={classes.footer}>
             <p>A Projects By <a href='#'>ACICTS</a></p>
             <p>© Copyright reserved 2022 </p>
-        </footer>
+        </footer> */}
       </div>
-
-      <img src={AboutImage} className={classes.image} />
 
     </div>
   )

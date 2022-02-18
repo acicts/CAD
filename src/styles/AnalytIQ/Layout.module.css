@@ -3,6 +3,11 @@
 	width: 100%;
 	font-family: "Poppins", sans-serif;
 	background: #f3fff8;
+	background: url("../../images/AnalytIQ/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	scroll-behavior: smooth;

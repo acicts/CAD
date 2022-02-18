@@ -1,17 +1,9 @@
 .homeContainer {
     width: 100%;
     height: 100vh;
-    /* position: absolute; */
-    z-index: -1;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    background: url("../../images/AnalytIQ/bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 .logoContainer {
@@ -63,8 +55,14 @@
     padding: 0.7rem 2rem;
     background-color: #CD5206;
     border-radius: 0.8rem;
-    color: #fff;
+    color: #ffffff !important;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
 
+.registerButton:hover {
+    background-color: #eb5b08;
+    color: #ffffff;
 }
 
 .moreButton {
