@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import CodeFlow from "./pages/CodeFlow";
 import DimX from "./pages/DimX";
 import './App.css';
+import AnalytIQ from "./pages/AnalytIQ";
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
 		<Routes>
 			<Route path="/codeflow" element={<CodeFlow />} />
 			<Route path="/dimensionx" element={<DimX />} />
+			<Route path="/analytiq" element={<AnalytIQ />} />
 		</Routes>
 	);
 };

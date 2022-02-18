@@ -1,0 +1,60 @@
+.Container {
+	height: 100vh;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	background: #f3fff8;
+	background: url("../../images/AnalytIQ/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.NavBar {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+	position: absolute;
+	right: 0;
+	z-index: 99;
+}
+
+.NavBar ul {
+	list-style: none;
+}
+
+.NavBar ul li {
+	margin-right: 45px;
+	display: inline-flex;
+}
+
+.NavBar ul li:last-child {
+	margin-right: none;
+}
+
+.NavBar ul li a {
+	font-size: 1.2rem;
+	color: #FFF5E5;
+}
+
+.NavBar ul li:last-child a {
+	padding: 0.5rem 1.5rem;
+	background: #ffffffb0;
+	border-radius: 0.8rem;
+	color: #CF5604;
+}
+
+.Container::-webkit-scrollbar {
+	width: 10px;
+	background: #33b161;
+}
+
+.Container::-webkit-scrollbar-thumb {
+	background: #1f1f1f;
+	border-radius: 5px;
+}

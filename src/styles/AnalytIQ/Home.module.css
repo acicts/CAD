@@ -1,0 +1,123 @@
+.homeContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 25vh;
+}
+
+.logo {
+
+}
+
+.subTextContainer {
+    width: 60vw;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    background: #26201679;
+    backdrop-filter: blur(50px);
+    padding: 40px;
+}
+
+.subTextContainer p:nth-child(1) {
+    font-size: 22px;
+    color: #ffffff;
+}
+.subTextContainer p:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
+
+.buttonContainer {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.registerButton  {
+    padding: 0.7rem 2rem;
+    background-color: #CD5206;
+    border-radius: 0.8rem;
+    color: #ffffff !important;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.registerButton:hover {
+    background-color: #eb5b08;
+    color: #ffffff;
+}
+
+.moreButton {
+    background-color: #c6c6c669;
+    border-radius: 0.8rem;
+    color: #fff;
+    padding: 0.7rem 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .homeContainer {
+        background-size: 400%;
+        position: relative;
+        z-index: 9;
+    }
+
+    .subTextContainer {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    
+    .subTextContainer p:nth-child(1) {
+        font-size: 18px;
+        color: #555555;
+    }
+    .subTextContainer p:nth-child(2) {
+        font-size: 22px;
+        font-weight: bold;
+        color: #26B995;
+    }
+    .subTextContainer p:nth-child(3) {
+        font-size: 16px;
+        color: #555555;
+    }
+    .subTextContainer p:nth-child(4) {
+        font-size: 18px;
+        font-weight: bold;
+        color: #555555;
+    }
+    .button {
+        position: absolute;
+        bottom: -85px;
+    }
+}

@@ -51,7 +51,19 @@
 	margin-bottom: 50px;
 }
 
-.singleCategory h1 {
-	color: #46dd9a;
-	font-size: 2.2rem;
+.singleCategory h1{ 
+    color: #46DD9A;
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 580px) {
+    .image {
+        display: none;
+    }
+
+    .rulesContainer {
+        padding: 80px 30px;
+        width: 100vw;
+
+    }
 }

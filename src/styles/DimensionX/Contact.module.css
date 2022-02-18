@@ -88,6 +88,19 @@
     margin-bottom: 30px;
 }
 
-a {
-    color: #0E9478;
+@media screen and (max-width: 580px) {
+    .image {
+        display: none;
+    }
+
+    .aboutContainer {
+        padding: 80px 30px;
+        width: 100vw;
+
+    }
+
+    .footer {
+        width: 100vw;
+    }
+    
 }

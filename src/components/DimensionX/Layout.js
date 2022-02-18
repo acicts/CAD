@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../../styles/DimensionX/Layout.module.css";
-import data from "../../DimensionXData.json";
+import data from "../../data.json";
 import '../../pages/DimensionX.css'
 
 const Layout = ({ children }) => {
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
 			<nav className={classes.NavBar}>
 				<div></div>
 				<ul>
-					{data.navbar.map((navItem) => {
+					{data.DimensionX.navbar.map((navItem) => {
 						return (
 							<li>
 								<a href={navItem.link}>{navItem.text}</a>
