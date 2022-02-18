@@ -3,15 +3,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
 }
 
 
 .aboutContainer {
     background: #26201679;
     backdrop-filter: blur(50px);
-    width: 80vw;
-    padding: 40px;
-    border-radius: 2rem;
+    width: max-content;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
     height: min-content;
 }
 
@@ -19,11 +25,14 @@
     font-size: 2rem;
     font-weight: bold;
     color: #ffffff;
-    margin-top: -15px;
+ 
 }
 
 .description {
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .description p {
@@ -32,9 +41,18 @@
     color: #ffebd3;
 }
 
-.description p:nth-child(1) {
-    margin-bottom: 25px;
+.description p:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffebd3c5;
 }
+
+.description p a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #FF7A00;
+}
+
 
 .registerButton {
     padding: 0.7rem 2rem;

@@ -99,6 +99,10 @@
     .buttonContainer {
         width: 50vw;
     }
+
+    .logoContainer {
+        padding-top: 15vh;
+    }
 }
     
 

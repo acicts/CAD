@@ -76,13 +76,12 @@
     }
 
     .aboutContainer {
-        padding: 80px 30px;
-        width: 100vw;
-
+        padding: 50px 30px;
+        width: 90vw;
     }
 
-    .footer {
-        width: 100vw;
+    .aboutSection {
+        margin-top: 100px;
     }
     
 }
