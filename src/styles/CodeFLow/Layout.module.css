@@ -16,11 +16,11 @@
 	padding: 0px 20px;
 }
 
-.NavBar .Menu {
+.NavBar .NavBarMenu {
 	display: none;
 }
 
-.NavBar ul {
+.NavBar .RespNav {
 	display: none;
 }
 
@@ -105,12 +105,39 @@
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 445px) {
 	.TempBox {
 		display: none;
 	}
 	.NavBar ul.PcNavbar {
 		display: none;
+	}
+	.NavBar .RespNav {
+		display: block;
+	}
+	.NavBar .RespNav ul {
+		position: absolute;
+		width: 50%;
+		background-color: white;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		padding: 20px;
+		z-index: 10;
+	}
+	.NavBar .RespNav li {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.NavBar .RespNav li a {
+		color: #07253a;
+		text-align: center;
+		width: 100%;
+	}
+	.NavBar .NavBarMenu {
+		display: block;
+		width: 100%;
 	}
 	.Footer p {
 		font-size: 0.8rem;
@@ -119,5 +146,11 @@
 	.Footer p.FooterTopic {
 		font-size: 1rem;
 		font-weight: 700;
+	}
+}
+
+@media (max-width: 320px) {
+	.NavBar .RespNav ul {
+		width: 55%;
 	}
 }

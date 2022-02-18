@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
 		>
 			<nav className={classes.NavBar}>
 				<div className={classes.TempBox}></div>
-				<div className="navbar-menu">
+				<div className={classes.NavBarMenu}>
 					<motion.div
 						onClick={() => {
 							setIsNav((curr) => !curr);
@@ -78,7 +78,7 @@ const Layout = ({ children }) => {
 						);
 					})}
 				</ul>
-				<div className="responsive-navbar">
+				<div className={classes.RespNav}>
 					<motion.ul
 						variants={navbarVariants}
 						animate={isNav ? "clicked" : "notClicked"}
