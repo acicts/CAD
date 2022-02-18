@@ -13,6 +13,16 @@
 	scroll-behavior: smooth;
 }
 
+/* .Container::-webkit-scrollbar {
+	width: 10px;
+	background: white;
+}
+
+.Container::-webkit-scrollbar-thumb {
+	background: #07253a;
+	border-radius: 5px;
+} */
+
 .NavBar {
 	height: 10vh;
 	display: flex;
@@ -51,10 +61,10 @@
 
 .Container::-webkit-scrollbar {
 	width: 10px;
-	background: #33b161;
+	background: #ffffff;
 }
 
 .Container::-webkit-scrollbar-thumb {
-	background: #1f1f1f;
+	background: #ff6600;
 	border-radius: 5px;
 }
