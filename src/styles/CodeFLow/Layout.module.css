@@ -138,6 +138,7 @@
 	.NavBar .NavBarMenu {
 		display: block;
 		width: 100%;
+		z-index: 21;
 	}
 	.Footer p {
 		font-size: 0.8rem;
