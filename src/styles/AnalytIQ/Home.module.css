@@ -72,52 +72,54 @@
     padding: 0.7rem 2rem;
 }
 
+@media screen and (max-width: 1160px) {
+    .buttonContainer {
+        flex-direction: column;
+    }
+    .registerButton {
+        margin-bottom: 30px;
+        padding: 0.8rem 4rem;
+    }
+
+    .moreButton {
+        margin-bottom: 30px;
+        padding: 0.8rem 4rem;
+    }
+
+    .logo {
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .title {
         font-size: 5rem;
     }
+
+    .buttonContainer {
+        width: 50vw;
+    }
 }
+    
 
 @media screen and (max-width: 580px) {
-    .title {
-        font-size: 3rem;
-    }
-
-    .homeContainer {
-        background-size: 400%;
-        position: relative;
-        z-index: 9;
-    }
-
     .subTextContainer {
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 80px;
+        width: 85vw;
+        text-align: center;
     }
-    
-    .subTextContainer p:nth-child(1) {
-        font-size: 18px;
-        color: #555555;
-    }
+
     .subTextContainer p:nth-child(2) {
-        font-size: 22px;
-        font-weight: bold;
-        color: #26B995;
+        margin-top: 20px;
     }
-    .subTextContainer p:nth-child(3) {
-        font-size: 16px;
-        color: #555555;
+    .registerButton {
+        margin-bottom: 30px;
+        padding: 0.8rem 6rem;
     }
-    .subTextContainer p:nth-child(4) {
-        font-size: 18px;
-        font-weight: bold;
-        color: #555555;
+    .moreButton {
+        margin-bottom: 30px;
+        padding: 0.8rem 6rem;
     }
-    .button {
-        position: absolute;
-        bottom: -85px;
+    .buttonContainer {
+        width: 80vw;
     }
 }
