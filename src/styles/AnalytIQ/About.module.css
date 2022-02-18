@@ -1,71 +1,80 @@
 .aboutSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
-
 .aboutContainer {
-    background: #26201679;
-    backdrop-filter: blur(50px);
-    width: 80vw;
-    padding: 40px;
-    border-radius: 2rem;
-    height: min-content;
-    margin-top: 100px;
+	background: #26201679;
+	backdrop-filter: blur(50px);
+	width: 80vw;
+	padding: 40px;
+	border-radius: 2rem;
+	height: min-content;
+	margin-top: 100px;
 }
 
 .title h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ffffff;
-    margin-top: -15px;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: -15px;
 }
 
 .description {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .description p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #ffebd3;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #ffebd3;
 }
 
 .description p:nth-child(1) {
-    margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .registerButton {
-    padding: 0.7rem 2rem;
-    font-size: 1.2rem;
-    border: 6px solid #1CD49F;
-    border-radius: 0.8rem;
-    background: none;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-    margin-top: 80px;
+	padding: 0.7rem 2rem;
+	font-size: 1.2rem;
+	border: 6px solid #1cd49f;
+	border-radius: 0.8rem;
+	background: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	margin-top: 80px;
 }
 
 .registerButton:hover {
-    background: #1CD49F;
-    color: white;
+	background: #1cd49f;
+	color: white;
 }
 
 @media screen and (max-width: 580px) {
-    .image {
-        display: none;
-    }
+	.image {
+		display: none;
+	}
 
-    .aboutContainer {
-        padding: 50px 30px;
-        width: 90vw;
-    }
+	.aboutContainer {
+		padding: 50px 30px;
+		width: 90vw;
+	}
 
-    .aboutSection {
-        margin-top: 100px;
-    }
+	.aboutSection {
+		margin-top: 100px;
+	}
+}
 
+@media (max-width: 425px) {
+	.aboutContainer {
+		border-radius: 10px;
+	}
+}
 
+@media (max-width: 375px) {
+	.description p {
+		font-size: 1rem;
+	}
 }

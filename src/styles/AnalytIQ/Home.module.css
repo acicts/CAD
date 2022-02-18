@@ -1,129 +1,147 @@
 .homeContainer {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .logoContainer {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    flex-direction: column;
-    padding-top: 25vh;
-}
-
-.logo {
-
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+	flex-direction: column;
+	padding-top: 25vh;
 }
 
 .subTextContainer {
-    width: 60vw;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
-    background: #26201679;
-    backdrop-filter: blur(50px);
-    padding: 40px;
+	width: 80vw;
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
+	background: #26201679;
+	backdrop-filter: blur(50px);
+	padding: 40px;
 }
 
 .subTextContainer p:nth-child(1) {
-    font-size: 22px;
-    color: #ffffff;
+	font-size: 22px;
+	color: #ffffff;
 }
 .subTextContainer p:nth-child(2) {
-    font-size: 22px;
-    font-weight: bold;
-    color: #f3f3f3;
+	font-size: 22px;
+	font-weight: bold;
+	color: #f3f3f3;
 }
-
 
 .buttonContainer {
-    width: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
+	width: 30vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 60px;
 }
 
-.registerButton  {
-    padding: 0.7rem 2rem;
-    background-color: #CD5206;
-    border-radius: 0.8rem;
-    color: #ffffff !important;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
+.registerButton {
+	padding: 0.7rem 2rem;
+	background-color: #cd5206;
+	border-radius: 0.8rem;
+	color: #ffffff !important;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 .registerButton:hover {
-    background-color: #eb5b08;
-    color: #ffffff;
+	background-color: #eb5b08;
+	color: #ffffff;
 }
 
 .moreButton {
-    background-color: #c6c6c669;
-    border-radius: 0.8rem;
-    color: #fff;
-    padding: 0.7rem 2rem;
+	background-color: #c6c6c669;
+	border-radius: 0.8rem;
+	color: #fff;
+	padding: 0.7rem 2rem;
 }
 
 @media screen and (max-width: 1160px) {
-    .buttonContainer {
-        flex-direction: column;
-    }
-    .registerButton {
-        margin-bottom: 30px;
-        padding: 0.8rem 4rem;
-    }
+	.buttonContainer {
+		flex-direction: column;
+	}
+	.registerButton {
+		margin-bottom: 30px;
+		padding: 0.8rem 4rem;
+	}
 
-    .moreButton {
-        margin-bottom: 30px;
-        padding: 0.8rem 4rem;
-    }
+	.moreButton {
+		margin-bottom: 30px;
+		padding: 0.8rem 4rem;
+	}
 
-    .logo {
-        width: 80vw;
-    }
+	.logo {
+		width: 80vw;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    .title {
-        font-size: 5rem;
-    }
+	.title {
+		font-size: 5rem;
+	}
 
-    .buttonContainer {
-        width: 50vw;
-    }
+	.buttonContainer {
+		width: 50vw;
+	}
 
-    .logoContainer {
-        padding-top: 15vh;
-    }
+	.logoContainer {
+		padding-top: 15vh;
+	}
 }
-    
 
 @media screen and (max-width: 580px) {
-    .subTextContainer {
-        width: 85vw;
-        text-align: center;
-    }
+	.subTextContainer {
+		width: 85vw;
+		text-align: center;
+	}
 
-    .subTextContainer p:nth-child(2) {
-        margin-top: 20px;
-    }
-    .registerButton {
-        margin-bottom: 30px;
-        padding: 0.8rem 6rem;
-    }
-    .moreButton {
-        margin-bottom: 30px;
-        padding: 0.8rem 6rem;
-    }
-    .buttonContainer {
-        width: 80vw;
-    }
+	.subTextContainer p:nth-child(2) {
+		margin-top: 20px;
+	}
+	.registerButton {
+		margin-bottom: 30px;
+		padding: 0.8rem 6rem;
+	}
+	.moreButton {
+		margin-bottom: 30px;
+		padding: 0.8rem 6rem;
+	}
+	.buttonContainer {
+		width: 80vw;
+	}
+}
+
+@media (max-width: 425px) {
+	.registerButton,
+	.moreButton {
+		width: 80%;
+		margin: auto;
+		padding: 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.registerButton a,
+	.moreButton a {
+		width: 100%;
+	}
+
+	.registerButton {
+		margin-bottom: 10px;
+	}
+
+	.subTextContainer {
+		border-radius: 10px;
+	}
 }

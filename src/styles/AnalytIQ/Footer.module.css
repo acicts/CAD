@@ -1,88 +1,96 @@
 .aboutSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	padding-bottom: 20px;
 }
 
-
 .aboutContainer {
-    background: #26201679;
-    backdrop-filter: blur(50px);
-    width: max-content;
-    padding: 10px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-    height: min-content;
+	background: #26201679;
+	backdrop-filter: blur(50px);
+	width: max-content;
+	padding: 10px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1rem;
+	height: min-content;
 }
 
 .title h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ffffff;
- 
+	font-size: 2rem;
+	font-weight: bold;
+	color: #ffffff;
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .description p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #ffebd3;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #ffebd3;
 }
 
 .description p:nth-child(2) {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #ffebd3c5;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #ffebd3c5;
 }
 
 .description p a {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #FF7A00;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #ff7a00;
 }
 
-
 .registerButton {
-    padding: 0.7rem 2rem;
-    font-size: 1.2rem;
-    border: 6px solid #1CD49F;
-    border-radius: 0.8rem;
-    background: none;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-    margin-top: 80px;
+	padding: 0.7rem 2rem;
+	font-size: 1.2rem;
+	border: 6px solid #1cd49f;
+	border-radius: 0.8rem;
+	background: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	margin-top: 80px;
 }
 
 .registerButton:hover {
-    background: #1CD49F;
-    color: white;
+	background: #1cd49f;
+	color: white;
 }
 
 @media screen and (max-width: 580px) {
-    .image {
-        display: none;
-    }
+	.image {
+		display: none;
+	}
 
-    .aboutContainer {
-        padding: 50px 30px;
-        width: 90vw;
-    }
+	.aboutContainer {
+		padding: 50px 30px;
+		width: 90vw;
+	}
 
-    .aboutSection {
-        margin-top: 100px;
-    }
+	.aboutSection {
+		margin-top: 100px;
+	}
+}
 
+@media (max-width: 425px) {
+	.aboutContainer {
+		border-radius: 10px;
+	}
+}
 
+@media (max-width: 375px) {
+	.description p,
+	.description p:nth-child(2) {
+		font-size: 1rem;
+	}
 }
