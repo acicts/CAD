@@ -3,123 +3,75 @@
     height: 100vh;
     /* position: absolute; */
     z-index: -1;
-    
-    background: url("../../images/DimensionX/homeBG.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("../../images/AnalytIQ/bg.jpg");
     background-position: center;
-    background-size: 200%;
-    animation: BGanime 30s infinite;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-@keyframes BGanime {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
-}
-
-
-.mainTitleWrapper {
-    /* position: absolute; */
-    display: flex;
-
-    justify-content: center;
+.logoContainer {
     width: 100vw;
-    /* margin-top: 35vh; */
-    padding-top: 35vh;
-}
-
-.titleContainer {
-    width: 20vw;
-    height: 35vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: url("../../images/DimensionX/X.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: -120px;
-}    
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 25vh;
+}
 
-.title {
-    font-size: 7rem;
-    font-weight: 700;
-    color: #595959;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+.logo {
+
 }
 
 .subTextContainer {
-    width: 100vw;
+    width: 60vw;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
+    background: #26201679;
+    backdrop-filter: blur(50px);
+    padding: 40px;
 }
 
 .subTextContainer p:nth-child(1) {
     font-size: 22px;
-    color: #555555;
+    color: #ffffff;
 }
 .subTextContainer p:nth-child(2) {
-    font-size: 26px;
-    font-weight: bold;
-    color: #26B995;
-}
-.subTextContainer p:nth-child(3) {
-    font-size: 20px;
-    color: #555555;
-}
-.subTextContainer p:nth-child(4) {
     font-size: 22px;
     font-weight: bold;
-    color: #555555;
+    color: #f3f3f3;
 }
 
+
 .buttonContainer {
-    width: 100vw;
+    width: 30vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
-.button {
-    width: 12rem;
-    /* position: absolute;
-    bottom: -85px; */
-    height: 12rem;
-    border-radius: 100%;
-    background-color: #F3FFF8;
-    outline: none;
-    display: flex;
-    text-align: center;
-    padding-top: 20px;
-    justify-content: center;
-    border: none;
+.registerButton  {
+    padding: 0.7rem 2rem;
+    background-color: #CD5206;
+    border-radius: 0.8rem;
+    color: #fff;
+
 }
 
-.button a {
-    color: #26B995;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    
-}
-
-.button a::first-line {
-    color: #7E7E7E;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    
+.moreButton {
+    background-color: #c6c6c669;
+    border-radius: 0.8rem;
+    color: #fff;
+    padding: 0.7rem 2rem;
 }
 
 @media screen and (max-width: 768px) {

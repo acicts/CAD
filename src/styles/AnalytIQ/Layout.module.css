@@ -34,14 +34,14 @@
 
 .NavBar ul li a {
 	font-size: 1.2rem;
-	color: #4f9b8c;
+	color: #FFF5E5;
 }
 
 .NavBar ul li:last-child a {
 	padding: 0.5rem 1.5rem;
-	background: linear-gradient(to right, #33b161, #26b996);
+	background: #ffffffb0;
 	border-radius: 0.8rem;
-	color: white;
+	color: #CF5604;
 }
 
 .Container::-webkit-scrollbar {

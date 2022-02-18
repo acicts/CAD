@@ -1,34 +1,36 @@
 import React from 'react'
-import classes from '../../../styles/DimensionX/Home.module.css'
+import classes from '../../../styles/AnalytIQ/Home.module.css'
+import logo from '../../../images/AnalytIQ/logo.svg'
 
 const Home = () => {
   return (
     <div className={classes.homeContainer}>
 
-      <div className={classes.mainTitleWrapper}>
-        <div className={classes.titleContainer}>
-          <h1 className={classes.title}>
-            DIMENSION
-          </h1>
-        </div>
-      </div>
-      
+    <div className={classes.logoContainer}>
+      <img src={logo} className={classes.logo}/>
+    </div>
 
       <div className={classes.subTextContainer}>
-        <p>The First Ever</p>
-        <p>3D Competition</p>
-        <p>Organized by</p>
-        <p>The ICT Society of Ananda College</p>
-      </div>
+        <p>Premier Inter-School Online Quiz</p>
+        <p>Hosted By The ICT Society Of Ananda College</p>
 
-      <div className={classes.buttonContainer}>
-        <div className={classes.button}>
-          <a href='#what'>
-          Start <br></br> Creating
+        <div className={classes.buttonContainer}>
+        <div className={classes.registerButton}>
+          <a href='#'>
+          Register Now
+        </a>
+        </div>
+
+        <div className={classes.moreButton}>
+          <a href='#'>
+          More Details
         </a>
         </div>
         
       </div>
+      </div>
+
+      
     </div>
   )
 }

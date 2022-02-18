@@ -11,7 +11,7 @@ const App = () => {
 		<Routes>
 			<Route path="/codeflow" element={<CodeFlow />} />
 			<Route path="/dimensionx" element={<DimX />} />
-			<Route path="/analytiq" element={<AnalytIQ />} />
+			<Route path="/hello" element={<AnalytIQ />} />
 		</Routes>
 	);
 };
