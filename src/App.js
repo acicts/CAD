@@ -1,18 +1,21 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import CodeFlow from "./pages/CodeFlow";
-import DimX from "./pages/DimX";
-import './App.css';
-import AnalytIQ from "./pages/AnalytIQ";
+import Loading from "./components/Loading";
+import "./App.css";
 
+const CodeFlow = React.lazy(() => import("./pages/CodeFlow"));
+const DimX = React.lazy(() => import("./pages/DimX"));
+const AnalytIQ = React.lazy(() => import("./pages/AnalytIQ"));
 
 const App = () => {
 	return (
-		<Routes>
-			<Route path="/codeflow" element={<CodeFlow />} />
-			<Route path="/dimensionx" element={<DimX />} />
-			<Route path="/analytiq" element={<AnalytIQ />} />
-		</Routes>
+		<Suspense fallback={<Loading />}>
+			<Routes>
+				<Route path="/codeflow" element={<CodeFlow />} />
+				<Route path="/dimensionx" element={<DimX />} />
+				<Route path="/analytiq" element={<AnalytIQ />} />
+			</Routes>
+		</Suspense>
 	);
 };
 
