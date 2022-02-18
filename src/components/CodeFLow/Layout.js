@@ -51,10 +51,7 @@ const Layout = ({ children }) => {
 	};
 
 	return (
-		<div
-			className={classes.Container}
-			style={{ overflowY: isNav ? "hidden" : "scroll" }}
-		>
+		<div className={classes.Container}>
 			<nav className={classes.NavBar}>
 				<div className={classes.TempBox}></div>
 				<div className={classes.NavBarMenu}>
