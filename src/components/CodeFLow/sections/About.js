@@ -12,32 +12,20 @@ const About = () => {
 			>
 				<div className={classes.ParaContainer}>
 					<p className={classes.Para}>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-						sodales neque sodales ut. Quis vel eros donec ac odio tempor orci
-						dapibus. Vel quam elementum pulvinar etiam non quam lacus
-						suspendisse faucibus. Quis blandit turpis cursus in. Aenean vel elit
-						scelerisque mauris. Molestie a iaculis at erat pellentesque
-						adipiscing commodo elit. Arcu risus quis varius quam quisque id
-						diam. Velit aliquet sagittis id consectetur purus ut faucibus
-						pulvinar elementum. Tincidunt praesent semper feugiat nibh sed
-						pulvinar proin gravida. Cras adipiscing enim eu turpis egestas
-						pretium. Tincidunt praesent semper feugiat nibh. Tellus id interdum
-						velit laoreet id donec ultrices tincidunt.
+						CodeFlow is a week-long hackathon conducted by Ananda College ICT
+						Society that provides a platform for students to come up with
+						innovative solutions to real-world issues using programming.
+						CodeFlow also targets your collaborative skills as well, which is a
+						demanding skill in the ICT industry.
 					</p>
 					<p className={classes.Para}>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
-						sodales neque sodales ut. Quis vel eros donec ac odio tempor orci
-						dapibus. Vel quam elementum pulvinar etiam non quam lacus
-						suspendisse faucibus. Quis blandit turpis cursus in. Aenean vel elit
-						scelerisque mauris. Molestie a iaculis at erat pellentesque
-						adipiscing commodo elit. Arcu risus quis varius quam quisque id
-						diam. Velit aliquet sagittis id consectetur purus ut faucibus
-						pulvinar elementum. Tincidunt praesent semper feugiat nibh sed
-						pulvinar proin gravida. Cras adipiscing enim eu turpis egestas
-						pretium. Tincidunt praesent semper feugiat nibh. Tellus id interdum
-						velit laoreet id donec ultrices tincidunt.
+						It's a learning experience for pupils of all ability levels and all
+						age groups. There are two divisions, one for grades 6-9 (Junior) and
+						one for grades 10-13 (Senior) students, and only two teams from each
+						school are allowed to compete in this event. And each team is
+						limited to developing one project (Desktop application, Website,
+						Mobile Application, etc...) on a particular topic from the given
+						topic list.
 					</p>
 				</div>
 			</SectionTopic>
