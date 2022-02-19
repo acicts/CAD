@@ -2,8 +2,17 @@
 	height: 100vh;
 	padding: 25px 50px;
 }
+.ParaContainer {
+	height: 75vh;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
 .Para {
 	text-align: justify;
+	line-height: 35px;
 }
 .Para:first-child {
 	margin-bottom: 20px;
@@ -14,29 +23,23 @@
 		padding: 25px;
 	}
 	.ParaContainer {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-evenly;
-		flex-direction: column;
-		height: 100%;
-		margin-top: 10px;
+		width: 90%;
 	}
-
-	.ParaContainer p {
-		font-size: 0.6rem;
-		line-height: 14px;
+	.Para {
+		font-size: 0.8rem;
+		line-height: 20px;
 		height: 40vh;
 	}
 }
 
 @media (max-width: 380px) {
-	.ParaContainer p {
-		line-height: 11px;
+	.Para {
+		line-height: 17px;
 	}
 }
 
-@media (max-width: 280px) {
-	.ParaContainer p {
-		font-size: 0.55rem;
+@media (max-width: 320px) {
+	.Para {
+		font-size: 0.7rem;
 	}
 }
