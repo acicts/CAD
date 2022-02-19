@@ -13,7 +13,14 @@ const Contact = () => {
 
         <div className={classes.description}>
           <p>
-            Join our <span>WhatsApp Group</span>
+            Join Our{" "}
+            <a
+              href="https://discord.gg/ZSGwAMyf"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Discord Server
+            </a>
           </p>
           <p>
             Manula Thejan - <span>071 123 4567</span>
