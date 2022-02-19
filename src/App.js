@@ -9,16 +9,16 @@ const DimX = React.lazy(() => import("./pages/DimX"));
 const AnalytIQ = React.lazy(() => import("./pages/AnalytIQ"));
 
 const App = () => {
-	return (
-		<Suspense fallback={<Loading />}>
-			<Routes>
-				<Route path="/" exact element={<CAD />} />
-				<Route path="/codeflow" element={<CodeFlow />} />
-				<Route path="/dimensionx" element={<DimX />} />
-				<Route path="/analytiq" element={<AnalytIQ />} />
-			</Routes>
-		</Suspense>
-	);
+  return (
+    <Suspense fallback={<Loading />}>
+      <Routes>
+        <Route path="/" exact element={<CAD />} />
+        <Route path="/codeflow" element={<CodeFlow />} />
+        <Route path="/dimensionx" element={<DimX />} />
+        <Route path="/analytiq" element={<AnalytIQ />} />
+      </Routes>
+    </Suspense>
+  );
 };
 
 export default App;

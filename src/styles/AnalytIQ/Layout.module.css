@@ -1,171 +1,184 @@
 .Container {
-	height: 100vh;
-	width: 100%;
-	font-family: "Poppins", sans-serif;
-	background: #f3fff8;
-	background: url("../../images/AnalytIQ/bg.jpg");
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	scroll-behavior: smooth;
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background: #f3fff8;
+  background: url("../../images/AnalytIQ/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .NavBar {
-	height: 10vh;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0px 20px;
+  z-index: 1;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  position: absolute;
+  width: 100vw;
 }
 
 .NavBar .NavBarMenu {
-	display: none;
+  display: none;
 }
 
 .NavBar .RespNav {
-	display: none;
+  display: none;
 }
 
 .NavBar ul.PcNavbar {
-	list-style: none;
-	display: block;
+  list-style: none;
+  display: block;
 }
 
 .NavBar ul.PcNavbar li {
-	margin-right: 45px;
-	display: inline-flex;
+  margin-right: 45px;
+  display: inline-flex;
 }
 
 .NavBar ul.PcNavbar li:last-child {
-	margin-right: none;
+  margin-right: none;
 }
 
 .NavBar ul.PcNavbar li a {
-	font-size: 1.2rem;
-	color: #fff5e5;
+  font-size: 1.2rem;
+  color: #fff5e5;
 }
 
 .NavBar ul li:last-child a {
-	padding: 0.5rem 1.5rem;
-	background: #ffffffb0;
-	border-radius: 0.8rem;
-	color: #cf5604;
+  padding: 0.5rem 1.5rem;
+  background: #ffffffb0;
+  border-radius: 0.8rem;
+  color: #cf5604;
 }
-
+.NavBar ul li:first-child a {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  margin-top: 30px;
+  margin-left: 35px;
+  padding: 0.5rem 1.5rem;
+  background: #ffffffb0;
+  border-radius: 0.8rem;
+  color: #cf5604;
+}
 .Footer {
-	width: 90%;
-	height: 20vh;
-	margin: auto;
-	padding: 10px 0;
-	text-align: center;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	flex-direction: column;
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .Footer .BottomContainer {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 10px;
-	margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  margin-bottom: 15px;
 }
 
 .Footer .BottomContainer .Bar {
-	width: 95%;
-	height: 2px;
-	background-color: white;
+  width: 95%;
+  height: 2px;
+  background-color: white;
 }
 
 .Footer .BottomContainer .Ball {
-	width: 7px;
-	height: 7px;
-	background-color: white;
+  width: 7px;
+  height: 7px;
+  background-color: white;
 }
 
 .Footer p.FooterTopic {
-	font-size: 1.2rem;
-	font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .Container::-webkit-scrollbar {
-	width: 10px;
-	background: #ffffff;
+  width: 10px;
+  background: #ffffff;
 }
 
 .Container::-webkit-scrollbar-thumb {
-	background: #ff6600;
-	border-radius: 5px;
+  background: #ff6600;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
-	.NavBar ul.PcNavbar li a {
-		font-size: 1rem;
-	}
+  .NavBar ul.PcNavbar li a {
+    font-size: 1rem;
+  }
 
-	.NavBar ul.PcNavbar {
-		width: 100%;
-	}
+  .NavBar ul.PcNavbar {
+    width: 100%;
+  }
 }
 
 @media (max-width: 445px) {
-	.TempBox {
-		display: none;
-	}
-	.NavBar ul li:last-child {
-		margin: auto;
-		width: max-content;
-	}
-	.NavBar ul.PcNavbar {
-		display: none;
-	}
-	.NavBar .RespNav {
-		display: block;
-	}
-	.NavBar .RespNav ul {
-		position: absolute;
-		width: 50%;
-		background-color: white;
-		height: 100vh;
-		top: 0;
-		left: 0;
-		padding: 20px;
-		z-index: 10;
-	}
-	.NavBar .RespNav li {
-		display: block;
-		margin-bottom: 20px;
-	}
+  .TempBox {
+    display: none;
+  }
+  .NavBar ul li:last-child {
+    margin: auto;
+    width: max-content;
+  }
+  .NavBar ul.PcNavbar {
+    display: none;
+  }
+  .NavBar .RespNav {
+    display: block;
+  }
+  .NavBar .RespNav ul {
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 10;
+  }
+  .NavBar .RespNav li {
+    display: block;
+    margin-bottom: 20px;
+  }
 
-	.NavBar .RespNav li a {
-		color: #07253a;
-		text-align: center;
-		width: 100%;
-	}
-	.NavBar .NavBarMenu {
-		display: block;
-		width: 100%;
-		z-index: 21;
-		color: #595959;
-	}
-	.Footer p {
-		font-size: 0.8rem;
-		font-weight: 300;
-	}
-	.Footer p.FooterTopic {
-		font-size: 1rem;
-		font-weight: 700;
-	}
+  .NavBar .RespNav li a {
+    color: #07253a;
+    text-align: center;
+    width: 100%;
+  }
+  .NavBar .NavBarMenu {
+    display: block;
+    width: 100%;
+    z-index: 21;
+    color: #595959;
+  }
+  .Footer p {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .Footer p.FooterTopic {
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 320px) {
-	.NavBar .RespNav ul {
-		width: 55%;
-	}
+  .NavBar .RespNav ul {
+    width: 55%;
+  }
 }
