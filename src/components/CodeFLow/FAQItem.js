@@ -1,8 +1,19 @@
 import React from "react";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
+import { motion } from "framer-motion";
 import classes from "../../styles/CodeFLow/FAQItem.module.css";
 
 const FAQItem = ({ title, body, index, currIndex, changeIndexHandler }) => {
+	const animationVariants = {
+		clicked: {
+			transform: "rotateZ(45deg)",
+			display: "inline-block",
+		},
+		notClicked: {
+			display: "inline-block",
+			transform: "rotateZ(0deg)",
+		},
+	};
 	return (
 		<div className={classes.Container}>
 			<div
@@ -11,14 +22,12 @@ const FAQItem = ({ title, body, index, currIndex, changeIndexHandler }) => {
 					changeIndexHandler(index);
 				}}
 			>
-				<span
-					style={{
-						transform: currIndex === index ? "rotateZ(45deg)" : "rotateZ(0deg)",
-						transition: "0.2s all ease",
-					}}
+				<motion.span
+					variants={animationVariants}
+					animate={index === currIndex ? "clicked" : "notClicked"}
 				>
 					<ArrowRightIcon />
-				</span>
+				</motion.span>
 				<span className={classes.Title}>{title}</span>
 			</div>
 			{currIndex === index && (
