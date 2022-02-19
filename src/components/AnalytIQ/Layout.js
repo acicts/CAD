@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "@material-ui/icons/Menu";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import classes from "../../styles/AnalytIQ/Layout.module.css";
 import data from "../../data.json";
@@ -10,7 +11,7 @@ const Layout = ({ children }) => {
 	const [isNav, setIsNav] = useState(false);
 	const hamburgerVariants = {
 		clicked: {
-			left: "40%",
+			left: "47%",
 			color: "#cf5604",
 			zIndex: 20,
 			transition: {
@@ -54,7 +55,9 @@ const Layout = ({ children }) => {
 	return (
 		<div className={classes.Container}>
 			<nav className={classes.NavBar}>
-				<div className={classes.TempBox}></div>
+				<div className={classes.TempBox}>
+					<Link to="/">Back</Link>
+				</div>
 				<div className={classes.NavBarMenu}>
 					<motion.div
 						onClick={() => {
@@ -65,7 +68,11 @@ const Layout = ({ children }) => {
 						animate={isNav ? "clicked" : "notClicked"}
 						initial={"notClicked"}
 					>
-						{ isNav ? <Close color="#595959" /> : < Menu className={classes.menuContainer} color="#595959" /> }
+						{isNav ? (
+							<Close color="#595959" />
+						) : (
+							<Menu className={classes.menuContainer} color="#595959" />
+						)}
 					</motion.div>
 				</div>
 
