@@ -24,7 +24,7 @@
     position: absolute;
     width: 300px;
     height: 80px;
-    background: #3d458d86;
+    background: #3d458d00;
     transform: rotate(30deg);
     margin-top: 45px;
     margin-left: -219px;
@@ -34,7 +34,7 @@
     position: absolute;
     width: 300px;
     height: 70px;
-    background: #468d3d8f;
+    background: #468d3d00;
     transform: rotate(-30deg);
     margin-top: -185px;
     margin-left: -173px;
@@ -44,7 +44,7 @@
     position: absolute;
     width: 300px;
     height: 70px;
-    background: #8d8d3d7a;
+    background: #8d8d3d00;
     transform: rotate(-90deg);
     margin-top: -12px;
     margin-left: -13px;
