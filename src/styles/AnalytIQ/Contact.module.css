@@ -1,98 +1,98 @@
 .aboutSection {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
 }
 
 .aboutContainer {
-	background: #26201679;
-	backdrop-filter: blur(50px);
-	width: 80vw;
-	padding: 40px;
-	border-radius: 2rem;
-	height: min-content;
+  background: #26201679;
+  backdrop-filter: blur(50px);
+  width: 80vw;
+  padding: 40px;
+  border-radius: 2rem;
+  height: min-content;
 }
 
 .title h1 {
-	font-size: 2rem;
-	font-weight: bold;
-	color: #ffffff;
-	margin-top: -15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: -15px;
 }
 
 .description {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .description p {
-	font-size: 1.2rem;
-	font-weight: 500;
-	color: #ffebd3;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffebd3;
 }
 
 .description p:nth-child(1) {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.description p span {
-	font-size: 1.2rem;
-	font-weight: 500;
-	color: #ff7a00;
-	margin-bottom: 30px;
-	cursor: pointer;
+.description p a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ff7a00;
+  margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 70vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer p:nth-child(1) {
-	font-size: 1.2rem;
-	font-weight: 500;
-	margin-bottom: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .footer p:nth-child(2) {
-	font-size: 1rem;
-	font-weight: 500;
-	color: #4b4b4b;
-	margin-top: -20px;
-	margin-bottom: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4b4b4b;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 580px) {
-	.image {
-		display: none;
-	}
+  .image {
+    display: none;
+  }
 
-	.aboutContainer {
-		padding: 50px 30px;
-		width: 90vw;
-	}
+  .aboutContainer {
+    padding: 50px 30px;
+    width: 90vw;
+  }
 
-	.aboutSection {
-		margin-top: 100px;
-	}
+  .aboutSection {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 425px) {
-	.aboutContainer {
-		border-radius: 10px;
-	}
+  .aboutContainer {
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 375px) {
-	.description p span,
-	.description p {
-		font-size: 1rem;
-	}
+  .description p span,
+  .description p {
+    font-size: 1rem;
+  }
 }

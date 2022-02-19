@@ -1,78 +1,80 @@
 .homeContainer {
-    background: linear-gradient(to right, #ecfaff, #c8eeff);
-
+  background: linear-gradient(to right, #ecfaff, #c8eeff);
 }
 
 .imageContainer {
-    background-image: url('../../images/triangle.png');
-    background-size: 80vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100%;
+  background-image: url("../../images/triangle.png");
+  background-size: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
 }
-
+.imageContainer::after {
+  transform: scale(1.1);
+  transition: transform ease 0.5s;
+}
 .linkContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .codeflow {
-    position: absolute;
-    width: 300px;
-    height: 80px;
-    background: #3d458d00;
-    transform: rotate(30deg);
-    margin-top: 45px;
-    margin-left: -219px;
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  background: #3d458d00;
+  transform: rotate(30deg);
+  margin-top: 45px;
+  margin-left: -219px;
 }
 
 .analytiq {
-    position: absolute;
-    width: 300px;
-    height: 70px;
-    background: #468d3d00;
-    transform: rotate(-30deg);
-    margin-top: -185px;
-    margin-left: -173px;
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  background: #468d3d00;
+  transform: rotate(-30deg);
+  margin-top: -185px;
+  margin-left: -173px;
 }
 
 .dimensionx {
-    position: absolute;
-    width: 300px;
-    height: 70px;
-    background: #8d8d3d00;
-    transform: rotate(-90deg);
-    margin-top: -12px;
-    margin-left: -13px;
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  background: #8d8d3d00;
+  transform: rotate(-90deg);
+  margin-top: -12px;
+  margin-left: -13px;
 }
 
 @media screen and (max-width: 550px) {
-    .imageContainer {
-        background-size: 60vh;
-    }
+  .imageContainer {
+    background-size: 60vh;
+  }
 
-    .codeflow {
-        width: 214px;
-        height: 62px;
-        margin-top: 23px;
-        margin-left: -160px;
-    }
-    
-    .analytiq {
-        width: 215px;
-        height: 46px;
-        margin-top: -120px;
-        margin-left: -132px;
-    }
-    
-    .dimensionx {
-        width: 208px;
-        height: 40px;
-        margin-top: -12px;
-        margin-left: -13px;
-    }
+  .codeflow {
+    width: 214px;
+    height: 62px;
+    margin-top: 23px;
+    margin-left: -160px;
+  }
+
+  .analytiq {
+    width: 215px;
+    height: 46px;
+    margin-top: -120px;
+    margin-left: -132px;
+  }
+
+  .dimensionx {
+    width: 208px;
+    height: 40px;
+    margin-top: -12px;
+    margin-left: -13px;
+  }
 }
