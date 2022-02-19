@@ -1,0 +1,51 @@
+.homeContainer {
+    background: linear-gradient(to right, #ecfaff, #c8eeff);
+
+}
+
+.imageContainer {
+    background-image: url('../../images/triangle.png');
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.codeflow {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background: #3d458d00;
+    transform: rotate(30deg);
+    margin-top: 45px;
+    margin-left: -219px;
+}
+
+.analytiq {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background: #468d3d00;
+    transform: rotate(-30deg);
+    margin-top: -185px;
+    margin-left: -173px;
+}
+
+.dimensionx {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background: #8d8d3d00;
+    transform: rotate(-90deg);
+    margin-top: -12px;
+    margin-left: -13px;
+}
