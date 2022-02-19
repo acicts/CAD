@@ -24,7 +24,7 @@
     position: absolute;
     width: 300px;
     height: 80px;
-    background: #3d458d00;
+    background: #3d458d86;
     transform: rotate(30deg);
     margin-top: 45px;
     margin-left: -219px;
@@ -34,7 +34,7 @@
     position: absolute;
     width: 300px;
     height: 70px;
-    background: #468d3d00;
+    background: #468d3d8f;
     transform: rotate(-30deg);
     margin-top: -185px;
     margin-left: -173px;
@@ -44,8 +44,35 @@
     position: absolute;
     width: 300px;
     height: 70px;
-    background: #8d8d3d00;
+    background: #8d8d3d7a;
     transform: rotate(-90deg);
     margin-top: -12px;
     margin-left: -13px;
+}
+
+@media screen and (max-width: 550px) {
+    .imageContainer {
+        background-size: 60vh;
+    }
+
+    .codeflow {
+        width: 214px;
+        height: 62px;
+        margin-top: 23px;
+        margin-left: -160px;
+    }
+    
+    .analytiq {
+        width: 215px;
+        height: 46px;
+        margin-top: -120px;
+        margin-left: -132px;
+    }
+    
+    .dimensionx {
+        width: 208px;
+        height: 40px;
+        margin-top: -12px;
+        margin-left: -13px;
+    }
 }
