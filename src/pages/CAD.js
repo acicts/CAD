@@ -5,9 +5,7 @@ import Home from "../components/CAD/Sections/Home";
 import "./CodeFlow.css";
 
 const CAD = () => {
-	return (
-			<Home />
-	);
+  return <Home />;
 };
 
 export default CAD;
