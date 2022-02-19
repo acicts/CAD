@@ -68,10 +68,6 @@
 	"DimensionX": {
 		"navbar": [
 			{
-				"text": "Back",
-				"link": "/"
-			},
-			{
 				"text": "Home",
 				"link": "#home"
 			},
