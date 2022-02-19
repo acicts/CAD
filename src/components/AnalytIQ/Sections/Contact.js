@@ -21,13 +21,10 @@ const Contact = () => {
             </a>
           </p>
           <p>
-            Manula Thejan - <span>071 123 4567</span>
+            Chamuthu Edirisooriya - <span>070 291 4804</span>
           </p>
           <p>
-            Manula Thejan - <span>071 123 4567</span>
-          </p>
-          <p>
-            Manula Thejan - <span>071 123 4567</span>
+            Chanupa Gunasena - <span>077 298 1284</span>
           </p>
         </div>
 

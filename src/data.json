@@ -86,18 +86,14 @@
     ],
     "rules": {
       "twoD": [
-        "All the team members should be from the same school",
-
         "You have to do a Photo manipulation by using the stock images we provide.We will upload all the stock images to the official website on February 23rd at 12:00am."
       ],
 
       "logo": [
-        "All the team members should be from the same school",
         "We will upload a sample logo to the official website on February 23rd at 12:00am."
       ],
 
       "threeD": [
-        "All the team members should be from the same school",
         "You have to create a composition according to the theme that will be uploaded to the official website on February 23rd at 12:00am.",
         "You are not allowed to use any assets which are not made by you."
       ]

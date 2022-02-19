@@ -23,13 +23,10 @@ const Contact = () => {
             </a>
           </p>
           <p>
-            Manula Thejan - <span>071 123 4567</span>
+            Thisuka - <span>077 366 6043</span>
           </p>
           <p>
-            Manula Thejan - <span>071 123 4567</span>
-          </p>
-          <p>
-            Manula Thejan - <span>071 123 4567</span>
+            Manula - <span>077 976 1567 (whatsapp only)</span>
           </p>
         </div>
 

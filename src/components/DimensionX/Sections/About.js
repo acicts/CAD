@@ -1,33 +1,44 @@
-import React from 'react'
-import classes from '../../../styles/DimensionX/About.module.css'
-import AboutImage from '../../../images/DimensionX/banner2.png'
+import React from "react";
+import classes from "../../../styles/DimensionX/About.module.css";
+import AboutImage from "../../../images/DimensionX/banner2.png";
 
 const About = () => {
   return (
     <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
-         <p>What is</p>
-         <h1>DimensionX</h1>  
+          <p>What is</p>
+          <h1>DimensionX</h1>
         </div>
 
         <div className={classes.description}>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque morbi vestibulum morbi sapien amet etiam euismod.
+            1. DimensionX is an inter-school Graphic designing competition
+            organized by the ICT Society of Ananda College.
           </p>
           <p>
-          Vitae ipsum vulputate nec nec dui urna, nec neque. Volutpat vulputate vestibulum mauris mauris sed fermentum. Habitasse sem facilisi semper bibendum quam nunc in. Nulla nec porttitor morbi faucibus felis, et, tincidunt donec id. 
-
+            2. All the registrants should be born after 31.01.2003 and before
+            01.02.2007.
+          </p>
+          <p>
+            3. There are 4 fields (Photo Manipulation, Logo design, Poster
+            design and 3D still renders)
+          </p>
+          <p>
+            4. Descriptions for above competitions are listed on the website.
+          </p>
+          <p>
+            5. Further rules & regulations about the competition are listed on
+            the website
           </p>
         </div>
 
         <button className={classes.registerButton}>Register</button>
       </div>
 
-      <img src={AboutImage} className={classes.image}/>
-
+      <img src={AboutImage} className={classes.image} />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

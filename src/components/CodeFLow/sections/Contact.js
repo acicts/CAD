@@ -25,13 +25,24 @@ const Contact = () => {
         </p>
         <ul>
           <li>
-            Manula Thejan: <a href="https://github.com">071 234 5678</a>
+            Chamindu Amarasinghe:{" "}
+            <a
+              href="https://web.whatsapp.com/send?phone=94711436311"
+              rel="noreferrer"
+              target="_blank"
+            >
+              071 143 6311
+            </a>
           </li>
           <li>
-            Manula Thejan: <a href="https://github.com">071 234 5678</a>
-          </li>
-          <li>
-            Manula Thejan: <a href="https://github.com">071 234 5678</a>
+            Bihandu De Silva:{" "}
+            <a
+              href="https://web.whatsapp.com/send?phone=94716071187"
+              rel="noreferrer"
+              target="_blank"
+            >
+              071 607 1187
+            </a>
           </li>
         </ul>
       </SectionTopic>
