@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import classes from "../../styles/AnalytIQ/Layout.module.css";
 import data from "../../data.json";
 import "../../pages/DimensionX.css";
+import { Close } from "@material-ui/icons";
 
 const Layout = ({ children }) => {
 	const [isNav, setIsNav] = useState(false);
@@ -64,7 +65,7 @@ const Layout = ({ children }) => {
 						animate={isNav ? "clicked" : "notClicked"}
 						initial={"notClicked"}
 					>
-						<Menu color="#595959" />
+						{ isNav ? <Close color="#595959" /> : < Menu className={classes.menuContainer} color="#595959" /> }
 					</motion.div>
 				</div>
 

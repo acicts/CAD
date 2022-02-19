@@ -14,6 +14,8 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 0px 20px;
+	position: absolute;
+	width: 100vw;
 }
 
 .NavBar .NavBarMenu {
@@ -125,7 +127,7 @@
 	}
 	.NavBar .RespNav ul {
 		position: absolute;
-		width: 50%;
+		width: 50vw;
 		background-color: white;
 		height: 100vh;
 		top: 0;

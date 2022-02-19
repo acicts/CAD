@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Menu from "@material-ui/icons/Menu";
 import { motion } from "framer-motion";
 import classes from "../../styles/DimensionX/Layout.module.css";
 import data from "../../data.json";
 import "../../pages/DimensionX.css";
+import { Close } from "@material-ui/icons";
 
 const Layout = ({ children }) => {
 	const [isNav, setIsNav] = useState(false);
+
+	useEffect(() => {
+		console.log(isNav);
+	}, [isNav]);
 	const hamburgerVariants = {
 		clicked: {
-			left: "40%",
+			left: "35vw",
+			marginTop: "-20px",
 			color: "#33b161",
 			zIndex: 20,
 			transition: {
@@ -64,7 +70,7 @@ const Layout = ({ children }) => {
 						animate={isNav ? "clicked" : "notClicked"}
 						initial={"notClicked"}
 					>
-						<Menu color="#595959" />
+						{ isNav ? <Close color="#595959" /> : < Menu className={classes.menuContainer} color="#595959" /> }
 					</motion.div>
 				</div>
 

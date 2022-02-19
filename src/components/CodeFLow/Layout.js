@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Menu from "@material-ui/icons/Menu";
 import classes from "../../styles/CodeFLow/Layout.module.css";
 import data from "../../data.json";
+import { Close } from "@material-ui/icons";
 
 const Layout = ({ children }) => {
 	const [isNav, setIsNav] = useState(false);
@@ -64,7 +65,7 @@ const Layout = ({ children }) => {
 						animate={isNav ? "clicked" : "notClicked"}
 						initial={"notClicked"}
 					>
-						<Menu />
+						{ isNav ? <Close color="#595959" /> : < Menu className={classes.menuContainer} color="#595959" /> }
 					</motion.div>
 				</div>
 
