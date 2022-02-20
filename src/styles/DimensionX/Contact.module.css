@@ -48,17 +48,18 @@
 }
 
 .description p:nth-child(1) {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  font-size: 1.4rem;
 }
 
-.description p:nth-child(4) {
+.description p:nth-child(5) {
   padding-bottom: 100px;
 }
 .black {
   color: #000000;
 }
 .description p a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: #0e9478;
   margin-bottom: 30px;
