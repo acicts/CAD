@@ -3,7 +3,7 @@ import classes from "../../../styles/AnalytIQ/About.module.css";
 
 const About = () => {
   return (
-    <div className={classes.aboutSection}>
+    <div className={classes.aboutSection} id={"about"}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
           <h1>What is AnalytIQ</h1>

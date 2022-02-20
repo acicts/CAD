@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "../../../styles/AnalytIQ/Home.module.css";
+
 import logo from "../../../images/AnalytIQ/logo.svg";
+import data from "../../../data.json";
 
 const Home = () => {
   return (
@@ -15,7 +17,9 @@ const Home = () => {
 
         <div className={classes.buttonContainer}>
           <div className={classes.registerButton}>
-            <a href="/register">Register Now</a>
+            <a href={data.AnalytIQ.navbar[2].link} target={"_blank"}>
+              Register Now
+            </a>
           </div>
 
           <div className={classes.moreButton}>
