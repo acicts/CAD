@@ -13,7 +13,7 @@ const About = () => {
 
         <div className={classes.description}>
           <p>
-            1. DimensionX is an inter-school Graphic designing competition
+            1. DimensionX is an inter-school graphic designing competition
             organized by the ICT Society of Ananda College.
           </p>
           <p>

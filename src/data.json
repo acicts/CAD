@@ -21,7 +21,7 @@
     "faq": [
       {
         "question": "What should be the team composition?",
-        "Answer": "A team consists of 3 to 5 students of same age category from same school are eligible to participate in the Hackathons"
+        "Answer": "A team consists of 2 to 3 students of same age category from same school are eligible to participate in the Hackathons"
       },
       {
         "question": "When and Where It’ll be?",
@@ -49,14 +49,14 @@
       "There can be a maximum of 3 members and a minimum of 2 members in a team.",
       "There can be more than 1 team per age category from 1 school.",
       "When registering the team leader must fill out the information of all remaining team members.",
-      "Registrations will be closed on 25th February 2022 at 12AM.",
+      "Registrations will be closed on 26th February 2022 at 12AM.",
       "You have to follow 1 chosen theme for your project from the ones mentioned beforehand.",
       "One team is only allowed to submit one project.",
       "The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Every team member’s contribution is required.",
       "The Git repository for the project must be created before 24 hours has passed after submitting the registration form.",
       "Plagiarism is strictly prohibited.",
       "You should make a video that is no longer than 5 minutes about your project. If you are not sure what to include in the video, ",
-      "You should submit your project before 12AM on 3rd of March 2022.",
+      "You should submit your project before 12AM on 7th of March 2022.",
       "You are not allowed to make changes to the code after submitting."
     ],
     "themes": {
@@ -86,15 +86,15 @@
     ],
     "rules": {
       "twoD": [
-        "You have to do a Photo manipulation by using the stock images we provide.We will upload all the stock images to the official website on February 23rd at 12:00am."
+        "You have to do a Photo manipulation by using the stock images we provide.We will upload all the stock images to the official website on February 27th at 12:00am."
       ],
 
       "logo": [
-        "We will upload a sample logo to the official website on February 23rd at 12:00am."
+        "We will upload a sample logo to the official website on February 27th at 12:00am."
       ],
 
       "threeD": [
-        "You have to create a composition according to the theme that will be uploaded to the official website on February 23rd at 12:00am.",
+        "You have to create a composition according to the theme that will be uploaded to the official website on February 27th at 12:00am.",
         "You are not allowed to use any assets which are not made by you."
       ]
     }

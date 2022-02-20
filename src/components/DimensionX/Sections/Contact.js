@@ -26,7 +26,10 @@ const Contact = () => {
             Thisuka - <span>077 366 6043</span>
           </p>
           <p>
-            Manula - <span>077 976 1567 (whatsapp only)</span>
+            Manula - <span>077 976 1567 (WhatsApp only)</span>
+          </p>
+          <p>
+            Janiru - <span>077 725 9574 (WhatsApp only)</span>
           </p>
         </div>
 
