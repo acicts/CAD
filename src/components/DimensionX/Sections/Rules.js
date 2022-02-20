@@ -17,37 +17,37 @@ const Rules = () => {
         <div className={classes.description}>
           <div className={classes.singleCategory}>
             <h1>3D</h1>
-            <ol className={classes.rules}>
+            <ul className={classes.rules}>
               {data.DimensionX.rules.threeD.map((rule) => {
                 return <li>{rule}</li>;
               })}
-            </ol>
+            </ul>
           </div>
 
           <div className={classes.singleCategory}>
             <h1>Photo manipulation</h1>
-            <ol className={classes.rules}>
+            <ul className={classes.rules}>
               {data.DimensionX.rules.twoD.map((rule) => {
                 return <li>{rule}</li>;
               })}
-            </ol>
+            </ul>
           </div>
 
           <div className={classes.singleCategory}>
             <h1>Logo Designing</h1>
-            <ol className={classes.rules}>
+            <ul className={classes.rules}>
               {data.DimensionX.rules.logo.map((rule) => {
                 return <li>{rule}</li>;
               })}
-            </ol>
+            </ul>
           </div>
           <div className={classes.singleCategory}>
             <h1>Poster Design</h1>
-            <ol className={classes.rules}>
+            <ul className={classes.rules}>
               {/* {data.DimensionX.rules.twoD.map((rule) => {
                 return <li>{rule}</li>;
               })} */}
-            </ol>
+            </ul>
           </div>
         </div>
       </div>
