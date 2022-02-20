@@ -114,6 +114,13 @@
 }
 
 @media (max-width: 768px) {
+  .Container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Container::-webkit-scrollbar-thumb {
+    display: none;
+  }
   .NavBar ul.PcNavbar li a {
     font-size: 1rem;
   }
@@ -124,6 +131,13 @@
 }
 
 @media (max-width: 445px) {
+  .Container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Container::-webkit-scrollbar-thumb {
+    display: none;
+  }
   .NavBar ul li:last-child {
     margin: auto;
     width: max-content;
@@ -171,6 +185,13 @@
 }
 
 @media (max-width: 320px) {
+  .Container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Container::-webkit-scrollbar-thumb {
+    display: none;
+  }
   .NavBar .RespNav ul {
     width: 55%;
   }
