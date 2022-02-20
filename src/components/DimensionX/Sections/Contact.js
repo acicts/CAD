@@ -4,7 +4,7 @@ import AboutImage from "../../../images/DimensionX/banner3.png";
 
 const Contact = () => {
   return (
-    <div className={classes.aboutSection} >
+    <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
           <p>Contact out</p>
@@ -30,6 +30,9 @@ const Contact = () => {
           </p>
           <p>
             Janiru - <span>077 725 9574 (WhatsApp only)</span>
+          </p>
+          <p>
+            Pasindu - <span>071 848 8275 (WhatsApp only)</span>
           </p>
         </div>
 
