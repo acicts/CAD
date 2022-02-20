@@ -156,7 +156,12 @@ const Layout = ({ children }) => {
           <div className={classes.Ball}></div>
         </div>
         <div>
-          <p className={classes.FooterTopic}>A Project by ACICTS</p>
+          <p className={classes.FooterTopic}>
+            A Project by{" "}
+            <a href="https://github.com/acicts/" target={"_blank"}>
+              ACICTS
+            </a>
+          </p>
           <p>Copyright reserved 2022</p>
         </div>
       </footer>

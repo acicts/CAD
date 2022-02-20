@@ -38,7 +38,10 @@ const Contact = () => {
 
         <footer className={classes.footer}>
           <p>
-            A Project By <a href="#">ACICTS</a>
+            A Project By{" "}
+            <a href="https://github.com/acicts/" target={"_blank"}>
+              ACICTS
+            </a>
           </p>
           <p>© Copyright reserved 2022 </p>
         </footer>

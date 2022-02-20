@@ -7,7 +7,10 @@ const Footer = () => {
       <div className={classes.aboutContainer}>
         <div className={classes.description}>
           <p>
-            A Project By <a href="/link">ACICTS</a>
+            A Project By{" "}
+            <a href="https://github.com/acicts/" target={"_blank"}>
+              ACICTS
+            </a>
           </p>
           <p>Copyright reserved 2022</p>
         </div>
