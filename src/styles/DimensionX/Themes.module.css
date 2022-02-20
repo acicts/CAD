@@ -1,0 +1,87 @@
+.Container {
+  height: 100vh;
+  padding: 25px 50px;
+  background: white;
+}
+
+.Container ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 24vh;
+  padding-left: 10px;
+}
+
+.Container ul:last-child {
+  justify-content: space-evenly;
+}
+
+.Container ul li {
+  color: #07253a;
+}
+
+.TimeContainer {
+  font-family: "popins", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  color: #40dc96;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.TimeContainer .TimeBar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.TimeContainer .TimeBar p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.TimeContainer h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.TimeContainer .Dots {
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .Container ul li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 645px) {
+  .TimeContainer h1 {
+    font-size: 1.5rem;
+  }
+  .TimeContainer .Dots {
+    font-size: 1.2rem;
+  }
+  .TimeContainer .TimeBar p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .Container {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .TimeContainer h1 {
+    font-size: 1.2rem;
+  }
+}
