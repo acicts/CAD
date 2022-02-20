@@ -25,7 +25,7 @@ const Rules = () => {
           </div>
 
           <div className={classes.singleCategory}>
-            <h1>2D</h1>
+            <h1>Photo manipulation</h1>
             <ol className={classes.rules}>
               {data.DimensionX.rules.twoD.map((rule) => {
                 return <li>{rule}</li>;
@@ -39,6 +39,14 @@ const Rules = () => {
               {data.DimensionX.rules.logo.map((rule) => {
                 return <li>{rule}</li>;
               })}
+            </ol>
+          </div>
+          <div className={classes.singleCategory}>
+            <h1>Poster Design</h1>
+            <ol className={classes.rules}>
+              {/* {data.DimensionX.rules.twoD.map((rule) => {
+                return <li>{rule}</li>;
+              })} */}
             </ol>
           </div>
         </div>

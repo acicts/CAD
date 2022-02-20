@@ -11,8 +11,8 @@ const Home = () => {
       </div>
 
       <div className={classes.subTextContainer}>
-        <p>The First Ever</p>
-        <p>3D Competition</p>
+        <p>An Inter-School</p>
+        <p>2D & 3D Graphic Design Competition</p>
         <p>Organized by</p>
         <p>The ICT Society of Ananda College</p>
       </div>
