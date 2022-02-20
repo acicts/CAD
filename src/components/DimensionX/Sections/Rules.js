@@ -44,9 +44,9 @@ const Rules = () => {
           <div className={classes.singleCategory}>
             <h1>Poster Design</h1>
             <ul className={classes.rules}>
-              {/* {data.DimensionX.rules.twoD.map((rule) => {
+              {data.DimensionX.rules.poster.map((rule) => {
                 return <li>{rule}</li>;
-              })} */}
+              })}
             </ul>
           </div>
         </div>
