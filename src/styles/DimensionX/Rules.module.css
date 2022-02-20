@@ -30,7 +30,7 @@
 
 .title h1 {
 	font-size: 3rem;
-	font-weight: bold;
+	font-weight: buld;
 	color: #373737;
 	margin-top: -15px;
 }
@@ -39,7 +39,7 @@
 	margin-top: 50px;
 }
 
-.singleCategory ol li {
+.singleCategory ul li {
 	font-size: 1.2rem;
 	font-weight: 500;
 	color: #373737;
@@ -62,7 +62,7 @@
 	}
 
 	.rulesContainer {
-		padding: 80px 30px;
+		padding: 80px 25px;
 		width: 100vw;
 	}
 }
@@ -71,9 +71,21 @@
 	.title h1 {
 		font-size: 2.5rem;
 	}
-	.singleCategory ol li {
-		font-size: 1rem;
+	.singleCategory h1 {
+		font-size: 1.6rem;
+	}
+	.singleCategory ul {
+		list-style: none;
+	}
+	.singleCategory ul li {
+		font-size: 0.8rem;
 		text-align: justify;
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+
+	.singleCategory ul li:last-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -81,10 +93,10 @@
 	.title h1 {
 		font-size: 2.2rem;
 	}
-	.singleCategory ol li {
+	.singleCategory ul li {
 		font-size: 0.8rem;
 	}
 	.rulesContainer {
-		padding: 80px 10px;
+		padding: 80px 20px;
 	}
 }
