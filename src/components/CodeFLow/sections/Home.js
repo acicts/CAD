@@ -2,6 +2,8 @@ import React from "react";
 import classes from "../../../styles/CodeFLow/Home.module.css";
 import DoubleArrow from "@material-ui/icons/DoubleArrow";
 import { Link } from "react-router-dom";
+//import json file
+import data from "../../../data.json";
 
 const Home = () => {
   return (
@@ -17,15 +19,19 @@ const Home = () => {
           </div>
           <div>
             <p>
-              <Link className={classes.Link} to="/register">
+              <a
+                className={classes.Link}
+                href={data.codeflow.navbar[3].link}
+                target={"_blank"}
+              >
                 Register Now!
-              </Link>
+              </a>
             </p>
-            <p>
+            {/* <p>
               <Link className={classes.Link} to="/submit">
                 Submit Your Project!
               </Link>
-            </p>
+            </p> */}
           </div>
         </div>
         <a href="#about" className={classes.Button}>

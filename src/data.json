@@ -40,15 +40,7 @@
           "target": "_blank"
         }
       },
-      {
-        "question": "How can We submit our project?",
-        "Answer": "You can submit your project through this ",
-        "link": {
-          "text": "Google Form",
-          "ref": "",
-          "target": "_blank"
-        }
-      },
+
       {
         "question": "How can I contact the organizers?",
         "Answer": "You can join the Whatsapp group or the Discord Server. If you need further assistance you can contact one of our organizers mentioned in ",

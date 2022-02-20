@@ -1,189 +1,190 @@
 .Container {
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 90vh;
 }
 
 .Container .LeftContainer,
 .Container .RightContainer {
-	height: 90vh;
+  height: 90vh;
 }
 
 .Container .LeftContainer {
-	width: 70%;
-	height: 80vh;
+  width: 70%;
+  height: 80vh;
 }
 
 .Container .LeftContainer .TextContainer {
-	width: max-content;
-	margin-left: auto;
-	margin-right: auto;
-	height: 85%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
-	padding: 0 30px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 30px;
 }
 
 .Container .LeftContainer .TextContainer .Present {
-	color: #7ca9ffa1;
-	margin-top: 5px;
+  color: #7ca9ffa1;
+  margin-top: 5px;
 }
 
 .Container .LeftContainer .TextContainer .Heading {
-	font-size: 7rem;
-	color: white;
+  font-size: 7rem;
+  color: white;
 }
 
 .Container .LeftContainer .TextContainer .SubHeading {
-	font-size: 1.3rem;
-	color: white;
-	font-weight: 100;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 100;
 }
 
 .Container .LeftContainer .TextContainer .Link {
-	text-decoration: underline;
-	display: block;
-	font-size: 1.8rem;
-	text-align: left;
-	width: 100%;
-	margin-bottom: 25px;
+  text-decoration: underline;
+  display: block;
+  font-size: 1.8rem;
+  text-align: left;
+  width: 100%;
+  /*margin-bottom: 25px; add when the submission starts*/
+  margin-bottom: 80px;
 }
 
 .Container .LeftContainer .Button {
-	width: 100%;
-	height: 15%;
-	background-color: white;
-	color: #07253a;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0px 20px;
-	border: none;
-	cursor: pointer;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  color: #07253a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 .Container .LeftContainer .Button span {
-	font-size: 1.8rem;
-	font-family: "PT Mono", monospace;
-	color: #07253a;
+  font-size: 1.8rem;
+  font-family: "PT Mono", monospace;
+  color: #07253a;
 }
 
 .Container .LeftContainer .Button span:last-child {
-	position: relative;
-	animation-name: buttonAnime;
-	animation-direction: normal;
-	animation-duration: 0.8s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
+  position: relative;
+  animation-name: buttonAnime;
+  animation-direction: normal;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
 
 .Container .RightContainer {
-	width: 40%;
-	overflow: hidden;
-	border-top-left-radius: 10px;
+  width: 40%;
+  overflow: hidden;
+  border-top-left-radius: 10px;
 }
 
 .Container .RightContainer .Img {
-	height: 100%;
-	width: 100%;
-	border-top-left-radius: 10px;
-	margin-top: 10vh;
-	background: url(../../images/cover-image.png);
-	background-size: cover;
-	background-position: left;
-	background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  margin-top: 10vh;
+  background: url(../../images/cover-image.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 @keyframes buttonAnime {
-	from {
-		left: -20px;
-		opacity: 0.2;
-	}
-	to {
-		left: 0;
-		opacity: 1;
-	}
+  from {
+    left: -20px;
+    opacity: 0.2;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1024px) {
-	.Container .LeftContainer {
-		width: 55%;
-	}
-	.Container .RightContainer {
-		width: 45%;
-	}
-	.Container .LeftContainer .TextContainer .Heading {
-		font-size: 5.5rem;
-	}
+  .Container .LeftContainer {
+    width: 55%;
+  }
+  .Container .RightContainer {
+    width: 45%;
+  }
+  .Container .LeftContainer .TextContainer .Heading {
+    font-size: 5.5rem;
+  }
 }
 
 @media (max-width: 845px) {
-	.Container .LeftContainer .TextContainer .Heading {
-		font-size: 3.5rem;
-	}
-	.Container .LeftContainer .TextContainer .SubHeading {
-		font-size: 1.1rem;
-	}
-	.Container .LeftContainer .TextContainer .Present {
-		font-size: 0.8rem;
-	}
-	.Container .LeftContainer .TextContainer .Link {
-		font-size: 1.5rem;
-	}
-	.Container .LeftContainer {
-		width: 65%;
-	}
-	.Container .RightContainer {
-		width: 35%;
-	}
+  .Container .LeftContainer .TextContainer .Heading {
+    font-size: 3.5rem;
+  }
+  .Container .LeftContainer .TextContainer .SubHeading {
+    font-size: 1.1rem;
+  }
+  .Container .LeftContainer .TextContainer .Present {
+    font-size: 0.8rem;
+  }
+  .Container .LeftContainer .TextContainer .Link {
+    font-size: 1.5rem;
+  }
+  .Container .LeftContainer {
+    width: 65%;
+  }
+  .Container .RightContainer {
+    width: 35%;
+  }
 }
 
 @media (max-width: 530px) {
-	.Container .LeftContainer {
-		width: 100%;
-	}
-	.Container .RightContainer {
-		display: none;
-	}
+  .Container .LeftContainer {
+    width: 100%;
+  }
+  .Container .RightContainer {
+    display: none;
+  }
 
-	.Container .LeftContainer .TextContainer {
-		padding: 0 30px;
-		width: 100%;
-	}
+  .Container .LeftContainer .TextContainer {
+    padding: 0 30px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
-	.Container .LeftContainer .TextContainer .Heading {
-		font-size: 3rem;
-	}
-	.Container .LeftContainer .TextContainer .SubHeading {
-		font-size: 0.9rem;
-	}
-	.Container .LeftContainer .TextContainer .Present {
-		font-size: 0.7rem;
-	}
-	.Container .LeftContainer .TextContainer .Link {
-		font-size: 1rem;
-	}
+  .Container .LeftContainer .TextContainer .Heading {
+    font-size: 3rem;
+  }
+  .Container .LeftContainer .TextContainer .SubHeading {
+    font-size: 0.9rem;
+  }
+  .Container .LeftContainer .TextContainer .Present {
+    font-size: 0.7rem;
+  }
+  .Container .LeftContainer .TextContainer .Link {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 300px) {
-	.Container .LeftContainer .TextContainer {
-		padding: 0 20px;
-	}
-	.Container .LeftContainer .TextContainer .Heading {
-		font-size: 3rem;
-	}
-	.Container .LeftContainer .TextContainer .SubHeading {
-		font-size: 0.8rem;
-	}
-	.Container .LeftContainer .TextContainer .Present {
-		font-size: 0.7rem;
-	}
-	.Container .LeftContainer .TextContainer .Link {
-		font-size: 1rem;
-	}
+  .Container .LeftContainer .TextContainer {
+    padding: 0 20px;
+  }
+  .Container .LeftContainer .TextContainer .Heading {
+    font-size: 3rem;
+  }
+  .Container .LeftContainer .TextContainer .SubHeading {
+    font-size: 0.8rem;
+  }
+  .Container .LeftContainer .TextContainer .Present {
+    font-size: 0.7rem;
+  }
+  .Container .LeftContainer .TextContainer .Link {
+    font-size: 1rem;
+  }
 }
