@@ -33,7 +33,7 @@ const SectionTopic = (props) => {
       style={{ ...props.containerStyles }}
     >
       <h1>
-        <span>:</span> <span style={{ color: props.color }}>{props.title}</span>
+        <span>#</span> <span style={{ color: props.color }}>{props.title}</span>
       </h1>
       <div className={classes.TextContainer}>
         <div className={classes.PendContainer}>
