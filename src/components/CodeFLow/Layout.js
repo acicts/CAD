@@ -71,102 +71,106 @@ const Layout = ({ children }) => {
 
   const [isScrolled, setIsScrolled] = useState(false);
   return (
-    <div
-      className={classes.Container}
-      onScroll={(e) => {
-        if (e.target.scrollTop >= 20) {
-          setIsScrolled(true);
-        } else {
-          setIsScrolled(false);
-        }
-      }}
-    >
-      <motion.nav
-        className={classes.NavBar}
-        variants={scrollVariatns}
-        animate={isScrolled ? "scrolled" : "notScrolled"}
-        initial={"notScrolled"}
-      >
-        <div className={classes.TempBox}>
-          <Link to="/">../Back</Link>
-        </div>
-        <div className={classes.NavBarMenu}>
-          <motion.div
-            onClick={() => {
-              setIsNav((curr) => !curr);
-            }}
-            style={{ position: "relative" }}
-            variants={hamburgerVariants}
-            animate={isNav ? "clicked" : "notClicked"}
-            initial={"notClicked"}
-          >
-            {isNav ? (
-              <Close color="#595959" />
-            ) : (
-              <Menu className={classes.menuContainer} color="#595959" />
-            )}
-          </motion.div>
-        </div>
+		<div
+			className={classes.Container}
+			onScroll={(e) => {
+				if (e.target.scrollTop >= 20) {
+					setIsScrolled(true);
+				} else {
+					setIsScrolled(false);
+				}
+			}}
+		>
+			<motion.nav
+				className={classes.NavBar}
+				variants={scrollVariatns}
+				animate={isScrolled ? "scrolled" : "notScrolled"}
+				initial={"notScrolled"}
+			>
+				<div className={classes.TempBox}>
+					<Link to="/">../Back</Link>
+				</div>
+				<div className={classes.NavBarMenu}>
+					<motion.div
+						onClick={() => {
+							setIsNav((curr) => !curr);
+						}}
+						style={{ position: "relative" }}
+						variants={hamburgerVariants}
+						animate={isNav ? "clicked" : "notClicked"}
+						initial={"notClicked"}
+					>
+						{isNav ? (
+							<Close color="#595959" />
+						) : (
+							<Menu className={classes.menuContainer} color="#595959" />
+						)}
+					</motion.div>
+				</div>
 
-        <ul className={classes.PcNavbar}>
-          {data.codeflow.navbar.map((navItem) => {
-            return (
-              <li>
-                <a href={navItem.link} target={navItem.target}>
-                  {navItem.text}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-        <div className={classes.RespNav}>
-          <motion.ul
-            variants={navbarVariants}
-            animate={isNav ? "clicked" : "notClicked"}
-            initial={"notClicked"}
-          >
-            {data.codeflow.navbar.map((navItem) => {
-              return (
-                <li>
-                  <a
-                    onClick={() => {
-                      setIsNav(false);
-                    }}
-                    href={navItem.link}
-                  >
-                    {navItem.text}
-                  </a>
-                </li>
-              );
-            })}
-          </motion.ul>
-        </div>
-      </motion.nav>
-      <main
-        onClick={() => {
-          if (isNav) setIsNav(false);
-        }}
-      >
-        {children}
-      </main>
-      <footer className={classes.Footer}>
-        <div className={classes.BottomContainer}>
-          <div className={classes.Ball}></div>
-          <div className={classes.Bar}></div>
-          <div className={classes.Ball}></div>
-        </div>
-        <div>
-          <p className={classes.FooterTopic}>
-            A Project by{" "}
-            <a href="https://github.com/acicts/" target={"_blank"}>
-              ACICTS
-            </a>
-          </p>
-          <p>Copyright reserved 2022</p>
-        </div>
-      </footer>
-    </div>
-  );
+				<ul className={classes.PcNavbar}>
+					{data.codeflow.navbar.map((navItem) => {
+						return (
+							<li>
+								<a href={navItem.link} target={navItem.target}>
+									{navItem.text}
+								</a>
+							</li>
+						);
+					})}
+				</ul>
+				<div className={classes.RespNav}>
+					<motion.ul
+						variants={navbarVariants}
+						animate={isNav ? "clicked" : "notClicked"}
+						initial={"notClicked"}
+					>
+						{data.codeflow.navbar.map((navItem) => {
+							return (
+								<li>
+									<a
+										onClick={() => {
+											setIsNav(false);
+										}}
+										href={navItem.link}
+									>
+										{navItem.text}
+									</a>
+								</li>
+							);
+						})}
+					</motion.ul>
+				</div>
+			</motion.nav>
+			<main
+				onClick={() => {
+					if (isNav) setIsNav(false);
+				}}
+			>
+				{children}
+			</main>
+			<footer className={classes.Footer}>
+				<div className={classes.BottomContainer}>
+					<div className={classes.Ball}></div>
+					<div className={classes.Bar}></div>
+					<div className={classes.Ball}></div>
+				</div>
+				<div>
+					<p className={classes.FooterTopic}>
+						A Project by{" "}
+						<a
+							href="https://github.com/acicts/"
+							target={"_blank"}
+							rel="noreferrer"
+						>
+							ACICTS
+						</a>
+					</p>
+					<p>Copyright reserved 2022</p>
+				</div>
+			</footer>
+		</div>
+	);
 };
 
 export default Layout;
