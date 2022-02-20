@@ -1,153 +1,157 @@
 {
-	"codeflow": {
-		"navbar": [
-			{
-				"text": "/Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "/Rules",
-				"link": "#rules",
-				"target": "_self"
-			},
-			{
-				"text": "/FAQ",
-				"link": "#faq",
-				"target": "_self"
-			},
-			{
-				"text": "Register",
-				"link": "https://forms.gle/Yis4EXsJgCApeM1q8",
-				"target": "_blank"
-			}
-		],
-		"faq": [
-			{
-				"question": "What should be the team composition?",
-				"Answer": "A team consists of 2 to 3 students of same age category from same school are eligible to participate in the Hackathons"
-			},
-			{
-				"question": "When and Where It’ll be?",
-				"Answer": "Competition will take place online. The competition will start on 27th Feb 2022 and end on 06th March 2022"
-			},
-			{
-				"question": "How do I sign Up?",
-				"Answer": "",
-				"link": {
-					"text": "Click here",
-					"ref": "/"
-				}
-			},
-			{
-				"question": "How can We submit our project?",
-				"Answer": "You can submit your project through this ",
-				"link": {
-					"text": "Google Form",
-					"ref": "/"
-				}
-			},
-			{
-				"question": "How can I contact the organizers?",
-				"Answer": "You can join the Whatsapp group or the Discord Server. If you need further assistance you can contact one of our organizers mentioned in ",
-				"link": {
-					"ref": "#contact",
-					"text": "contact section"
-				}
-			},
-			{
-				"question": "Can I build anything I want?",
-				"Answer": "No, you must build a project which falls under the themes respect to your age category mentioned in the ",
-				"link": {
-					"text": "themes section",
-					"ref": "#themes"
-				}
-			}
-		],
-		"rules": [
-			"All the team members should be from the same age group and same school/institute.",
-			"There can be a maximum of 3 members and a minimum of 2 members in a team.",
-			"There can be more than 1 team per age category from 1 school.",
-			"When registering the team leader must fill out the information of all remaining team members.",
-			"Registrations will be closed on 26th February 2022 at 12AM.",
-			"You have to follow 1 chosen theme for your project from the ones mentioned beforehand.",
-			"One team is only allowed to submit one project.",
-			"The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Every team member’s contribution is required.",
-			"The Git repository for the project must be created before 24 hours has passed after submitting the registration form.",
-			"Plagiarism is strictly prohibited.",
-			"You should make a video that is no longer than 5 minutes about your project. If you are not sure what to include in the video, ",
-			"You should submit your project before 12AM on 7th of March 2022.",
-			"You are not allowed to make changes to the code after submitting."
-		],
-		"themes": {
-			"senior": [],
-			"junior": []
-		}
-	},
+  "codeflow": {
+    "navbar": [
+      {
+        "text": "/Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "/Rules",
+        "link": "#rules",
+        "target": "_self"
+      },
+      {
+        "text": "/FAQ",
+        "link": "#faq",
+        "target": "_self"
+      },
+      {
+        "text": "Register",
+        "link": "https://forms.gle/Yis4EXsJgCApeM1q8",
+        "target": "_blank"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What should be the team composition?",
+        "Answer": "A team consists of 2 to 3 students of same age category from same school are eligible to participate in the Hackathons"
+      },
+      {
+        "question": "When and Where It’ll be?",
+        "Answer": "Competition will take place online. The competition will start on 27th Feb 2022 and end on 06th March 2022"
+      },
+      {
+        "question": "How do I sign Up?",
+        "Answer": "",
+        "link": {
+          "text": "Click here",
+          "ref": "https://docs.google.com/forms/d/e/1FAIpQLScp5dxSZ6cBpcu91c6w0aSK5Ba4NfnSnEb0O4LQ17SK0i0cxg/viewform",
+          "target": "_blank"
+        }
+      },
+      {
+        "question": "How can We submit our project?",
+        "Answer": "You can submit your project through this ",
+        "link": {
+          "text": "Google Form",
+          "ref": "",
+          "target": "_blank"
+        }
+      },
+      {
+        "question": "How can I contact the organizers?",
+        "Answer": "You can join the Whatsapp group or the Discord Server. If you need further assistance you can contact one of our organizers mentioned in ",
+        "link": {
+          "text": "contact section",
+          "ref": "#contact",
+          "target": "_self"
+        }
+      },
+      {
+        "question": "Can I build anything I want?",
+        "Answer": "No, you must build a project which falls under the themes respect to your age category mentioned in the ",
+        "link": {
+          "text": "themes section",
+          "ref": "#themes",
+          "target": "_self"
+        }
+      }
+    ],
+    "rules": [
+      "All the team members should be from the same age group and same school/institute.",
+      "There can be a maximum of 3 members and a minimum of 2 members in a team.",
+      "There can be more than 1 team per age category from 1 school.",
+      "When registering the team leader must fill out the information of all remaining team members.",
+      "Registrations will be closed on 26th February 2022 at 12AM.",
+      "You have to follow 1 chosen theme for your project from the ones mentioned beforehand.",
+      "One team is only allowed to submit one project.",
+      "The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Every team member’s contribution is required.",
+      "The Git repository for the project must be created before 24 hours has passed after submitting the registration form.",
+      "Plagiarism is strictly prohibited.",
+      "You should make a video that is no longer than 5 minutes about your project. If you are not sure what to include in the video, ",
+      "You should submit your project before 12AM on 7th of March 2022.",
+      "You are not allowed to make changes to the code after submitting."
+    ],
+    "themes": {
+      "senior": [],
+      "junior": []
+    }
+  },
 
-	"DimensionX": {
-		"navbar": [
-			{
-				"text": "Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "Rules",
-				"link": "#rules",
-				"target": "_self"
-			},
-			{
-				"text": "FAQ",
-				"link": "#faq",
-				"target": "_self"
-			},
-			{
-				"text": "Register",
-				"link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
-				"target": "_blank"
-			}
-		],
-		"rules": {
-			"twoD": [
-				"You have to do a Photo manipulation by using the stock images we provide.We will upload all the stock images to the official website on February 27th at 12:00am."
-			],
+  "DimensionX": {
+    "navbar": [
+      {
+        "text": "Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "Rules",
+        "link": "#rules",
+        "target": "_self"
+      },
+      {
+        "text": "FAQ",
+        "link": "#faq",
+        "target": "_self"
+      },
+      {
+        "text": "Register",
+        "link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
+        "target": "_blank"
+      }
+    ],
+    "rules": {
+      "twoD": [
+        "You have to do a Photo manipulation by using the stock images we provide.We will upload all the stock images to the official website on February 27th at 12:00am."
+      ],
 
-			"logo": [
-				"In this category, you will be given an outdated and ill-favoured of a corporation, along with a  description about the corporation. You have to create a better logo that fits what the corporation stands for while preserving the main theme of the given outdated logo. The resources will be uploaded to the official website on February 27th at 12:00am."
-			],
+      "logo": [
+        "In this category, you will be given an outdated and ill-favoured of a corporation, along with a  description about the corporation. You have to create a better logo that fits what the corporation stands for while preserving the main theme of the given outdated logo. The resources will be uploaded to the official website on February 27th at 12:00am."
+      ],
 
-			"threeD": [
-				"You have to create a composition according to the theme that will be uploaded to the official website on February 27th at 12:00am.",
-				"You are not allowed to use any assets which are not made by you."
-			]
-		}
-	},
-	"AnalytIQ": {
-		"navbar": [
-			{
-				"text": "Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "Rules",
-				"link": "#rules",
-				"target": "_self"
-			},
-			{
-				"text": "Register",
-				"link": "https://forms.gle/CEqUmPhMeerQqydm6",
-				"target": "_blank"
-			}
-		],
-		"rules": [
-			"AnalytIQ is an online inter-school team quiz competition organized by the ICT Society of Ananda College.",
-			" Only 2 teams are allowed to participate from one school.",
-			"A team should consist of 4 members.",
-			"All the registrants should be born after 31.01.2003 and before 01.02.2007.",
-			"The quiz will be held only in English medium.",
-			"Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
-		]
-	}
+      "threeD": [
+        "You have to create a composition according to the theme that will be uploaded to the official website on February 27th at 12:00am.",
+        "You are not allowed to use any assets which are not made by you."
+      ]
+    }
+  },
+  "AnalytIQ": {
+    "navbar": [
+      {
+        "text": "Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "Rules",
+        "link": "#rules",
+        "target": "_self"
+      },
+      {
+        "text": "Register",
+        "link": "https://forms.gle/CEqUmPhMeerQqydm6",
+        "target": "_blank"
+      }
+    ],
+    "rules": [
+      "AnalytIQ is an online inter-school team quiz competition organized by the ICT Society of Ananda College.",
+      " Only 2 teams are allowed to participate from one school.",
+      "A team should consist of 4 members.",
+      "All the registrants should be born after 31.01.2003 and before 01.02.2007.",
+      "The quiz will be held only in English medium.",
+      "Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
+    ]
+  }
 }
