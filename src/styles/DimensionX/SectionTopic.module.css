@@ -1,0 +1,104 @@
+.Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.Container h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.Container h1 span:first-child {
+  color: #46dd9a;
+  font-size: 3.5rem;
+}
+
+.TextContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.TextContainer .children {
+  width: 88%;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.PendContainer {
+  width: 12%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Bar {
+  height: 75vh;
+  width: 3px;
+}
+
+.Box {
+  height: 10px;
+  width: 10px;
+}
+
+@media (max-width: 768px) {
+  .Container h1 {
+    font-size: 2rem;
+  }
+  .TextContainer .children {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Container h1 {
+    font-size: 1.6rem;
+  }
+  .PendContainer {
+    width: 5%;
+  }
+  .TextContainer .children {
+    width: 95%;
+  }
+}
+
+@media (max-width: 425px) {
+  .Container h1 {
+    font-size: 1.3rem;
+  }
+  .PendContainer {
+    width: 5%;
+  }
+  .TextContainer .children {
+    font-size: 0.7rem;
+    padding-left: 10px;
+    height: 70vh;
+  }
+  .Container h1 span:first-child {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .PendContainer {
+    width: 2%;
+  }
+  .TextContainer .children {
+    width: 98%;
+  }
+}
+
+@media (max-width: 280px) {
+  .TextContainer .children {
+    font-size: 0.7rem;
+  }
+}

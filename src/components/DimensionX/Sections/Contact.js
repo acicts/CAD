@@ -7,7 +7,7 @@ const Contact = () => {
     <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
-          <p>Contact out</p>
+          <p>Contact our</p>
           <h1>Team</h1>
         </div>
 
