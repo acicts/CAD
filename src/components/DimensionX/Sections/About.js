@@ -25,7 +25,8 @@ const About = () => {
             design and 3D still renders)
           </p>
           <p>
-            4. Descriptions for above competitions are listed on the website.
+            4. Contestants should upload there submissions in 10 days after the
+            opening ceremony.
           </p>
           <p>
             5. Further rules & regulations about the competition are listed on
