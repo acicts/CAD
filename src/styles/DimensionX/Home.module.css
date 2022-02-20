@@ -153,6 +153,7 @@
     font-size: 22px;
     font-weight: bold;
     color: #26b995;
+    text-align: center;
   }
   .subTextContainer p:nth-child(3) {
     font-size: 16px;
@@ -175,7 +176,9 @@
     margin-left: 5%;
     text-align: center;
   }
-
+  .subTextContainer p:nth-child(2) {
+    text-align: center;
+  }
   .subTextContainer {
     margin-top: 50px;
   }
