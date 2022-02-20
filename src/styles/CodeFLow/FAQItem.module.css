@@ -43,6 +43,11 @@
 	color: #07253a;
 }
 
+.BottomContainer .Text p a {
+	color: #07253a;
+	text-decoration: underline;
+}
+
 @media (max-width: 768px) {
 	.TopContainer {
 		font-size: 1.5rem;

@@ -3,7 +3,14 @@ import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import { motion } from "framer-motion";
 import classes from "../../styles/CodeFLow/FAQItem.module.css";
 
-const FAQItem = ({ title, body, index, currIndex, changeIndexHandler }) => {
+const FAQItem = ({
+	title,
+	body,
+	index,
+	currIndex,
+	changeIndexHandler,
+	link,
+}) => {
 	const animationVariants = {
 		clicked: {
 			transform: "rotateZ(45deg)",
@@ -36,7 +43,9 @@ const FAQItem = ({ title, body, index, currIndex, changeIndexHandler }) => {
 						<div></div>
 					</div>
 					<div className={classes.Text}>
-						<p>{body}</p>
+						<p>
+							{body} {link && <a href={link.ref}>{link.text}</a>}
+						</p>
 					</div>
 				</div>
 			)}
