@@ -71,6 +71,7 @@
 	font-size: 26px;
 	font-weight: bold;
 	color: #26b995;
+	text-align: center;
 }
 .subTextContainer p:nth-child(3) {
 	font-size: 20px;
@@ -142,7 +143,7 @@
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
-		margin-top: 5vh;
+		margin-top: 3vh;
 		text-align: center;
 	}
 
@@ -173,6 +174,9 @@
 @media (max-width: 425px) {
 	.subTextContainer p:nth-child(2) {
 		font-size: 1.2rem;
+	}
+	.subTextContainer {
+		padding-right: 10px;
 	}
 }
 
