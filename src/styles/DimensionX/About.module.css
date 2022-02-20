@@ -1,94 +1,114 @@
 .aboutSection {
-  display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
+	display: flex;
+	flex-direction: row;
+	overflow-x: hidden;
 }
 
 .image {
-  width: 30vw;
-  height: auto;
-  object-fit: cover;
+	width: 30vw;
+	height: auto;
+	object-fit: cover;
 }
 
 .aboutContainer {
-  padding: 80px 80px;
-  height: min-content;
+	padding: 80px 80px;
+	height: min-content;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .title p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #373737;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #373737;
 }
 
 .title h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #373737;
-  margin-top: -15px;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #373737;
+	margin-top: -15px;
 }
 
 .description {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 
 .description p {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #373737;
-  margin-bottom: 30px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #373737;
+	margin-bottom: 30px;
 }
 
 .registerButton {
-  background: #1cd49f;
-  padding: 0.7rem 2rem;
-  font-size: 1.2rem;
-  border: 6px solid #1cd49f;
-  border-radius: 0.8rem;
-  transition: 0.4s ease-in-out;
-  cursor: pointer;
-  margin-top: 80px;
+	background: #1cd49f;
+	padding: 0.7rem 2rem;
+	font-size: 1.2rem;
+	border: 6px solid #1cd49f;
+	border-radius: 0.8rem;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+	margin-top: 80px;
 }
 .registerButton:hover {
-  background: rgb(255, 255, 255);
-  color: #1cd49f;
+	background: rgb(255, 255, 255);
+	color: #1cd49f;
 }
 
 @media screen and (max-width: 580px) {
-  .image {
-    display: none;
-  }
+	.image {
+		display: none;
+	}
 
-  .aboutContainer {
-    padding: 80px 30px;
-  }
+	.description p:last-child {
+		margin-bottom: 0;
+	}
+	.aboutSection {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		width: 100%;
+		margin-top: 70px;
+	}
+	.aboutContainer {
+		padding: 0 30px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: column;
+		height: 90vh;
+	}
+
+	.description,
+	.registerButton {
+		margin-top: 0;
+	}
 }
 
 @media (max-width: 425px) {
-  .title h1 {
-    font-size: 2.5rem;
-  }
-  .description p {
-    font-size: 1rem;
-    text-align: justify;
-  }
+	.title h1 {
+		font-size: 2.5rem;
+	}
+	.description p {
+		font-size: 1rem;
+	}
 }
 
 @media (max-width: 375px) {
-  .title h1 {
-    font-size: 2.2rem;
-  }
-  .description p {
-    font-size: 0.8rem;
-  }
-  .aboutContainer {
-    padding: 80px 10px;
-  }
+	.title h1 {
+		font-size: 2.2rem;
+	}
+	.description p {
+		font-size: 0.8rem;
+	}
+	.aboutContainer {
+		padding: 0 20px;
+	}
 }

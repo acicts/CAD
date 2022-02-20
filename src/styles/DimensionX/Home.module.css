@@ -1,182 +1,196 @@
 .homeContainer {
-  width: 100%;
-  height: 100vh;
-  /* position: absolute; */
-  z-index: -1;
+	width: 100%;
+	height: 100vh;
+	/* position: absolute; */
+	z-index: -1;
 
-  background: url("../../images/DimensionX/homeBG.png");
-  background-position: center;
-  background-size: 200%;
-  animation: BGanime 30s infinite;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+	background: url("../../images/DimensionX/homeBG.png");
+	background-position: center;
+	background-size: 200%;
+	animation: BGanime 30s infinite;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 @keyframes BGanime {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }
 
 .mainTitleWrapper {
-  /* position: absolute; */
-  display: flex;
+	/* position: absolute; */
+	display: flex;
 
-  justify-content: center;
-  width: 100vw;
-  /* margin-top: 35vh; */
-  padding-top: 35vh;
+	justify-content: center;
+	width: 100vw;
+	/* margin-top: 35vh; */
+	padding-top: 35vh;
 }
 
 .titleContainer {
-  width: 20vw;
-  height: 35vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: url("../../images/DimensionX/X.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -120px;
+	width: 20vw;
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url("../../images/DimensionX/X.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: -120px;
 }
 
 .title {
-  font-size: 7rem;
-  font-weight: 700;
-  color: #595959;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+	font-size: 7rem;
+	font-weight: 700;
+	color: #595959;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
 }
 
 .subTextContainer {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 100px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
 }
 
 .subTextContainer p:nth-child(1) {
-  font-size: 22px;
-  color: #555555;
+	font-size: 22px;
+	color: #555555;
 }
 .subTextContainer p:nth-child(2) {
-  font-size: 26px;
-  font-weight: bold;
-  color: #26b995;
+	font-size: 26px;
+	font-weight: bold;
+	color: #26b995;
 }
 .subTextContainer p:nth-child(3) {
-  font-size: 20px;
-  color: #555555;
+	font-size: 20px;
+	color: #555555;
 }
 .subTextContainer p:nth-child(4) {
-  font-size: 22px;
-  font-weight: bold;
-  color: #555555;
+	font-size: 22px;
+	font-weight: bold;
+	color: #555555;
 }
 
 .buttonContainer {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
 }
 
 .button {
-  width: 12rem;
-  /* position: absolute;
+	width: 12rem;
+	/* position: absolute;
     bottom: -85px; */
-  height: 12rem;
-  border-radius: 100%;
-  background-color: #f3fff8;
-  outline: none;
-  display: flex;
-  text-align: center;
-  padding-top: 20px;
-  justify-content: center;
-  border: none;
+	height: 12rem;
+	border-radius: 100%;
+	background-color: #f3fff8;
+	outline: none;
+	display: flex;
+	text-align: center;
+	padding-top: 20px;
+	justify-content: center;
+	border: none;
 }
 
 .button a {
-  color: #26b995;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
+	color: #26b995;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .button a::first-line {
-  color: #7e7e7e;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
+	color: #7e7e7e;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
-  .title {
-    font-size: 5rem;
-  }
+	.title {
+		font-size: 5rem;
+	}
 }
 
 @media screen and (max-width: 580px) {
-  .title {
-    font-size: 3rem;
-  }
+	.title {
+		font-size: 3rem;
+	}
 
-  .homeContainer {
-    background-size: 400%;
-    position: relative;
-    z-index: 9;
-  }
+	.homeContainer {
+		background-size: 400%;
+		position: relative;
+		z-index: 9;
+	}
 
-  .subTextContainer {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 80px;
-  }
+	.subTextContainer {
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 5vh;
+		text-align: center;
+	}
 
-  .subTextContainer p:nth-child(1) {
-    font-size: 18px;
-    color: #555555;
-  }
-  .subTextContainer p:nth-child(2) {
-    font-size: 22px;
-    font-weight: bold;
-    color: #26b995;
-  }
-  .subTextContainer p:nth-child(3) {
-    font-size: 16px;
-    color: #555555;
-  }
-  .subTextContainer p:nth-child(4) {
-    font-size: 18px;
-    font-weight: bold;
-    color: #555555;
-  }
-  .button {
-    position: absolute;
-    bottom: -85px;
-  }
+	.subTextContainer p:nth-child(1) {
+		font-size: 18px;
+		color: #555555;
+	}
+	.subTextContainer p:nth-child(2) {
+		font-size: 22px;
+		font-weight: bold;
+		color: #26b995;
+	}
+	.subTextContainer p:nth-child(3) {
+		font-size: 16px;
+		color: #555555;
+	}
+	.subTextContainer p:nth-child(4) {
+		font-size: 18px;
+		font-weight: bold;
+		color: #555555;
+	}
+	.button {
+		position: absolute;
+		bottom: -85px;
+	}
+}
+
+@media (max-width: 425px) {
+	.subTextContainer p:nth-child(2) {
+		font-size: 1.2rem;
+	}
 }
 
 @media (max-width: 320px) {
-  .subTextContainer p:nth-child(4) {
-    width: 90%;
-    margin-left: 5%;
-    text-align: center;
-  }
+	.titleContainer {
+		margin-top: -140px;
+	}
+	.subTextContainer p:nth-child(2) {
+		font-size: 1rem;
+	}
+	.subTextContainer p:nth-child(4) {
+		width: 90%;
+		margin-left: 5%;
+		text-align: center;
+		font-size: 1rem;
+	}
 
-  .subTextContainer {
-    margin-top: 50px;
-  }
+	.subTextContainer {
+		margin-top: 50px;
+	}
 }
