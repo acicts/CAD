@@ -3,19 +3,23 @@
     "navbar": [
       {
         "text": "/Home",
-        "link": "#home"
+        "link": "#home",
+        "target": "_self"
       },
       {
         "text": "/Rules",
-        "link": "#rules"
+        "link": "#rules",
+        "target": "_self"
       },
       {
         "text": "/FAQ",
-        "link": "#faq"
+        "link": "#faq",
+        "target": "_self"
       },
       {
         "text": "Register",
-        "link": "#home"
+        "link": "https://forms.gle/Yis4EXsJgCApeM1q8",
+        "target": "_blank"
       }
     ],
     "faq": [
@@ -69,19 +73,23 @@
     "navbar": [
       {
         "text": "Home",
-        "link": "#home"
+        "link": "#home",
+        "target": "_self"
       },
       {
         "text": "Rules",
-        "link": "#rules"
+        "link": "#rules",
+        "target": "_self"
       },
       {
         "text": "FAQ",
-        "link": "#faq"
+        "link": "#faq",
+        "target": "_self"
       },
       {
         "text": "Register",
-        "link": "#home"
+        "link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
+        "target": "_blank"
       }
     ],
     "rules": {
@@ -103,15 +111,18 @@
     "navbar": [
       {
         "text": "Home",
-        "link": "#home"
+        "link": "#home",
+        "target": "_self"
       },
       {
         "text": "Rules",
-        "link": "#rules"
+        "link": "#rules",
+        "target": "_self"
       },
       {
         "text": "Register",
-        "link": "#home"
+        "link": "https://forms.gle/CEqUmPhMeerQqydm6",
+        "target": "_blank"
       }
     ],
     "rules": [

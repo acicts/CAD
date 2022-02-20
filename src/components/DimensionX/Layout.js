@@ -83,7 +83,9 @@ const Layout = ({ children }) => {
           {data.DimensionX.navbar.map((navItem) => {
             return (
               <li>
-                <a href={navItem.link}>{navItem.text}</a>
+                <a href={navItem.link} target={navItem.target}>
+                  {navItem.text}
+                </a>
               </li>
             );
           })}
