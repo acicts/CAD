@@ -88,7 +88,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 60px;
+	display: none;
 }
 
 .button {
@@ -99,11 +99,11 @@
 	border-radius: 100%;
 	background-color: #f3fff8;
 	outline: none;
-	display: flex;
-	text-align: center;
-	padding-top: 20px;
-	justify-content: center;
 	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .button a {
