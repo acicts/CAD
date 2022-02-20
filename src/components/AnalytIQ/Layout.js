@@ -53,6 +53,7 @@ const Layout = ({ children }) => {
     },
   };
   return (
+    
     <div className={classes.Container}>
       <nav className={classes.NavBar}>
         <div className={classes.TempBox}>
@@ -117,7 +118,7 @@ const Layout = ({ children }) => {
       >
         {children}
       </main>
-    </div>
+      </div>
   );
 };
 
