@@ -4,7 +4,7 @@ import AboutImage from "../../../images/DimensionX/banner2.png";
 
 const About = () => {
   return (
-    <div className={classes.aboutSection}>
+    <div className={classes.aboutSection} id={"faq"}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
           <p>What is</p>
