@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "../../../styles/DimensionX/About.module.css";
 import AboutImage from "../../../images/DimensionX/banner2.png";
-
+import data from "../../../data.json";
 const About = () => {
   return (
     <div className={classes.aboutSection} id={"faq"}>
@@ -32,8 +32,13 @@ const About = () => {
             the website
           </p>
         </div>
-
-        <button className={classes.registerButton}>Register</button>
+        <a
+          className={classes.registerButton}
+          href={data.DimensionX.navbar[3].link}
+          target={"_blank"}
+        >
+          Register
+        </a>
       </div>
 
       <img src={AboutImage} className={classes.image} />

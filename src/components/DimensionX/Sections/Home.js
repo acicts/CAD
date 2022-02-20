@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className={classes.buttonContainer}>
         <div className={classes.button}>
-          <a href="#what">
+          <a href="#faq">
             Start <br></br> Creating
           </a>
         </div>
