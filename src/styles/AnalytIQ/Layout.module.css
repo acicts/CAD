@@ -1,4 +1,3 @@
-
 .Container {
   height: 100vh;
   width: 100%;
@@ -15,14 +14,14 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-.Container::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.25);
+.Container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 .NavBar {
   z-index: 100;
