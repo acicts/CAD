@@ -22,7 +22,7 @@ const About = () => {
 					</p>
 					<p>
 						3. There are 4 fields (Photo Manipulation, Logo design, Poster
-						design and 3D still renders)
+						design and 3D still renders).
 					</p>
 					<p>
 						4. Contestants should upload there submissions in 10 days after the
@@ -30,7 +30,7 @@ const About = () => {
 					</p>
 					<p>
 						5. Further rules & regulations about the competition are listed on
-						the website
+						the website.
 					</p>
 				</div>
 				<a

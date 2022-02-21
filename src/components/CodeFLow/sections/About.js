@@ -21,7 +21,7 @@ const About = () => {
 					<p className={classes.Para}>
 						It's a learning experience for pupils of all ability levels and all
 						age groups. There are two divisions, one for grades 6-9 (Junior) and
-						one for grades 10-13 (Senior) students, and only two teams from each
+						one for grades 10-13 (Senior) students, and multiple teams from each
 						school are allowed to compete in this event. And each team is
 						limited to developing one project (Desktop application, Website,
 						Mobile Application, etc...) on a particular topic from the given

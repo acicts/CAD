@@ -6,7 +6,7 @@ const About = () => {
     <div className={classes.aboutSection} id={"about"}>
       <div className={classes.aboutContainer}>
         <div className={classes.title}>
-          <h1>What is AnalytIQ</h1>
+          <h1>What is AnalytIQ?</h1>
         </div>
 
         <div className={classes.description}>
