@@ -6,19 +6,21 @@ import Themes from "../components/CodeFLow/sections/Themes";
 import Rules from "../components/CodeFLow/sections/Rules";
 import FAQ from "../components/CodeFLow/sections/FAQ";
 import Contact from "../components/CodeFLow/sections/Contact";
+import Prizes from "../components/CodeFLow/sections/Prizes";
 import "./CodeFlow.css";
 
 const CodeFlow = () => {
-	return (
-		<Layout>
-			<Home />
-			<About />
-			<Themes />
-			<Rules />
-			<FAQ />
-			<Contact />
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Home />
+      <About />
+      <Themes />
+      <Rules />
+      <FAQ />
+      <Prizes />
+      <Contact />
+    </Layout>
+  );
 };
 
 export default CodeFlow;
