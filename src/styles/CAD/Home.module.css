@@ -75,7 +75,7 @@
 .diagramarm1 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 50s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
 }
 @keyframes dash {
   to {
@@ -85,7 +85,7 @@
 .diagramarm2 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 50s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
 }
 @keyframes dash {
   to {
@@ -95,7 +95,7 @@
 .diagramarm3 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 50s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
 }
 @keyframes dash {
   to {
