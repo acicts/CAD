@@ -22,7 +22,17 @@
   margin-top: 30px;
   font-weight: 550;
   font-size: 30rem;
+  animation: scaling 1s infinite alternate linear;
 }
+@keyframes scaling {
+  from {
+    -webkit-transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.13);
+  }
+}
+
 @media (max-width: 1021px) {
   .textContainer {
     font-size: 3.2rem;
