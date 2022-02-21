@@ -22,21 +22,24 @@
   height: 100vh;
 }
 .diagramarm1 {
+  cursor: pointer;
   position: absolute;
   z-index: 5;
-  transform: translateY(-220px) translateX(-110px);
+  transform: translateY(-270px) translateX(-160px);
 }
 
 .diagramarm2 {
+  cursor: pointer;
   position: absolute;
   z-index: 5;
-  transform: translateY(219px) translateX(-110px);
+  transform: translateY(125px) translateX(-180px);
 }
 
 .diagramarm3 {
+  cursor: pointer;
   position: absolute;
   z-index: 5;
-  transform: translateY(90px) translateX(255px);
+  transform: translateY(0px) translateX(170px);
 }
 .diagramarm1 .arrortxt {
   font-family: "Ubuntu", sans-serif;
