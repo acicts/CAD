@@ -55,13 +55,13 @@ const Themes = () => {
 					if (mins === 0) {
 						if (hours > 0) {
 							setHours((curr) => curr - 1);
-							setMins(60);
+							setMins(59);
 						}
 					}
 					if (time === 0) {
 						if (mins > 0) {
 							setMins((curr) => curr - 1);
-							setTime(60);
+							setTime(59);
 						}
 					} else {
 						setTime((curr) => curr - 1);
