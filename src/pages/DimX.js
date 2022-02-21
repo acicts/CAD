@@ -5,6 +5,7 @@ import Contact from "../components/DimensionX/Sections/Contact";
 import Home from "../components/DimensionX/Sections/Home";
 import Rules from "../components/DimensionX/Sections/Rules";
 import Themes from "../components/DimensionX/Sections/Themes";
+import Prizes from "../components/DimensionX/Sections/Prizes";
 
 const DimX = () => {
   return (
@@ -14,6 +15,7 @@ const DimX = () => {
         <About />
         <Rules />
         <Themes />
+        <Prizes />
         <Contact />
       </Layout>
     </div>
