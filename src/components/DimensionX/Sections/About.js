@@ -18,7 +18,7 @@ const About = () => {
 					</p>
 					<p>
 						2. All the registrants should be born after 31.01.2003 and before
-						01.02.2007.
+						01.02.2011.
 					</p>
 					<p>
 						3. There are 4 fields (Photo Manipulation, Logo design, Poster
