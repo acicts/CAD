@@ -25,7 +25,7 @@ const About = () => {
 						design and 3D still renders).
 					</p>
 					<p>
-						4. Contestants should upload there submissions in 10 days after the
+						4. Contestants should upload their submissions 10 days after the
 						opening ceremony.
 					</p>
 					<p>
