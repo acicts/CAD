@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-evenly;
 }
 
 .logoContainer {
@@ -12,7 +13,7 @@
 	align-items: center;
 	justify-self: center;
 	flex-direction: column;
-	padding-top: 25vh;
+	margin-top: 2vh;
 }
 
 .subTextContainer {
@@ -22,7 +23,6 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 100px;
 	background: #26201679;
 	backdrop-filter: blur(50px);
 	padding: 40px;
