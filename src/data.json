@@ -137,8 +137,7 @@
 			}
 		],
 		"rules": [
-			"AnalytIQ is an online inter-school team quiz competition organized by the ICT Society of Ananda College.",
-			" Only 2 teams are allowed to participate from one school.",
+			"Only 2 teams are allowed to participate from one school.",
 			"A team should consist of 4 members.",
 			"All the registrants should be born after 31.01.2003 and before 01.02.2011.",
 			"The quiz will be held only in English medium.",
