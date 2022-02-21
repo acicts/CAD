@@ -5,7 +5,7 @@ import DoubleArrow from "@material-ui/icons/DoubleArrow";
 import data from "../../../data.json";
 
 const Home = () => {
-  return (
+	return (
 		<div className={classes.Container} id="home">
 			<div className={classes.LeftContainer}>
 				<div className={classes.TextContainer}>
@@ -14,7 +14,9 @@ const Home = () => {
 							Ananda College ICT Society <br /> Proudly Presents
 						</p>
 						<p className={classes.Heading}>CodeFlow</p>
-						<p className={classes.SubHeading}>The Inter - School Hackathon</p>
+						<p className={classes.SubHeading}>
+							A week-long Inter-School Hackathon
+						</p>
 					</div>
 					<div>
 						<p>
