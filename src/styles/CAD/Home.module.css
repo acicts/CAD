@@ -77,21 +77,13 @@
   stroke-dashoffset: 1000;
   animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
 }
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
+
 .diagramarm2 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards;
 }
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
+
 .diagramarm3 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
@@ -99,7 +91,7 @@
 }
 @keyframes dash {
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 1;
   }
 }
 .circle {
