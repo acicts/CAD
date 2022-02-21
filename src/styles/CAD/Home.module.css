@@ -41,6 +41,7 @@
   z-index: 5;
   transform: translateY(0px) translateX(170px);
 }
+
 .diagramarm1 .arrortxt {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -49,10 +50,19 @@
   font-size: 1.1rem;
   position: absolute;
   text-align: center;
-  left: -130%;
+  left: -133%;
   top: -24%;
+  animation-name: movement;
+  animation-duration: 1.5s;
 }
-
+@keyframes movement {
+  from {
+    left: -170%;
+  }
+  to {
+    left: -133%;
+  }
+}
 .diagramarm2 .arrortxt {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -62,6 +72,16 @@
   position: relative;
   left: -100%;
   top: -33px;
+  animation-name: movment2;
+  animation-duration: 1.51s;
+}
+@keyframes movment2 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -33px;
+  }
 }
 .diagramarm3 .arrortxt {
   font-family: "Ubuntu", sans-serif;
@@ -70,24 +90,34 @@
   font-size: 1.1rem;
   text-align: center;
   position: relative;
-  right: -50%;
+  right: -40%;
+  animation-name: movment3;
+  animation-duration: 1.51s;
+}
+@keyframes movment3 {
+  from {
+    right: -77%;
+  }
+  to {
+    right: -40%;
+  }
 }
 .diagramarm1 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.6s;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.7s;
 }
 
 .diagramarm2 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.6s;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.7s;
 }
 
 .diagramarm3 svg {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.6s;
+  animation: dash 60s cubic-bezier(0.02, 0.58, 0.32, 1) forwards 0.7s;
 }
 @keyframes dash {
   to {
