@@ -48,7 +48,6 @@
   text-align: center;
   left: -130%;
   top: -24%;
-  font-weight: 100;
 }
 
 .diagramarm2 .arrortxt {
@@ -57,24 +56,22 @@
   color: #103d80;
   font-size: 1.1rem;
   text-align: center;
-  font-weight: 100;
   position: relative;
   left: -100%;
   top: -33px;
 }
 .diagramarm3 .arrortxt {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 1000;
+  font-weight: 700;
   color: #005233;
   font-size: 1.1rem;
   text-align: center;
-  font-weight: 100;
   position: relative;
   right: -50%;
 }
 
 .circle {
-  opacity: 0.5;
+  opacity: 1;
 }
 .codeflow {
   position: absolute;
