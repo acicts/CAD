@@ -5,7 +5,6 @@ import AboutImage from "../../../images/DimensionX/banner3.png";
 const Contact = () => {
   function clickDiv() {
     window.open("https://syntegritytech.com/");
-    console.log("clicked");
   }
   return (
     <div className={classes.aboutSection}>
