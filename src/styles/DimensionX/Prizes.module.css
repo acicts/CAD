@@ -2,20 +2,29 @@
   position: relative;
   height: 100vh;
   padding: 25px 50px;
-  background: white;
+  background: #f5f3e6;
 }
 .textContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   justify-content: center;
-  margin-top: 110px;
+  margin-top: 45px;
 }
-.textContainer span {
+.imageContainer {
+  height: 70vh;
+  background: url("../../../src/images/DimensionX/prizes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.textContainer p {
   font-family: "popins", sans-serif;
   font-weight: 550;
   color: #40dc96;
+  text-align: center;
 }
 .textContainer .question {
   color: #40dc96;
@@ -24,52 +33,40 @@
   font-size: 30rem;
   animation: scaling 1s infinite alternate linear;
 }
-@keyframes scaling {
-  from {
-    -webkit-transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(1.13);
-  }
-}
-
 @media (max-width: 1021px) {
   .textContainer {
-    font-size: 3.2rem;
-  }
-  .textContainer .question {
-    margin-top: 15px;
-    font-size: 25rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .textContainer .question {
-    margin-top: 10px;
-    font-size: 20rem;
-  }
-  .textContainer {
-    margin-top: 140px;
     font-size: 2.5rem;
   }
-}
-@media (max-width: 561px) {
-  .textContainer .question {
-    margin-top: 10px;
-    font-size: 17.5rem;
+  .imageContainer {
+    height: 45vh;
   }
+}
+@media (max-width: 854px) {
   .textContainer {
-    margin-top: 70px;
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .textContainer {
+    margin-top: 25px;
     font-size: 2rem;
   }
 }
-@media (max-width: 425px) {
-  .textContainer .question {
-    margin-top: 10px;
-    font-size: 14rem;
-  }
+@media (max-width: 561px) {
   .textContainer {
-    margin-top: 110px;
-    font-size: 1.3rem;
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+  .imageContainer {
+    height: 60vh;
+  }
+}
+@media (max-width: 425px) {
+  .textContainer {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+  .imageContainer {
+    height: 50vh;
   }
 }
