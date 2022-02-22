@@ -98,6 +98,7 @@
   height: 10vh;
   width: 16vh;
   background: url("../../images/DimensionX/SyntegrityLogo.png");
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

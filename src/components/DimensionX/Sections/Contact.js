@@ -3,6 +3,10 @@ import classes from "../../../styles/DimensionX/Contact.module.css";
 import AboutImage from "../../../images/DimensionX/banner3.png";
 
 const Contact = () => {
+  function clickDiv() {
+    window.open("https://syntegritytech.com/");
+    console.log("clicked");
+  }
   return (
     <div className={classes.aboutSection}>
       <div className={classes.aboutContainer}>
@@ -37,7 +41,7 @@ const Contact = () => {
         </div>
 
         <footer className={classes.footer}>
-          <div className={classes.sponsor}></div>
+          <div className={classes.sponsor} onClick={clickDiv}></div>
           <p>
             A Project By{" "}
             <a

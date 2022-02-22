@@ -2,6 +2,7 @@ import React from "react";
 import classes from "../../../styles/DimensionX/Prizes.module.css";
 import SectionTopic from "../SectionTopic";
 import data from "../../../data.json";
+import { Link } from "react-router-dom";
 
 function Prizes() {
   return (
