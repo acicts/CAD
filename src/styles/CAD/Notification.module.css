@@ -1,0 +1,37 @@
+.Container {
+	position: absolute;
+	bottom: 5%;
+	color: rgb(206, 71, 71);
+	font-family: "Ubuntu", sans-serif;
+	padding: 20px 20px;
+	width: 25%;
+	z-index: 10000;
+	border-radius: 10px;
+	font-size: 0.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	left: 125%;
+}
+
+.Container .CloseContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: 5px;
+	width: max-content;
+}
+
+.Container p {
+	width: 90%;
+}
+
+.Container span {
+	cursor: pointer;
+
+	font-size: 0.8rem;
+}
