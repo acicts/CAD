@@ -95,8 +95,8 @@
   color: #0e9478;
 }
 .footer .sponsor {
-  height: 10vh;
-  width: 16vh;
+  height: 15vh;
+  width: 30vh;
   background: url("../../images/DimensionX/SyntegrityLogo.png");
   cursor: pointer;
   background-repeat: no-repeat;
