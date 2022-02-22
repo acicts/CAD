@@ -11,7 +11,7 @@ function Prizes() {
         pendulamColor={"#07253a"}
       >
         <div className={classes.textContainer}>
-          <span className={classes.title}>{data.DimensionX.prizes.prize}</span>
+          <span className={classes.title}>{"Prizes announcing soon !!"}</span>
           <span className={classes.question}>?</span>
         </div>
       </SectionTopic>
