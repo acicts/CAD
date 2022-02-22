@@ -14,7 +14,6 @@
     "react-intersection-observer": "^8.33.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^3.0.1",
-    "react-snowfetti": "^1.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
