@@ -5,10 +5,12 @@ import { motion, useAnimation } from "framer-motion";
 const Notification = () => {
 	const animationVariants = {
 		initial: {
-			left: "72%",
+			left: "2%",
+			opacity: 1,
 		},
 		close: {
-			left: "125%",
+			left: "-60%",
+			opacity: 0,
 		},
 	};
 	const controller = useAnimation();
