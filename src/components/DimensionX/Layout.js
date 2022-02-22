@@ -10,6 +10,8 @@ import { Close } from "@material-ui/icons";
 const Layout = ({ children }) => {
   const [isNav, setIsNav] = useState(false);
 
+  const [navScrolled,setNavScrolled] = useState(0);
+
   const hamburgerVariants = {
     clicked: {
       left: "35vw",
@@ -56,8 +58,8 @@ const Layout = ({ children }) => {
     },
   };
   return (
-    <div className={classes.Container}>
-      <nav className={classes.NavBar}>
+    <div onScroll={(event)=>{setNavScrolled(event.target.scrollTop)}} className={classes.Container}>
+      <nav className={navScrolled > 100 ? `${classes.NavBar} ${classes.Scrolled}`: `${classes.NavBar}`}>
         <div className={classes.TempBox}>
           <Link to={"/"}>Back</Link>
         </div>

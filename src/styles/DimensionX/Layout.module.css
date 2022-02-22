@@ -18,6 +18,11 @@
   position: absolute;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.596);
+  transition: 0.25s ease-out;
+}
+
+.Scrolled {
+  background-color: #fff;
 }
 
 .NavBar .NavBarMenu {
