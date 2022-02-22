@@ -1,6 +1,6 @@
 .Container {
 	position: absolute;
-	bottom: 5%;
+	top: 2%;
 	color: #103d80;
 	font-family: "Ubuntu", sans-serif;
 	padding: 20px 20px;
@@ -14,7 +14,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	left: 125%;
+	left: -25%;
 }
 
 .Container .CloseContainer {
@@ -34,4 +34,24 @@
 	cursor: pointer;
 
 	font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+	.Container {
+		width: 40%;
+		left: 150%;
+	}
+}
+
+@media (max-width: 425px) {
+	.Container {
+		font-size: 0.6rem;
+		width: 60%;
+	}
+}
+
+@media (max-width: 320px) {
+	.Container {
+		width: 75%;
+	}
 }
