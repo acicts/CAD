@@ -16,7 +16,7 @@ const Contact = () => {
         <p>
           Join Our{" "}
           <a
-            href="https://discord.gg/ZSGwAMyf"
+            href="https://discord.gg/3RRevZHevY"
             rel="noreferrer"
             target="_blank"
           >
