@@ -107,6 +107,11 @@
 .footer .copyrights {
   margin-bottom: 20px;
 }
+@media (max-width: 1775px) {
+  .description {
+    margin-bottom: 100px;
+  }
+}
 @media screen and (max-width: 580px) {
   .image {
     display: none;
