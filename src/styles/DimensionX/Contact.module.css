@@ -95,9 +95,10 @@
   color: #0e9478;
 }
 .footer .sponsor {
-  height: 10vh;
-  width: 16vh;
+  height: 15vh;
+  width: 30vh;
   background: url("../../images/DimensionX/SyntegrityLogo.png");
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -105,6 +106,11 @@
 }
 .footer .copyrights {
   margin-bottom: 20px;
+}
+@media (max-width: 1775px) {
+  .description {
+    margin-bottom: 100px;
+  }
 }
 @media screen and (max-width: 580px) {
   .image {

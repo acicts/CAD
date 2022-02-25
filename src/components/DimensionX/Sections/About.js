@@ -35,7 +35,7 @@ const About = () => {
 				</div>
 				<a
 					className={classes.registerButton}
-					href={data.DimensionX.navbar[3].link}
+					href={data.DimensionX.navbar[4].link}
 					target={"_blank"}
 					rel="noreferrer"
 				>

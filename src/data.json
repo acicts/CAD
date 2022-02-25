@@ -25,7 +25,7 @@
     "faq": [
       {
         "question": "What should be the team composition?",
-        "Answer": "A team consists of 2 to 3 students of same age category from same school is eligible to participate in the Hackathon"
+        "Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
       },
       {
         "question": "How do I sign up?",
@@ -58,10 +58,11 @@
     ],
     "rules": [
       "All the team members should be from the same age group and same school/institute.",
-      "There can be a maximum of 3 members and a minimum of 2 members in a team.",
+      "There can be a maximum of 3 members and a minimum of 1 members in a team.",
+      "If you are not a part of a team, you can participate individually too.",
       "There can be more than 1 team per age category from 1 school.",
       "When registering, the team leader must fill out the information of all remaining team members.",
-      "The registrations will be closed on 25th February at 23:59.",
+      "The registrations will be closed on 26th February at 23:59.",
       "You have to choose 1 theme for your project from the themes that will be displayed in the website after the opening ceremony.",
       "One team is only allowed to submit one project.",
       "The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
@@ -106,7 +107,7 @@
     ],
     "prizes": {
       "prize": [
-        "Winners of each category will walk away with a Wacom graphic tablet worth more than $120"
+        "Winners of each category will walk away with a Wacom or Huion graphic tablet worth more than $120"
       ]
     },
     "rules": {
@@ -149,9 +150,9 @@
     "rules": [
       "Only 2 teams are allowed to participate from one school.",
       "A team should consist of 4 members.",
-      "All the registrants should be born after 31.01.2003 and before 01.02.2011.",
+      "4.All the registrants should be born after 31.01.2003 and before 01.02.2007.",
       "The quiz will be held only in English medium.",
-      "The registrations will be closed on 25th February at 23:59.",
+      "The registrations will be closed on 26th February at 23:59.",
       "Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
     ]
   }

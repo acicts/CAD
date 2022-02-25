@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   padding: 25px 50px;
-  background: #faf9ed;
+  background: #f3f6fd;
 }
 .textContainer {
   display: flex;
@@ -14,14 +14,14 @@
 }
 .imageContainer {
   height: 70vh;
-  background: url("../../../src/images/DimensionX/prizes.png");
+  background: url("../../../src/images/DimensionX/prizes1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .textContainer p {
-  font-family: "popins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 550;
   color: #40dc96;
   text-align: center;
