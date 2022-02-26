@@ -1,159 +1,159 @@
 {
-  "codeflow": {
-    "navbar": [
-      {
-        "text": "/Home",
-        "link": "#home",
-        "target": "_self"
-      },
-      {
-        "text": "/Rules",
-        "link": "#rules",
-        "target": "_self"
-      },
-      {
-        "text": "/FAQ",
-        "link": "#faq",
-        "target": "_self"
-      },
-      {
-        "text": "Register",
-        "link": "https://forms.gle/Yis4EXsJgCApeM1q8",
-        "target": "_blank"
-      }
-    ],
-    "faq": [
-      {
-        "question": "What should be the team composition?",
-        "Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
-      },
-      {
-        "question": "How do I sign up?",
-        "Answer": "",
-        "link": {
-          "text": "Click here",
-          "ref": "https://docs.google.com/forms/d/e/1FAIpQLScp5dxSZ6cBpcu91c6w0aSK5Ba4NfnSnEb0O4LQ17SK0i0cxg/viewform",
-          "target": "_blank"
-        }
-      },
+	"codeflow": {
+		"navbar": [
+			{
+				"text": "/Home",
+				"link": "#home",
+				"target": "_self"
+			},
+			{
+				"text": "/Rules",
+				"link": "#rules",
+				"target": "_self"
+			},
+			{
+				"text": "/FAQ",
+				"link": "#faq",
+				"target": "_self"
+			},
+			{
+				"text": "Register",
+				"link": "https://forms.gle/Yis4EXsJgCApeM1q8",
+				"target": "_blank"
+			}
+		],
+		"faq": [
+			{
+				"question": "What should be the team composition?",
+				"Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
+			},
+			{
+				"question": "How do I sign up?",
+				"Answer": "",
+				"link": {
+					"text": "Click here",
+					"ref": "https://docs.google.com/forms/d/e/1FAIpQLScp5dxSZ6cBpcu91c6w0aSK5Ba4NfnSnEb0O4LQ17SK0i0cxg/viewform",
+					"target": "_blank"
+				}
+			},
 
-      {
-        "question": "How can I contact the organizers?",
-        "Answer": "You will be added to the WhatsApp group after the registration or else you can join the Discord Server. If you need further assistance, you can contact one of our organizers mentioned in ",
-        "link": {
-          "text": "contact section",
-          "ref": "#contact",
-          "target": "_self"
-        }
-      },
-      {
-        "question": "Can I build anything I want?",
-        "Answer": "No, you must build a project which falls under a chosen theme according to your age category mentioned in the ",
-        "link": {
-          "text": "themes section",
-          "ref": "#themes",
-          "target": "_self"
-        }
-      }
-    ],
-    "rules": [
-      "All the team members should be from the same age group and same school/institute.",
-      "There can be a maximum of 3 members and a minimum of 1 members in a team.",
-      "If you are not a part of a team, you can participate individually too.",
-      "There can be more than 1 team per age category from 1 school.",
-      "When registering, the team leader must fill out the information of all remaining team members.",
-      "The registrations will be closed on 26th February at 23:59.",
-      "You have to choose 1 theme for your project from the themes that will be displayed in the website after the opening ceremony.",
-      "One team is only allowed to submit one project.",
-      "The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
-      "The Git repository for the project must be created before 24 hours has passed after the themes have been revealed.",
-      "Plagiarism is strictly prohibited.",
-      "You will be given a week to complete your project after the opening ceremony.",
-      "You are not allowed to make changes to the code after submitting."
-    ],
-    "themes": {
-      "senior": [],
-      "junior": []
-    }
-  },
+			{
+				"question": "How can I contact the organizers?",
+				"Answer": "You will be added to the WhatsApp group after the registration or else you can join the Discord Server. If you need further assistance, you can contact one of our organizers mentioned in ",
+				"link": {
+					"text": "contact section",
+					"ref": "#contact",
+					"target": "_self"
+				}
+			},
+			{
+				"question": "Can I build anything I want?",
+				"Answer": "No, you must build a project which falls under a chosen theme according to your age category mentioned in the ",
+				"link": {
+					"text": "themes section",
+					"ref": "#themes",
+					"target": "_self"
+				}
+			}
+		],
+		"rules": [
+			"All the team members should be from the same age group and same school/institute.",
+			"There can be a maximum of 3 members and a minimum of 1 members in a team.",
+			"If you are not a part of a team, you can participate individually too.",
+			"There can be more than 1 team per age category from 1 school.",
+			"When registering, the team leader must fill out the information of all remaining team members.",
+			"The registrations will be closed on 2nd March at 23:59.",
+			"You have to choose 1 theme for your project from the themes that will be displayed in the website after the opening ceremony.",
+			"One team is only allowed to submit one project.",
+			"The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
+			"The Git repository for the project must be created before 24 hours has passed after the themes have been revealed.",
+			"Plagiarism is strictly prohibited.",
+			"You will be given a week to complete your project after the opening ceremony.",
+			"You are not allowed to make changes to the code after submitting."
+		],
+		"themes": {
+			"senior": [],
+			"junior": []
+		}
+	},
 
-  "DimensionX": {
-    "navbar": [
-      {
-        "text": "Home",
-        "link": "#home",
-        "target": "_self"
-      },
-      {
-        "text": "Rules",
-        "link": "#rules",
-        "target": "_self"
-      },
-      {
-        "text": "FAQ",
-        "link": "#faq",
-        "target": "_self"
-      },
-      {
-        "text": "Prizes",
-        "link": "#prizes",
-        "target": "_self"
-      },
-      {
-        "text": "Register",
-        "link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
-        "target": "_blank"
-      }
-    ],
-    "prizes": {
-      "prize": [
-        "Winners of each category will walk away with a Wacom or Huion graphic tablet worth more than $120"
-      ]
-    },
-    "rules": {
-      "twoD": [
-        "You have to do a photo manipulation by using the stock images we provide. We will upload all the stock images to the official website after the opening ceremony."
-      ],
+	"DimensionX": {
+		"navbar": [
+			{
+				"text": "Home",
+				"link": "#home",
+				"target": "_self"
+			},
+			{
+				"text": "Rules",
+				"link": "#rules",
+				"target": "_self"
+			},
+			{
+				"text": "FAQ",
+				"link": "#faq",
+				"target": "_self"
+			},
+			{
+				"text": "Prizes",
+				"link": "#prizes",
+				"target": "_self"
+			},
+			{
+				"text": "Register",
+				"link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
+				"target": "_blank"
+			}
+		],
+		"prizes": {
+			"prize": [
+				"Winners of each category will walk away with a Wacom or Huion graphic tablet worth more than $120"
+			]
+		},
+		"rules": {
+			"twoD": [
+				"You have to do a photo manipulation by using the stock images we provide. We will upload all the stock images to the official website after the opening ceremony."
+			],
 
-      "logo": [
-        "In this category, you will be given an outdated and ill-favoured logo of a corporation, along with a description about the corporation. You have to create a better logo that fits what the corporation stands for while preserving the main theme of the given outdated logo. The resources will be uploaded to the official website after the opening ceremony."
-      ],
+			"logo": [
+				"In this category, you will be given an outdated and ill-favoured logo of a corporation, along with a description about the corporation. You have to create a better logo that fits what the corporation stands for while preserving the main theme of the given outdated logo. The resources will be uploaded to the official website after the opening ceremony."
+			],
 
-      "threeD": [
-        "You have to create a composition according to the theme that will be uploaded to the official website after the opening ceremony.",
-        "You are not allowed to use any assets which are not made by you."
-      ],
-      "poster": [
-        "Participants will have to create the posts on the scenario which will be given to them. Participants can decide an optimal aesthetic based on their own design sense.",
-        "We will upload the scenario to the official website after the opening ceremony."
-      ]
-    }
-  },
-  "AnalytIQ": {
-    "navbar": [
-      {
-        "text": "Home",
-        "link": "#home",
-        "target": "_self"
-      },
-      {
-        "text": "Rules",
-        "link": "#rules",
-        "target": "_self"
-      },
-      {
-        "text": "Register",
-        "link": "https://forms.gle/CEqUmPhMeerQqydm6",
-        "target": "_blank"
-      }
-    ],
-    "rules": [
-      "Only 2 teams are allowed to participate from one school.",
-      "A team should consist of 4 members.",
-      "4.All the registrants should be born after 31.01.2003 and before 01.02.2007.",
-      "The quiz will be held only in English medium.",
-      "The registrations will be closed on 26th February at 23:59.",
-      "Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
-    ]
-  }
+			"threeD": [
+				"You have to create a composition according to the theme that will be uploaded to the official website after the opening ceremony.",
+				"You are not allowed to use any assets which are not made by you."
+			],
+			"poster": [
+				"Participants will have to create the posts on the scenario which will be given to them. Participants can decide an optimal aesthetic based on their own design sense.",
+				"We will upload the scenario to the official website after the opening ceremony."
+			]
+		}
+	},
+	"AnalytIQ": {
+		"navbar": [
+			{
+				"text": "Home",
+				"link": "#home",
+				"target": "_self"
+			},
+			{
+				"text": "Rules",
+				"link": "#rules",
+				"target": "_self"
+			},
+			{
+				"text": "Register",
+				"link": "https://forms.gle/CEqUmPhMeerQqydm6",
+				"target": "_blank"
+			}
+		],
+		"rules": [
+			"Only 2 teams are allowed to participate from one school.",
+			"A team should consist of 4 members.",
+			"4.All the registrants should be born after 31.01.2003 and before 01.02.2007.",
+			"The quiz will be held only in English medium.",
+			"The registrations will be closed on 2nd March at 23:59.",
+			"Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
+		]
+	}
 }

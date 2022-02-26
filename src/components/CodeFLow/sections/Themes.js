@@ -8,7 +8,7 @@ let init = false;
 const Themes = () => {
 	const calculateTimeLeft = () => {
 		let year = new Date().getFullYear();
-		let difference = +new Date(2022, 1, 27, 9, 0, 0, 0) - +new Date();
+		let difference = +new Date(2022, 2, 6, 9, 0, 0, 0) - +new Date();
 		let timeLeft = {};
 
 		if (difference > 0) {
