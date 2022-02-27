@@ -20,16 +20,23 @@ const About = () => {
 						2. All the registrants should be born after 31.01.2003 and before
 						01.02.2011.
 					</p>
+
 					<p>
-						3. There are 4 fields (Photo Manipulation, Logo design, Poster
+						3. The registrations will be closed on 3rd March at 23:59.
+					</p>
+					<p>
+						4. The competition will start on 1st March 2022 and the participants who register after the competition has started will have the same deadline as the early registrants.		
+					</p>
+					<p>
+						5. There are 4 fields (Photo Manipulation, Logo design, Poster
 						design and 3D still renders).
 					</p>
 					<p>
-						4. Contestants should upload their submissions, 10 days after the
+						6. Contestants should upload their submissions, 10 days after the
 						opening ceremony.
 					</p>
 					<p>
-						5. Further rules & regulations about the competition are listed on
+						7. Further rules & regulations about the competition are listed on
 						the website.
 					</p>
 				</div>
