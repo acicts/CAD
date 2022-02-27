@@ -69,7 +69,7 @@
 			"The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
 			"The Git repository for the project must be created before 24 hours has passed after the themes have been revealed.",
 			"Plagiarism is strictly prohibited.",
-			"You will be given a week to complete your project from 1st March 2022.",
+			"You will be given 10 days to complete your project from 1st March 2022.",
 			"You are not allowed to make changes to the code after submitting."
 		],
 		"themes": {
