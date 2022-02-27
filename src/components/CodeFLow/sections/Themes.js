@@ -34,7 +34,7 @@ const Themes = () => {
 		if (time === null) {
 			init = true;
 			const timeLeft = calculateTimeLeft();
-			if (timeLeft.days) {
+			if (timeLeft.days >= 0) {
 				setTime(timeLeft.seconds);
 				setHours(timeLeft.hours);
 				setMins(timeLeft.minutes);
