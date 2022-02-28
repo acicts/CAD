@@ -113,7 +113,7 @@ const Themes = () => {
 							color={textColor}
 							pendulamColor={pendulamColor}
 						>
-							<ul>
+							<ul data-testid="senior-themes">
 								<li>Senior Theme ABCDE</li>
 								<li>Senior Theme ABCDE</li>
 								<li>Senior Theme ABCDE</li>
