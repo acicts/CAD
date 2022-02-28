@@ -2,15 +2,14 @@ import React, { useState, useEffect } from "react";
 import SectionTopic from "../../DimensionX/SectionTopic";
 import SubSectionTopic from "./SubSectionTopic";
 import classes from "../../../styles/DimensionX/Themes.module.css";
-import data from "../../../data.json"
+import data from "../../../data.json";
 
 let init = false;
 
 const Themes = () => {
-	const click = (props)=>{
-		window.open(props)
-
-	}
+	const click = (props) => {
+		window.open(props);
+	};
 	const calculateTimeLeft = () => {
 		let year = new Date().getFullYear();
 		let difference = +new Date(2022, 2, 1) - +new Date();
