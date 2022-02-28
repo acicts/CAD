@@ -123,7 +123,7 @@
 		},
 		"rules": {
 			"twoD": [
-				" The manipulation should only consist of at least 4 stock images  given by us.   You may use overlays and textures",
+				" The manipulation should only consist of at least 4 stock images given by us.   You may use overlays and textures",
 				"The project file should be submitted along with the manipulation",
 				"Manipulation should be sent as a .jpg or .png file",
 				"The overlays and textures used should be submitted along with the manipulation"

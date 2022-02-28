@@ -136,7 +136,7 @@ const Themes = () => {
 							pendulamColor={pendulamColor}
 						>
 							<ul>
-								<li>Use all of the stock images below to create a composition</li>
+								<li>The manipulation should only consist of at least 4 stock images given by us</li>
 								<li onClick={()=>{click("https://drive.google.com/drive/folders/13_TIXLhVWmppqH8vm5d6JPprVaRDsXed?usp=sharing")}}>Stock Images</li>
 							</ul>
 						</SubSectionTopic>
