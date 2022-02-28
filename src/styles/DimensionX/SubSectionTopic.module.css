@@ -3,7 +3,7 @@
 	align-items: flex-start;
 	justify-content: space-evenly;
 	flex-direction: column;
-	height: 35vh;
+	height: max-content;
 }
 
 .Container h2 {

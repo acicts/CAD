@@ -85,7 +85,7 @@ const Themes = () => {
 				pendulamColor={"#46dd9a"}
 				height={"150vh"}
 				barStyle={{
-					height:"142vh"
+					height: "142vh",
 				}}
 			>
 				{!eventStarted ? (
@@ -116,55 +116,86 @@ const Themes = () => {
 				) : (
 					<div className={classes.SubContainer}>
 						<div className={classes.threeD}>
-						<SubSectionTopic
-							title={"3D Category"}
-							color={textColor}
-							pendulamColor={pendulamColor}
-						>
-							<ul>
-								<li>{data.DimensionX.themes.threeD.title}</li>
-								{data.DimensionX.themes.threeD.themes.map((rule) => {
-                					return <li>{rule}</li>;
-              					})}
-							</ul>
-						</SubSectionTopic>
+							<SubSectionTopic
+								title={"3D Category"}
+								color={textColor}
+								pendulamColor={pendulamColor}
+							>
+								<ul>
+									<li>{data.DimensionX.themes.threeD.title}</li>
+									{data.DimensionX.themes.threeD.themes.map((rule) => {
+										return <li>{rule}</li>;
+									})}
+								</ul>
+							</SubSectionTopic>
 						</div>
 						<div className={classes.photo}>
-						<SubSectionTopic
-							title={"Photo Manipulation"}
-							color={textColor}
-							pendulamColor={pendulamColor}
-						>
-							<ul>
-								<li>Use all of the stock images below to create a composition</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/folders/13_TIXLhVWmppqH8vm5d6JPprVaRDsXed?usp=sharing")}}>Stock Images</li>
-							</ul>
-						</SubSectionTopic>
+							<SubSectionTopic
+								title={"Photo Manipulation"}
+								color={textColor}
+								pendulamColor={pendulamColor}
+							>
+								<ul>
+									<li>
+										Only the stock photos provided by us can be used. At least 4
+										images must be used in your manipulation.
+									</li>
+									<li
+										onClick={() => {
+											click(
+												"https://drive.google.com/drive/folders/13_TIXLhVWmppqH8vm5d6JPprVaRDsXed?usp=sharing"
+											);
+										}}
+									>
+										Stock Images
+									</li>
+								</ul>
+							</SubSectionTopic>
 						</div>
-					
+
 						<div className={classes.photo}>
-						<SubSectionTopic
-							title={"Logo Design"}
-							color={textColor}
-							pendulamColor={pendulamColor}
-						>
-							<ul>
-								<li className={classes.logotitle}>{data.DimensionX.themes.logo.details}</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/folders/1PLBZkCeO0xiKILWb_Lb5Lc3tkYXI0Zc2?usp=sharing")}}>Resources</li>
-							</ul>
-						</SubSectionTopic>
-						</div>	
+							<SubSectionTopic
+								title={"Logo Design"}
+								color={textColor}
+								pendulamColor={pendulamColor}
+							>
+								<ul>
+									<li className={classes.logotitle}>
+										{data.DimensionX.themes.logo.details}
+									</li>
+									<li
+										onClick={() => {
+											click(
+												"https://drive.google.com/drive/folders/1PLBZkCeO0xiKILWb_Lb5Lc3tkYXI0Zc2?usp=sharing"
+											);
+										}}
+									>
+										Resources
+									</li>
+								</ul>
+							</SubSectionTopic>
+						</div>
 						<div className={classes.photo}>
-						<SubSectionTopic
-							title={"Poster Design"}
-							color={textColor}
-							pendulamColor={pendulamColor}
-						>
-							<ul>
-								<li className={classes.postertitle}>{data.DimensionX.themes.poster.details}</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/folders/1NFHP4o76JnPZm-cbwDJZOnKSL46o6hbA?usp=sharing")}}>Resources</li>
-							</ul>
-						</SubSectionTopic>
+							<SubSectionTopic
+								title={"Poster Design"}
+								color={textColor}
+								pendulamColor={pendulamColor}
+							>
+								<ul>
+									<li className={classes.postertitle}>
+										{data.DimensionX.themes.poster.details}
+									</li>
+									<li
+										onClick={() => {
+											click(
+												"https://drive.google.com/drive/folders/1NFHP4o76JnPZm-cbwDJZOnKSL46o6hbA?usp=sharing"
+											);
+										}}
+									>
+										Resources
+									</li>
+								</ul>
+							</SubSectionTopic>
 						</div>
 					</div>
 				)}

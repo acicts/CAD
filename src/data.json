@@ -161,7 +161,9 @@
 				"themes": ["Sri lankan Culture", "Sunset", "Winter"]
 			},
 			"logo": {
-				"details": ["Details are available on the resources page"]
+				"details": [
+					"The name of the company is drinkIT (drink-lowercase, IT-uppercase). It is a canned beverage company established in 2007. It has both a local and global market. It specializes in different flavours of soda. Their current logo was designed when the company was established. It has not been changed or updated until now. Your job is to redesign the logo for drinkIT while preserving the integrity of the old logo. When redesigning the logo, an icon or artwork that resembles a soda container(can) must be used. And the use of a green hue is a must. Other than that, you have full creative freedom. Also, keep in mind that the new logo should be versatile since it will be printed on small surfaces such as soda cans and large surfaces like billboards. A minimal design isn't required, but it would be appreciated."
+				]
 			},
 			"poster": {
 				"details": [

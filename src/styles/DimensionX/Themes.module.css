@@ -1,146 +1,146 @@
 .Container {
-  height: 165vh;
-  padding: 25px 50px;
-  margin-bottom: 50px;
-  background: #f3f6fd;
-  font-family: 'Poppins';
+	height: 165vh;
+	padding: 25px 50px;
+	margin-bottom: 50px;
+	background: #f3f6fd;
+	font-family: "Poppins";
 }
 
 .Container ul {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 24vh;
-  padding-left: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	height: max-content;
+	padding-left: 10px;
 }
 
 .Container ul:last-child {
-  justify-content: space-evenly;
+	justify-content: space-evenly;
 }
 
 .Container ul li {
-  color: #07253a;
+	color: #07253a;
 }
 
 .TimeContainer {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  width: 100%;
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  color: #40dc96;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	color: #40dc96;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
 }
 
 .TimeContainer .TimeBar {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .TimeContainer .TimeBar p {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 .TimeContainer h1 {
-  text-align: center;
-  margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 .TimeContainer .Dots {
-  font-size: 4rem;
+	font-size: 4rem;
 }
-.SubContainer .threeD ul li:nth-child(2){
-  margin-top: 10px;
+.SubContainer .threeD ul li:nth-child(2) {
+	margin-top: 10px;
 }
 .SubContainer .threeD ul li:nth-child(2),
 .SubContainer .threeD ul li:nth-child(3),
-.SubContainer .threeD ul li:nth-child(4){
-  margin-left: 50px;
+.SubContainer .threeD ul li:nth-child(4) {
+	margin-left: 50px;
 }
-.SubContainer .threeD ul li:first-child{
-  list-style-type: none;
-  font-weight: 500;
+.SubContainer .threeD ul li:first-child {
+	list-style-type: none;
+	font-weight: 500;
 }
-.SubContainer .photo ul li:first-child{
-  list-style-type: none;
-  font-weight: 500;
+.SubContainer .photo ul li:first-child {
+	list-style-type: none;
+	font-weight: 500;
 }
-.SubContainer .photo ul li:nth-child(2){
-  margin-left: 50px;
-  cursor: pointer;
-  text-decoration: underline;
-  transition: 1s ease-in;
+.SubContainer .photo ul li:nth-child(2) {
+	margin-left: 50px;
+	cursor: pointer;
+	text-decoration: underline;
+	transition: 1s ease-in;
 }
 @media (max-width: 900px) {
-  .SubContainer .photo .logotitle,
-  .SubContainer .photo .postertitle{
-    font-size: 1rem;
-  }
+	.SubContainer .photo .logotitle,
+	.SubContainer .photo .postertitle {
+		font-size: 1rem;
+	}
 }
 @media (max-width: 768px) {
-  .Container ul li {
-    font-size: 0.8rem;
-  }
+	.Container ul li {
+		font-size: 0.8rem;
+	}
 }
 @media (max-width: 670px) {
-  .SubContainer .photo .logotitle,
-  .SubContainer .photo .postertitle{
-    font-size: 0.9rem;
-  }
+	.SubContainer .photo .logotitle,
+	.SubContainer .photo .postertitle {
+		font-size: 0.9rem;
+	}
 }
 @media (max-width: 645px) {
-  .TimeContainer h1 {
-    font-size: 1.5rem;
-  }
-  .TimeContainer .Dots {
-    font-size: 1.2rem;
-  }
-  .TimeContainer .TimeBar p {
-    font-size: 1rem;
-  }
+	.TimeContainer h1 {
+		font-size: 1.5rem;
+	}
+	.TimeContainer .Dots {
+		font-size: 1.2rem;
+	}
+	.TimeContainer .TimeBar p {
+		font-size: 1rem;
+	}
 }
 @media (max-width: 530px) {
-  .SubContainer .photo .logotitle,
-  .SubContainer .photo .postertitle{
-    font-size: 0.8rem;
-  }
+	.SubContainer .photo .logotitle,
+	.SubContainer .photo .postertitle {
+		font-size: 0.8rem;
+	}
 }
 @media (max-width: 480px) {
-  .Container{
-    font-size: 1rem;
-  }
-  .SubContainer .photo .logotitle,
-  .SubContainer .photo .postertitle{
-    font-size: 0.75rem;
-  }
+	.Container {
+		font-size: 1rem;
+	}
+	.SubContainer .photo .logotitle,
+	.SubContainer .photo .postertitle {
+		font-size: 0.75rem;
+	}
 }
 @media (max-width: 425px) {
-  .Container {
-    padding: 25px;
-  }
+	.Container {
+		padding: 25px;
+	}
 }
 @media (max-width: 380px) {
-.SubContainer .photo .postertitle{
-  margin-top: 15px;
-  font-size: 0.7rem;
-}
+	.SubContainer .photo .postertitle {
+		margin-top: 15px;
+		font-size: 0.7rem;
+	}
 }
 @media (max-width: 348px) {
-  .SubContainer .photo .logotitle,
-  .SubContainer .photo .postertitle{
-    font-size: 0.7rem;
-  }
+	.SubContainer .photo .logotitle,
+	.SubContainer .photo .postertitle {
+		font-size: 0.7rem;
+	}
 }
 @media (max-width: 320px) {
-  .TimeContainer h1 {
-    font-size: 1.2rem;
-  }
+	.TimeContainer h1 {
+		font-size: 1.2rem;
+	}
 }
