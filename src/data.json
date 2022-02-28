@@ -122,7 +122,7 @@
 			"logo": [
 				"The designed logo should be relevant to the original logo or else the submission will be void",
 				"The logo should be made using a vector program. And the project file should be submitted along with the logo",
-				"The logo should be sent as a .png file",
+				"The logo should be sent as a .png and .svg files",
 				"Also a text file should be submitted as a reason to why your logo would be a good improvement"
 			],
 
@@ -138,6 +138,7 @@
 			"Usage of any templates will result in an immediate disqualification",
 			"External images relevant to the scenario can be used",
 			"Up to 3 posters max can be designed to express the given scenario",
+			"The dimensions of the post should be either \"1080 px x 1080 px\" or \"1080 px x 1350 px\" which are the ideal dimensions for social media posting",
 			"The Posters should have a consistent theme",
 			"The posters should be sent as .png or .jpg with the relevant project files",
 			"The external images should also be submitted with the posters"
@@ -153,8 +154,7 @@
 				]
 			},
 			"logo":{
-				"details":["It’s a beverage company. It has both a local and global market. It specializes in different types of soda. The name of the company in drinkIT(drink-lowercase, IT-uppercase). When redesigning the logo you must use something that resembles a can. You must use a green hue. Otherwise full creative freedom is given."]
-			},
+				"details":["Details are available on the resources page"]},
 			"poster":{
 				"details":[
 					"The idea of the posts are as follows. There is a large tech conference organized by a major corporation in srilanka. You are the media coordinator of that corporation. Individuals various fields will be attending the conference. You must make 1-3 post/s to market the conference mentioned above. If it’s difficult to give the needed details in 1 post you are free to make a 2nd and a 3rd post."
