@@ -73,8 +73,18 @@
 			"You are not allowed to make changes to the code after submitting."
 		],
 		"themes": {
-			"senior": [],
-			"junior": []
+			"senior": [
+				"Create an account-based music player application with streaming services (Example: Users can follow artists and create playlists). You can develop an app that supports an operating system of your choice. Using AI functionalities to recommend songs to users will earn you more points.",
+				"Develop an app/technology/website that improves the tourist experience in Sri Lanka.",
+				"Develop a developer tool that helps the coding experience (package, extension, library, etc…). It is also required to have good documentation (a website or GitHub documentation). Releasing great video tutorials (YouTube) on how to use the developer tool you created will earn you some extra points.",
+				"Use artificial intelligence to automate a currently manual daily process at your school.",
+				"Develop a Blockchain-based E-Marketplace. No need to deploy the code since you’ll have to pay the gas fee for the smart contract. Personal blockchain must be visible in the video demo you upload. Also, please provide the address of the smart contract."
+			],
+			"junior": [
+				"Create a website for your school. You must code the website. Websites made with website builders (WordPress, Wix) will not be accepted.",
+				"Develop your own 2D video game.",
+				"Create a music player application with streaming services. You can develop an app that supports an operating system of your choice."
+			]
 		}
 	},
 
@@ -132,36 +142,33 @@
 				"The composition should be made using  a 3D software",
 				"The relevant project file should be submitted along with a rendered image of the composition.The textures used should also be sent along with the project file",
 				"If you used a reference image they should also be sent with the project file"
-			
 			],
 			"poster": [
-			"Usage of any templates will result in an immediate disqualification",
-			"External images relevant to the scenario can be used",
-			"Up to 3 posters max can be designed to express the given scenario",
-			"The Posters should have a consistent theme",
-			"The posters should be sent as .png or .jpg with the relevant project files",
-			"The external images should also be submitted with the posters"
+				"Usage of any templates will result in an immediate disqualification",
+				"External images relevant to the scenario can be used",
+				"Up to 3 posters max can be designed to express the given scenario",
+				"The Posters should have a consistent theme",
+				"The posters should be sent as .png or .jpg with the relevant project files",
+				"The external images should also be submitted with the posters"
 			]
 		},
-		"themes":{
-			"threeD":{
-				"title":["Select a theme from the following and create a 3D composition"],
-				"themes":[
-					"Sri lankan Culture",
-					"Sunset",
-					"Winter"
+		"themes": {
+			"threeD": {
+				"title": [
+					"Select a theme from the following and create a 3D composition"
+				],
+				"themes": ["Sri lankan Culture", "Sunset", "Winter"]
+			},
+			"logo": {
+				"details": [
+					"It’s a beverage company. It has both a local and global market. It specializes in different types of soda. The name of the company in drinkIT(drink-lowercase, IT-uppercase). When redesigning the logo you must use something that resembles a can. You must use a green hue. Otherwise full creative freedom is given."
 				]
 			},
-			"logo":{
-				"details":["It’s a beverage company. It has both a local and global market. It specializes in different types of soda. The name of the company in drinkIT(drink-lowercase, IT-uppercase). When redesigning the logo you must use something that resembles a can. You must use a green hue. Otherwise full creative freedom is given."]
-			},
-			"poster":{
-				"details":[
+			"poster": {
+				"details": [
 					"The idea of the posts are as follows. There is a large tech conference organized by a major corporation in srilanka. You are the media coordinator of that corporation. Individuals various fields will be attending the conference. You must make 1-3 post/s to market the conference mentioned above. If it’s difficult to give the needed details in 1 post you are free to make a 2nd and a 3rd post."
 				]
-				
 			}
-			
 		}
 	},
 	"AnalytIQ": {

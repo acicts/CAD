@@ -1,5 +1,5 @@
 .Container {
-	height: 100vh;
+	height: max-content;
 	padding: 25px 50px;
 	background: white;
 }
@@ -9,7 +9,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: column;
-	height: 24vh;
+	height: 34vh;
 	padding-left: 10px;
 }
 
@@ -19,6 +19,12 @@
 
 .Container ul li {
 	color: #07253a;
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.Container ul li:last-child {
+	margin-bottom: 0px;
 }
 
 .TimeContainer {
@@ -55,14 +61,17 @@
 }
 
 @media (max-width: 768px) {
+	.Container ul.SeniorContainer {
+		height: max-content;
+	}
 	.Container ul li {
 		font-size: 0.8rem;
 	}
 }
 
-@media (max-width: 645px){
+@media (max-width: 645px) {
 	.TimeContainer h1 {
-		font-size: 1.5rem
+		font-size: 1.5rem;
 	}
 	.TimeContainer .Dots {
 		font-size: 1.2rem;
@@ -78,7 +87,7 @@
 	}
 }
 
-@media(max-width: 320px){
+@media (max-width: 320px) {
 	.TimeContainer h1 {
 		font-size: 1.2rem;
 	}
