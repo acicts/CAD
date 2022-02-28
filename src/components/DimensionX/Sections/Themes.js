@@ -137,7 +137,7 @@ const Themes = () => {
 						>
 							<ul>
 								<li>Use all of the stock images below to create a composition</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Stock Images</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/folders/13_TIXLhVWmppqH8vm5d6JPprVaRDsXed?usp=sharing")}}>Stock Images</li>
 							</ul>
 						</SubSectionTopic>
 						</div>
@@ -150,7 +150,7 @@ const Themes = () => {
 						>
 							<ul>
 								<li className={classes.logotitle}>{data.DimensionX.themes.logo.details}</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Examples</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/folders/1PLBZkCeO0xiKILWb_Lb5Lc3tkYXI0Zc2?usp=sharing")}}>Resources</li>
 							</ul>
 						</SubSectionTopic>
 						</div>	
@@ -162,7 +162,7 @@ const Themes = () => {
 						>
 							<ul>
 								<li className={classes.postertitle}>{data.DimensionX.themes.poster.details}</li>
-								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Examples</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/folders/1NFHP4o76JnPZm-cbwDJZOnKSL46o6hbA?usp=sharing")}}>Resources</li>
 							</ul>
 						</SubSectionTopic>
 						</div>
