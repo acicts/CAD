@@ -14,6 +14,10 @@
 	margin-bottom: 12px;
 }
 
+.Container ol li a {
+	text-decoration: underline;
+}
+
 .Container ol li:last-child {
 	margin-bottom: none;
 }
