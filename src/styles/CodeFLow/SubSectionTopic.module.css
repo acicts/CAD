@@ -3,7 +3,15 @@
 	align-items: flex-start;
 	justify-content: space-evenly;
 	flex-direction: column;
-	height: 35vh;
+	height: 40vh;
+}
+
+.Container:first-child {
+	margin-top: 20px;
+}
+
+.Container:last-child {
+	margin-top: 7vh;
 }
 
 .Container h2 {
@@ -43,7 +51,7 @@
 }
 
 .Bar {
-	height: 25vh;
+	height: 35vh;
 	width: 2px;
 }
 
@@ -53,7 +61,22 @@
 }
 
 @media (max-width: 768px) {
+	.Container {
+		height: 45vh;
+	}
 	.Container h2 {
 		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 575px) {
+	.Container {
+		height: max-content;
+	}
+}
+
+@media (max-width: 425px) {
+	.Container:last-child {
+		margin-top: 5.5vh;
 	}
 }

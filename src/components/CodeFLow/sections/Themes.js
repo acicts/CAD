@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SectionTopic from "../SectionTopic";
 import SubSectionTopic from "../SubSectionTopic";
+import data from "../../../data.json";
 import classes from "../../../styles/CodeFLow/Themes.module.css";
 
 let init = false;
@@ -80,6 +81,9 @@ const Themes = () => {
 				title={"Themes"}
 				color={textColor}
 				pendulamColor={pendulamColor}
+				childrenStyle={{ height: "max-content" }}
+				containerStyles={{ height: "max-content" }}
+				barStyle={{ height: "100vh" }}
 			>
 				{!eventStarted ? (
 					<div className={classes.TimeContainer}>
@@ -113,12 +117,13 @@ const Themes = () => {
 							color={textColor}
 							pendulamColor={pendulamColor}
 						>
-							<ul data-testid="senior-themes">
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
+							<ul
+								data-testid="senior-themes"
+								className={classes.SeniorContainer}
+							>
+								{data.codeflow.themes.senior.map((theme) => {
+									return <li>{theme}</li>;
+								})}
 							</ul>
 						</SubSectionTopic>
 						<SubSectionTopic
@@ -127,9 +132,9 @@ const Themes = () => {
 							pendulamColor={pendulamColor}
 						>
 							<ul>
-								<li>Junior Theme ABCDE</li>
-								<li>Junior Theme ABCDE</li>
-								<li>Junior Theme ABCDE</li>
+								{data.codeflow.themes.junior.map((theme) => {
+									return <li>{theme}</li>;
+								})}
 							</ul>
 						</SubSectionTopic>
 					</div>
