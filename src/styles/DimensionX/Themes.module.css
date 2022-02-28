@@ -1,5 +1,5 @@
 .Container {
-  height: 100vh;
+  height: 165vh;
   padding: 25px 50px;
   margin-bottom: 50px;
   background: #f3f6fd;
@@ -57,13 +57,45 @@
 .TimeContainer .Dots {
   font-size: 4rem;
 }
-
+.SubContainer .threeD ul li:nth-child(2){
+  margin-top: 10px;
+}
+.SubContainer .threeD ul li:nth-child(2),
+.SubContainer .threeD ul li:nth-child(3),
+.SubContainer .threeD ul li:nth-child(4){
+  margin-left: 50px;
+}
+.SubContainer .threeD ul li:first-child{
+  list-style-type: none;
+  font-weight: 500;
+}
+.SubContainer .photo ul li:first-child{
+  list-style-type: none;
+  font-weight: 500;
+}
+.SubContainer .photo ul li:nth-child(2){
+  margin-left: 50px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s ease-in;
+}
+@media (max-width: 900px) {
+  .SubContainer .photo .logotitle,
+  .SubContainer .photo .postertitle{
+    font-size: 1rem;
+  }
+}
 @media (max-width: 768px) {
   .Container ul li {
     font-size: 0.8rem;
   }
 }
-
+@media (max-width: 670px) {
+  .SubContainer .photo .logotitle,
+  .SubContainer .photo .postertitle{
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 645px) {
   .TimeContainer h1 {
     font-size: 1.5rem;
@@ -75,13 +107,38 @@
     font-size: 1rem;
   }
 }
-
+@media (max-width: 530px) {
+  .SubContainer .photo .logotitle,
+  .SubContainer .photo .postertitle{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .Container{
+    font-size: 1rem;
+  }
+  .SubContainer .photo .logotitle,
+  .SubContainer .photo .postertitle{
+    font-size: 0.75rem;
+  }
+}
 @media (max-width: 425px) {
   .Container {
     padding: 25px;
   }
 }
-
+@media (max-width: 380px) {
+.SubContainer .photo .postertitle{
+  margin-top: 15px;
+  font-size: 0.7rem;
+}
+}
+@media (max-width: 348px) {
+  .SubContainer .photo .logotitle,
+  .SubContainer .photo .postertitle{
+    font-size: 0.7rem;
+  }
+}
 @media (max-width: 320px) {
   .TimeContainer h1 {
     font-size: 1.2rem;

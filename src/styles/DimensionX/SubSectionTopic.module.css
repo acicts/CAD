@@ -1,0 +1,59 @@
+.Container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: column;
+	height: 35vh;
+}
+
+.Container h2 {
+	font-size: 1.8rem;
+	font-weight: 400;
+	vertical-align: middle;
+}
+/*
+.Container h1 span:first-child {
+	color: #7ca9ffa1;
+	font-size: 2.5rem;
+
+}*/
+
+.TextContainer {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.TextContainer .children {
+	width: 97%;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 100;
+	padding-left: 15px;
+}
+
+.PendContainer {
+	width: 3%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Bar {
+	height: 25vh;
+	width: 2px;
+}
+
+.Box {
+	height: 7px;
+	width: 7px;
+}
+
+@media (max-width: 768px) {
+	.Container h2 {
+		font-size: 1.5rem;
+	}
+}

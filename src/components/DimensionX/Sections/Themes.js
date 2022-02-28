@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
 import SectionTopic from "../../DimensionX/SectionTopic";
-import SubSectionTopic from "../../CodeFLow/SubSectionTopic";
+import SubSectionTopic from "./SubSectionTopic";
 import classes from "../../../styles/DimensionX/Themes.module.css";
+import data from "../../../data.json"
 
 let init = false;
 
 const Themes = () => {
+	const click = (props)=>{
+		window.open(props)
+
+	}
 	const calculateTimeLeft = () => {
 		let year = new Date().getFullYear();
 		let difference = +new Date(2022, 2, 1) - +new Date();
@@ -78,6 +83,10 @@ const Themes = () => {
 				title={"Themes"}
 				color={textColor}
 				pendulamColor={"#46dd9a"}
+				height={"150vh"}
+				barStyle={{
+					height:"142vh"
+				}}
 			>
 				{!eventStarted ? (
 					<div className={classes.TimeContainer}>
@@ -106,30 +115,57 @@ const Themes = () => {
 					</div>
 				) : (
 					<div className={classes.SubContainer}>
+						<div className={classes.threeD}>
 						<SubSectionTopic
-							title={"Senior Category"}
+							title={"3D Category"}
 							color={textColor}
 							pendulamColor={pendulamColor}
 						>
 							<ul>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
-								<li>Senior Theme ABCDE</li>
+								<li>{data.DimensionX.themes.threeD.title}</li>
+								{data.DimensionX.themes.threeD.themes.map((rule) => {
+                					return <li>{rule}</li>;
+              					})}
 							</ul>
 						</SubSectionTopic>
+						</div>
+						<div className={classes.photo}>
 						<SubSectionTopic
-							title={"Junior Category"}
+							title={"Photo Manipulation"}
 							color={textColor}
 							pendulamColor={pendulamColor}
 						>
 							<ul>
-								<li>Junior Theme ABCDE</li>
-								<li>Junior Theme ABCDE</li>
-								<li>Junior Theme ABCDE</li>
+								<li>Use all of the stock images below to create a composition</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Stock Images</li>
 							</ul>
 						</SubSectionTopic>
+						</div>
+					
+						<div className={classes.photo}>
+						<SubSectionTopic
+							title={"Logo Design"}
+							color={textColor}
+							pendulamColor={pendulamColor}
+						>
+							<ul>
+								<li className={classes.logotitle}>{data.DimensionX.themes.logo.details}</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Examples</li>
+							</ul>
+						</SubSectionTopic>
+						</div>	
+						<div className={classes.photo}>
+						<SubSectionTopic
+							title={"Poster Design"}
+							color={textColor}
+							pendulamColor={pendulamColor}
+						>
+							<ul>
+								<li className={classes.postertitle}>{data.DimensionX.themes.poster.details}</li>
+								<li onClick={()=>{click("https://drive.google.com/drive/my-drive")}}>Examples</li>
+							</ul>
+						</SubSectionTopic>
+						</div>
 					</div>
 				)}
 			</SectionTopic>

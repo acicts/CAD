@@ -30,7 +30,7 @@ const SectionTopic = (props) => {
   return (
     <div
       className={`${classes.Container} ${props.className}`}
-      style={{ ...props.containerStyles }}
+      style={{ ...props.containerStyles, height:props.height}}
     >
       <h1>
         <span>:</span> <span style={{ color: props.color }}>{props.title}</span>
