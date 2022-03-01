@@ -17,6 +17,7 @@ const CodeFlow = () => {
       <About />
       <Themes />
       <Rules />
+      <Submit />
       <FAQ />
       <Contact />
     </Layout>
