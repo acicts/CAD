@@ -7,6 +7,7 @@ import Rules from "../components/CodeFLow/sections/Rules";
 import FAQ from "../components/CodeFLow/sections/FAQ";
 import Contact from "../components/CodeFLow/sections/Contact";
 import Prizes from "../components/CodeFLow/sections/Prizes";
+import Submit from "../components/CodeFLow/sections/Submit";
 import "./CodeFlow.css";
 
 const CodeFlow = () => {
