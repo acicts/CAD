@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import classes from "../../../styles/DimensionX/Submit.module.css";
+import classes from "../../../styles/CodeFLow/Submit.module.css";
 import { createTheme } from "@mui/material/styles";
 import data from "../../../data.json";
 import { useState, useEffect } from "react";
@@ -76,43 +76,45 @@ function Submit() {
     },
   });
   function click() {
-    window.open(data.DimensionX.submit.link);
+    window.open(data.codeflow.submit.link);
   }
   return (
     <div className={classes.Container} id="submit">
-      <h1 className={classes.header}>
-        Project Submission
-        <Button
-          className={classes.submit}
-          color="secondary"
-          variant="outlined"
-          size="large"
-          onClick={click}
-        >
-          Submit
-        </Button>
-      </h1>
-      <div className={classes.TimeContainer}>
-        <h1>Project Submission Ends In</h1>
-        <div className={classes.TimeBar}>
-          <div>
-            <p>{days}</p>
-            <p>Days</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{hours}</p>
-            <p>Hours</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{mins}</p>
-            <p>Mins</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{time}</p>
-            <p>Seconds</p>
+      <div className={classes.ContainerT}>
+        <h1 className={classes.header}>
+          Project Submission
+          <Button
+            className={classes.submit}
+            color="secondary"
+            variant="outlined"
+            size="large"
+            onClick={click}
+          >
+            Submit
+          </Button>
+        </h1>
+        <div className={classes.TimeContainer}>
+          <h1>Project Submission Ends In</h1>
+          <div className={classes.TimeBar}>
+            <div>
+              <p>{days}</p>
+              <p>Days</p>
+            </div>
+            <div className={classes.Dots}>:</div>
+            <div>
+              <p>{hours}</p>
+              <p>Hours</p>
+            </div>
+            <div className={classes.Dots}>:</div>
+            <div>
+              <p>{mins}</p>
+              <p>Mins</p>
+            </div>
+            <div className={classes.Dots}>:</div>
+            <div>
+              <p>{time}</p>
+              <p>Seconds</p>
+            </div>
           </div>
         </div>
       </div>

@@ -2,17 +2,17 @@
   position: relative;
   height: 100vh;
   padding: 25px 50px;
-  margin-bottom: 50px;
-  margin-top: 50px;
   background: #f3f6fd;
-  font-family: "Poppins";
+}
+.Container .ContainerT {
+  margin-top: 15%;
 }
 .Container .TimeContainer h1 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 .Container .header {
-  color: #40dc96;
+  color: #0b3757;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,8 +20,8 @@
   margin-top: 50px;
 }
 .Container .submit {
-  color: #40dc96;
-  border: 1px solid #40dc96;
+  color: #0b3757;
+  border: 1px solid #0b3757;
   margin-top: 70px;
   transform: scale(1.75);
 
@@ -30,18 +30,18 @@
 
 .Container .submit:hover {
   background-color: #f3f6fd;
-  color: #4de9a3;
-  border: 1px solid #4de9a3;
+  color: #0f3b5a;
+  border: 1px solid #0f3b5a;
 }
 
 .Container .TimeContainer {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
   height: 45vh;
   display: flex;
   align-items: center;
-  color: #40dc96;
+  color: #0b3757;
   justify-content: center;
   flex-direction: column;
   transform: scale(1.1);
@@ -57,7 +57,7 @@
 .Container .TimeContainer .TimeBar p {
   text-align: center;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .Container .TimeContainer h1 {
