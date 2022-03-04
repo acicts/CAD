@@ -42,11 +42,9 @@ const About = () => {
 				</div>
 				<a
 					className={classes.registerButton}
-					href={data.DimensionX.navbar[4].link}
-					target={"_blank"}
-					rel="noreferrer"
+					href="#submit"
 				>
-					Register
+					Submit Your Projects
 				</a>
 			</div>
 

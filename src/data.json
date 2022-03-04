@@ -119,11 +119,6 @@
         "text": "Submit",
         "link": "#submit",
         "target": "_self"
-      },
-      {
-        "text": "Register",
-        "link": "https://forms.gle/rMoV2BU2aEKRnbNo6",
-        "target": "_blank"
       }
     ],
     "prizes": {
