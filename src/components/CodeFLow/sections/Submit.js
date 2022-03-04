@@ -103,7 +103,7 @@ function Submit() {
             <div className={classes.Dots}>:</div>
             <div>
               <p>{hours}</p>
-              <p>Hours</p>
+              <p>{hours === 1 ? "Hour" : "Hours"}</p>
             </div>
             <div className={classes.Dots}>:</div>
             <div>
