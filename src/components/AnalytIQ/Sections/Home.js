@@ -16,16 +16,7 @@ const Home = () => {
 				<p>Hosted By The ICT Society Of Ananda College</p>
 
 				<div className={classes.buttonContainer}>
-					<div className={classes.registerButton}>
-						<a
-							href={data.AnalytIQ.navbar[2].link}
-							target={"_blank"}
-							rel="noreferrer"
-						>
-							Register Now
-						</a>
-					</div>
-
+				
 					<div className={classes.moreButton}>
 						<a href="#about">More Details</a>
 					</div>
