@@ -27,15 +27,6 @@
         "question": "What should be the team composition?",
         "Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
       },
-      {
-        "question": "How do I sign up?",
-        "Answer": "",
-        "link": {
-          "text": "Click here",
-          "ref": "https://docs.google.com/forms/d/e/1FAIpQLScp5dxSZ6cBpcu91c6w0aSK5Ba4NfnSnEb0O4LQ17SK0i0cxg/viewform",
-          "target": "_blank"
-        }
-      },
 
       {
         "question": "How can I contact the organizers?",
