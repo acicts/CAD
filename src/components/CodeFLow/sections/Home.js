@@ -22,11 +22,9 @@ const Home = () => {
             <p>
               <a
                 className={classes.Link}
-                href={data.codeflow.navbar[4].link}
-                target={"_blank"}
-                rel="noreferrer"
+                href={"#submit"}
               >
-                Register Now!
+                Submit Your Projects!
               </a>
             </p>
             {/* <p>

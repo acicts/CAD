@@ -20,11 +20,6 @@
         "text": "/FAQ",
         "link": "#faq",
         "target": "_self"
-      },
-      {
-        "text": "Register",
-        "link": "https://forms.gle/Yis4EXsJgCApeM1q8",
-        "target": "_blank"
       }
     ],
     "faq": [
