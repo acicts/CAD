@@ -45,7 +45,7 @@ function Submit() {
           if (hours === 0) {
             if (days > 0) {
               setDays((curr) => curr - 1);
-              setHours(24);
+              setHours(23);
             }
           }
           if (mins === 0) {
