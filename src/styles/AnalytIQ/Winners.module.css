@@ -1,0 +1,112 @@
+.winnersSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.winnersContainer {
+  position: relative;
+  background: #26201679;
+  backdrop-filter: blur(50px);
+  width: 80vw;
+  padding: 40px 100px;
+  border-radius: 2rem;
+  height: min-content;
+  overflow: hidden;
+}
+.winnersContainer ul {
+  color: #ffffff;
+  font-size: 1.65rem;
+  margin-left: 60px;
+  margin-top: 80px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.schoolList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 10rem;
+}
+.schoolList ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vh;
+}
+.winnersContainer ul li {
+  margin-bottom: 35px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  list-style-type: square;
+}
+.winnersContainer ul li:hover {
+  color: #ff9431;
+}
+.title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media (max-width: 1355px) {
+  .title h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .winnersContainer {
+    padding: 40px 70px;
+  }
+  .winnersContainer ul {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1200px) {
+  .title h1 {
+    font-size: 2.4rem;
+  }
+  .winnersContainer {
+    padding: 40px 50px;
+  }
+  .winnersContainer ul {
+    font-size: 1.2rem;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 1071px) {
+  .schoolList {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .schoolList ul li {
+    font-size: 1.8rem;
+  }
+  .winnersContainer ul {
+    margin-top: 0;
+  }
+}
+@media (max-width: 958px) {
+  .schoolList ul li {
+    font-size: 1.5rem;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 798px) {
+  .title h1 {
+    font-size: 1.8rem;
+  }
+}
