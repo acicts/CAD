@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 function Submit() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(2022, 2, 11) - +new Date();
+    let difference = +new Date(2022, 2, 13) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -51,13 +51,13 @@ function Submit() {
           if (mins === 0) {
             if (hours > 0) {
               setHours((curr) => curr - 1);
-              setMins(60);
+              setMins(59);
             }
           }
           if (time === 0) {
             if (mins > 0) {
               setMins((curr) => curr - 1);
-              setTime(60);
+              setTime(59);
             }
           } else {
             setTime((curr) => curr - 1);
