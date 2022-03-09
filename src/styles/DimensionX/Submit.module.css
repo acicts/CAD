@@ -33,7 +33,32 @@
   color: #4de9a3;
   border: 1px solid #4de9a3;
 }
-
+.Ended {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.Ended .End {
+  margin-top: 220px;
+  color: #46dd9a;
+  font-size: 5.5rem;
+}
+.Ended .Announce {
+  color: rgb(7, 37, 58);
+  font-size: 7rem;
+  margin-top: 100px;
+  animation: scale 0.8s infinite cubic-bezier(0.71, 0.01, 0.15, 1.06) alternate;
+}
+@keyframes scale {
+  form {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
 .Container .TimeContainer {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -68,14 +93,33 @@
 .Container .TimeContainer .Dots {
   font-size: 4rem;
 }
+@media (max-width: 1900px) {
+  .Ended {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1500px) {
+  .Ended {
+    transform: scale(0.85);
+  }
+}
 @media (max-width: 1117px) {
   .Container .TimeContainer .Dots {
     margin-bottom: 50px;
+  }
+  .Ended {
+    transform: scale(0.8);
+  }
+  .Ended .End {
+    margin-top: 10px;
   }
 }
 @media (max-width: 720px) {
   .Container .header {
     font-size: 3rem;
+  }
+  .Ended {
+    transform: scale(0.6);
   }
 }
 @media (max-width: 578px) {
@@ -84,6 +128,9 @@
   }
   .Container .TimeContainer {
     transform: scale(0.9);
+  }
+  .Ended {
+    transform: scale(0.57);
   }
 }
 @media (max-width: 474px) {
@@ -98,6 +145,9 @@
   .Container .TimeContainer {
     transform: scale(0.8);
   }
+  .Ended {
+    transform: scale(0.5);
+  }
 }
 @media (max-width: 411px) {
   .Container .header {
@@ -109,9 +159,15 @@
   .Container .TimeContainer {
     transform: scale(0.7);
   }
+  .Ended {
+    transform: scale(0.43);
+  }
 }
 @media (max-width: 363px) {
   .Container .header {
     font-size: 1.4rem;
+  }
+  .Ended {
+    transform: scale(0.38);
   }
 }

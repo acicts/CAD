@@ -25,7 +25,7 @@ function Submit() {
   const [mins, setMins] = useState(null);
   const [hours, setHours] = useState(null);
   const [days, setDays] = useState(null);
-  const [eventStarted, setEventStarted] = useState(false);
+  const [eventEnded, setEventEnded] = useState(false);
   useEffect(() => {
     const timeLeft = calculateTimeLeft();
     if (time === null) {
@@ -35,12 +35,12 @@ function Submit() {
         setMins(timeLeft.minutes);
         setDays(timeLeft.days);
       } else {
-        setEventStarted(true);
+        setEventEnded(true);
       }
-    } else if (!eventStarted) {
+    } else if (!eventEnded) {
       const timer = setTimeout(() => {
         if (days === 0 && hours === 0 && mins === 0 && time === 0) {
-          setEventStarted(true);
+          setEventEnded(true);
         } else {
           if (hours === 0) {
             if (days > 0) {
@@ -67,7 +67,7 @@ function Submit() {
 
       return () => clearTimeout(timer);
     }
-  }, [eventStarted, days, hours, mins, time]);
+  }, [eventEnded, days, hours, mins, time]);
   const theme = createTheme({
     palette: {
       secondary: {
@@ -80,43 +80,53 @@ function Submit() {
   }
   return (
     <div className={classes.Container} id="submit">
-      <h1 className={classes.header}>
-        Project Submission
-        <Button
-          className={classes.submit}
-          color="secondary"
-          variant="outlined"
-          size="large"
-          onClick={click}
-        >
-          Submit
-        </Button>
-      </h1>
-      <div className={classes.TimeContainer}>
-        <h1>Project Submission Ends In</h1>
-        <div className={classes.TimeBar}>
-          <div>
-            <p>{days}</p>
-            <p>Days</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{hours}</p>
-            <p>{hours === 1 ? "Hour" : "Hours"}</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{mins}</p>
-            <p>Mins</p>
-          </div>
-          <div className={classes.Dots}>:</div>
-          <div>
-            <p>{time}</p>
-            <p>Seconds</p>
+      {!eventEnded ? (
+        <div>
+          <h1 className={classes.header}>
+            Project Submission
+            <Button
+              className={classes.submit}
+              color="secondary"
+              variant="outlined"
+              size="large"
+              onClick={click}
+            >
+              Submit
+            </Button>
+          </h1>
+          <div className={classes.TimeContainer}>
+            <h1>Project Submission Ends In</h1>
+            <div className={classes.TimeBar}>
+              <div>
+                <p>{days}</p>
+                <p>Days</p>
+              </div>
+              <div className={classes.Dots}>:</div>
+              <div>
+                <p>{hours}</p>
+                <p>{hours === 1 ? "Hour" : "Hours"}</p>
+              </div>
+              <div className={classes.Dots}>:</div>
+              <div>
+                <p>{mins}</p>
+                <p>Mins</p>
+              </div>
+              <div className={classes.Dots}>:</div>
+              <div>
+                <p>{time}</p>
+                <p>Seconds</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div className={classes.Ended}>
+          <h1 className={classes.End}>Project Submissions Have Ended</h1>
+          <h1 className={classes.Announce}>Announcing Winners Soon!</h1>
+        </div>
+      )}
     </div>
   );
 }
+
 export default Submit;
