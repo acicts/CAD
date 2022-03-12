@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 function Submit() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(2022, 2, 13) - +new Date();
+    let difference = +new Date(2022, 2, 14) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
