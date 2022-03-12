@@ -99,7 +99,7 @@ function Submit() {
             <div className={classes.TimeBar}>
               <div>
                 <p>{days}</p>
-                <p>Days</p>
+                <p>{days === 1 ? "Day" : "Days"}</p>
               </div>
               <div className={classes.Dots}>:</div>
               <div>
