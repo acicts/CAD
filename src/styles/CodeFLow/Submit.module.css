@@ -39,9 +39,10 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  height: 100vh;
+  width: 100%;
 }
 .Ended .End {
-  margin-top: 300px;
   color: #7caaffcc;
   font-size: 5.5rem;
 }
@@ -61,7 +62,7 @@
 }
 
 .Container .TimeContainer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   width: 100%;
   height: 45vh;

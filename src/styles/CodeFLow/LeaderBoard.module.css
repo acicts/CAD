@@ -1,0 +1,67 @@
+.Container {
+  height: 100vh;
+  padding: 25px 50px;
+  background: white;
+}
+
+.Container h2 {
+  text-decoration: underline;
+  color: #07253a;
+  margin-bottom: 5px;
+}
+.SubContainer {
+  height: 75vh;
+}
+.ProjectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #07253a;
+}
+
+.ProjectContainer .LeaderItem {
+  width: 30%;
+  height: 40vh;
+}
+
+.ProjectContainer .LeaderItem .Image {
+  width: 100%;
+  height: 25vh;
+}
+
+.ProjectContainer .LeaderItem .BottomBar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ProjectContainer .LeaderItem .BottomBar a {
+  color: black;
+}
+
+@media (max-width: 590px) {
+  .SubContainer {
+    overflow-y: scroll;
+  }
+  .SubContainer::-webkit-scrollbar {
+    width: 0;
+  }
+  .ProjectContainer {
+    flex-wrap: wrap;
+  }
+  .ProjectContainer .LeaderItem {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .Container {
+    padding: 25px;
+  }
+  .ProjectContainer .LeaderItem {
+    width: 90%;
+  }
+}

@@ -1,243 +1,270 @@
 {
-	"codeflow": {
-		"leaders": [
-			{
-				"title": "Project 1",
-				"github": "link",
-				"image": "",
-				"team_name": "Team name"
-			},
-			{
-				"title": "Project 1",
-				"github": "link",
-				"image": "",
-				"team_name": "Team name"
-			},
-			{
-				"title": "Project 1",
-				"github": "link",
-				"image": "",
-				"team_name": "Team name"
-			}
-		],
-		"navbar": [
-			{
-				"text": "/Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "/Rules",
-				"link": "#rules",
-				"target": "_self"
-			},
-			{
-				"text": "/Submit",
-				"link": "#submit",
-				"target": "_self"
-			},
-			{
-				"text": "/FAQ",
-				"link": "#faq",
-				"target": "_self"
-			}
-		],
-		"faq": [
-			{
-				"question": "What should be the team composition?",
-				"Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
-			},
+  "codeflow": {
+    "leaders": {
+      "junior": [
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        },
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        },
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        }
+      ],
+      "senior": [
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        },
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        },
+        {
+          "title": "Project 1",
+          "github": "link",
+          "image": "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
+          "team_name": "Team name"
+        }
+      ]
+    },
+    "navbar": [
+      {
+        "text": "/Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "/Rules",
+        "link": "#rules",
+        "target": "_self"
+      },
+      {
+        "text": "/Sponsors",
+        "link": "#sponsors",
+        "target": "_self"
+      },
+      {
+        "text": "/Standings",
+        "link": "#standing",
+        "target": "_self"
+      },
+      {
+        "text": "/FAQ",
+        "link": "#faq",
+        "target": "_self"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What should be the team composition?",
+        "Answer": "A team consists of 1 to 3 students of same age category from same school is eligible to participate in the Hackathon. It's okay if you don't have a team. You can also participate individually."
+      },
 
-			{
-				"question": "How can I contact the organizers?",
-				"Answer": "You will be added to the WhatsApp group after the registration or else you can join the Discord Server. If you need further assistance, you can contact one of our organizers mentioned in ",
-				"link": {
-					"text": "contact section",
-					"ref": "#contact",
-					"target": "_self"
-				}
-			},
-			{
-				"question": "Can I build anything I want?",
-				"Answer": "No, you must build a project which falls under a chosen theme according to your age category mentioned in the ",
-				"link": {
-					"text": "themes section",
-					"ref": "#themes",
-					"target": "_self"
-				}
-			}
-		],
-		"rules": [
-			"All the team members should be from the same age group and same school/institute.",
-			"There can be a maximum of 3 members and a minimum of 1 members in a team.",
-			"If you are not a part of a team, you can participate individually too.",
-			"There can be more than 1 team per age category from 1 school.",
-			"When registering, the team leader must fill out the information of all remaining team members.",
-			"The registrations will be closed on 3rd March at 23:59.",
-			"The competition will start on 1st March 2022 and the participants who register after the competition has started will have the same deadline as the early registrants.",
-			"You have to choose 1 theme for your project from the themes that will be displayed in the website on 1st March 2022 at 00:00.",
-			"One team is only allowed to submit one project.",
-			"The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
-			"The Git repository for the project must be created before 24 hours has passed after the themes have been revealed.",
-			"Plagiarism is strictly prohibited.",
-			"You will be given 10 days to complete your project from 1st March 2022.",
-			"You are not allowed to make changes to the code after submitting."
-		],
-		"themes": {
-			"senior": [
-				"Create an account-based music player application with streaming services (Example: Users can follow artists and create playlists). You can develop an app that supports an operating system of your choice. Using AI functionalities to recommend songs to users will earn you more points.",
-				"Develop an app/technology/website that improves the tourist experience in Sri Lanka.",
-				"Develop a developer tool that helps the coding experience (package, extension, library, etc…). It is also required to have good documentation (a website or GitHub documentation). Releasing great video tutorials (YouTube) on how to use the developer tool you created will earn you some extra points.",
-				"Use artificial intelligence to automate a currently manual daily process at your school.",
-				"Develop a Blockchain-based E-Marketplace. No need to deploy the code since you’ll have to pay the gas fee for the smart contract. Personal blockchain must be visible in the video demo you upload. Also, please provide the address of the smart contract."
-			],
-			"junior": [
-				"Create a website for your school. You must code the website. Websites made with website builders (WordPress, Wix) will not be accepted.",
-				"Develop your own 2D video game.",
-				"Create a music player application with streaming services. You can develop an app that supports an operating system of your choice."
-			]
-		},
-		"submit": {
-			"link": [
-				"https://docs.google.com/forms/d/e/1FAIpQLScIljugg5HgewuiOzg9qyxUzAEtnhjHvAIrbRIj_QfepUKLHQ/viewform"
-			]
-		}
-	},
+      {
+        "question": "How can I contact the organizers?",
+        "Answer": "You will be added to the WhatsApp group after the registration or else you can join the Discord Server. If you need further assistance, you can contact one of our organizers mentioned in ",
+        "link": {
+          "text": "contact section",
+          "ref": "#contact",
+          "target": "_self"
+        }
+      },
+      {
+        "question": "Can I build anything I want?",
+        "Answer": "No, you must build a project which falls under a chosen theme according to your age category mentioned in the ",
+        "link": {
+          "text": "themes section",
+          "ref": "#themes",
+          "target": "_self"
+        }
+      }
+    ],
+    "rules": [
+      "All the team members should be from the same age group and same school/institute.",
+      "There can be a maximum of 3 members and a minimum of 1 members in a team.",
+      "If you are not a part of a team, you can participate individually too.",
+      "There can be more than 1 team per age category from 1 school.",
+      "When registering, the team leader must fill out the information of all remaining team members.",
+      "The registrations will be closed on 3rd March at 23:59.",
+      "The competition will start on 1st March 2022 and the participants who register after the competition has started will have the same deadline as the early registrants.",
+      "You have to choose 1 theme for your project from the themes that will be displayed in the website on 1st March 2022 at 00:00.",
+      "One team is only allowed to submit one project.",
+      "The project MUST be deployed to a private GitHub repository and all the collaborations must be done through GitHub. We will be monitoring every contribution/commit to the codebase when reviewing your project. Contribution of all the team members is required.",
+      "The Git repository for the project must be created before 24 hours has passed after the themes have been revealed.",
+      "Plagiarism is strictly prohibited.",
+      "You will be given 10 days to complete your project from 1st March 2022.",
+      "You are not allowed to make changes to the code after submitting."
+    ],
+    "themes": {
+      "senior": [
+        "Create an account-based music player application with streaming services (Example: Users can follow artists and create playlists). You can develop an app that supports an operating system of your choice. Using AI functionalities to recommend songs to users will earn you more points.",
+        "Develop an app/technology/website that improves the tourist experience in Sri Lanka.",
+        "Develop a developer tool that helps the coding experience (package, extension, library, etc…). It is also required to have good documentation (a website or GitHub documentation). Releasing great video tutorials (YouTube) on how to use the developer tool you created will earn you some extra points.",
+        "Use artificial intelligence to automate a currently manual daily process at your school.",
+        "Develop a Blockchain-based E-Marketplace. No need to deploy the code since you’ll have to pay the gas fee for the smart contract. Personal blockchain must be visible in the video demo you upload. Also, please provide the address of the smart contract."
+      ],
+      "junior": [
+        "Create a website for your school. You must code the website. Websites made with website builders (WordPress, Wix) will not be accepted.",
+        "Develop your own 2D video game.",
+        "Create a music player application with streaming services. You can develop an app that supports an operating system of your choice."
+      ]
+    },
+    "submit": {
+      "link": [
+        "https://docs.google.com/forms/d/e/1FAIpQLScIljugg5HgewuiOzg9qyxUzAEtnhjHvAIrbRIj_QfepUKLHQ/viewform"
+      ]
+    }
+  },
 
-	"DimensionX": {
-		"navbar": [
-			{
-				"text": "Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "Rules",
-				"link": "#rules",
-				"target": "_self"
-			},
-			{
-				"text": "Themes",
-				"link": "#themes",
-				"target": "_self"
-			},
-			{
-				"text": "Submit",
-				"link": "#submit",
-				"target": "_self"
-			}
-		],
-		"prizes": {
-			"prize": [
-				"Winners of each category will walk away with a Wacom or Huion graphic tablet worth more than $120"
-			]
-		},
-		"rules": {
-			"twoD": [
-				" The manipulation should only consist of at least 4 stock images given by us.   You may use overlays and textures",
-				"The project file should be submitted along with the manipulation",
-				"Manipulation should be sent as a .jpg or .png file",
-				"The overlays and textures used should be submitted along with the manipulation"
-			],
+  "DimensionX": {
+    "navbar": [
+      {
+        "text": "Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "Rules",
+        "link": "#rules",
+        "target": "_self"
+      },
+      {
+        "text": "Themes",
+        "link": "#themes",
+        "target": "_self"
+      },
+      {
+        "text": "Submit",
+        "link": "#submit",
+        "target": "_self"
+      }
+    ],
+    "prizes": {
+      "prize": [
+        "Winners of each category will walk away with a Wacom or Huion graphic tablet worth more than $120"
+      ]
+    },
+    "rules": {
+      "twoD": [
+        " The manipulation should only consist of at least 4 stock images given by us.   You may use overlays and textures",
+        "The project file should be submitted along with the manipulation",
+        "Manipulation should be sent as a .jpg or .png file",
+        "The overlays and textures used should be submitted along with the manipulation"
+      ],
 
-			"logo": [
-				"The designed logo should be relevant to the original logo or else the submission will be void",
-				"The logo should be made using a vector program. And the project file should be submitted along with the logo",
-				"The logo should be sent as a .png and .svg files",
-				"Also a text file should be submitted as a reason to why your logo would be a good improvement"
-			],
+      "logo": [
+        "The designed logo should be relevant to the original logo or else the submission will be void",
+        "The logo should be made using a vector program. And the project file should be submitted along with the logo",
+        "The logo should be sent as a .png and .svg files",
+        "Also a text file should be submitted as a reason to why your logo would be a good improvement"
+      ],
 
-			"threeD": [
-				"You have to create a composition according to the theme that will be uploaded to the official website on 1st March 2022 at 00:00",
-				"You can only use assets made by you. Any indication in plagiarising assets, will result in immediate disqualification",
-				"The composition should be made using  a 3D software",
-				"The relevant project file should be submitted along with a rendered image of the composition.The textures used should also be sent along with the project file",
-				"If you used a reference image they should also be sent with the project file"
-			],
-			"poster": [
-				"Usage of any templates will result in an immediate disqualification",
-				"External images relevant to the scenario can be used",
-				"Up to 3 posters max can be designed to express the given scenario",
-				"The dimensions of the post should be either \"1080 px x 1080 px\" or \"1080 px x 1350 px\" which are the ideal dimensions for social media posting",
-				"The Posters should have a consistent theme",
-				"The posters should be sent as .png or .jpg with the relevant project files",
-				"The external images should also be submitted with the posters"
-			]
-		},
-		"themes": {
-			"threeD": {
-				"title": [
-					"Select a theme from the following and create a 3D composition"
-				],
-				"themes": ["Sri lankan Culture", "Sunset", "Winter"]
-			},
-			"logo": {
-				"details": [
-					"The name of the company is drinkIT (drink-lowercase, IT-uppercase). It is a canned beverage company established in 2007. It has both a local and global market. It specializes in different flavours of soda. Their current logo was designed when the company was established. It has not been changed or updated until now. Your job is to redesign the logo for drinkIT while preserving the integrity of the old logo. When redesigning the logo, an icon or artwork that resembles a soda container(can) must be used. And the use of a green hue is a must. Other than that, you have full creative freedom. Also, keep in mind that the new logo should be versatile since it will be printed on small surfaces such as soda cans and large surfaces like billboards. A minimal design isn't required, but it would be appreciated."
-				]
-			},
-			"poster": {
-				"details": [
-					"The theme of the posts is as follows. A large tech conference called \"Nexus\" is planned to be organized by a major Sri Lankan corporation named \"dotnet.\". You are the media coordinator of that corporation. Individuals of various fields will be attending the conference. You must make 1-3 post(s) to market the conference mentioned above. If it is difficult to give the needed details in 1 post, you are free to make a 2nd and a 3rd post. The logo of \"dotnet.\" corporation is provided. The other details (dates, guests, different fields, etc.) are completely up to you (including the decision of whether they should be included or not)."
-				]
-			}
-		},
-		"submit": {
-			"link": ["https://forms.gle/bFgs95XFnRxzEcbq7"]
-		}
-	},
-	"AnalytIQ": {
-		"navbar": [
-			{
-				"text": "Home",
-				"link": "#home",
-				"target": "_self"
-			},
-			{
-				"text": "2nd Round Qualifiers",
-				"link": "#qualifiers",
-				"target": "_self"
-			},
-			{
-				"text": "Rules",
-				"link": "#rules",
-				"target": "_self"
-			}
-		],
-		"rules": [
-			"Only 2 teams are allowed to participate from one school.",
-			"A team should consist of 4 members.",
-			"All the registrants should be born after 31.01.2003 and before 01.02.2007.",
-			"The quiz will be held only in English medium.",
-			"The first round will be held on 6th March 2022 at 8.00 am",
-			"The registrations will be closed on 3rd March at 23:59.",
-			"Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
-		],
-		"secondRound": {
-			"one": [
-				"Gateway College – Team A",
-				"Royal College",
-				"Bandaranayake College",
-				"St. Anthony’s College – Team A",
-				"Sirimavo Bandaranaike Vidyalaya – Team A",
-				"Mahinda College",
-				"Gateway College – Team B",
-				"St. Sylvester’s College",
-				"Yasodara Devi Balika Vidyalaya – Team B ",
-				"Government Science College – Team A "
-			],
-			"two": [
-				"Central College Kuliyapitiya",
-				"Asoka Vidyalaya – Team A",
-				"Cambridge School of Colombo – Team A",
-				"Musaeus College – Team A",
-				"Sirimavo Bandaranaike Vidyalaya – Team B",
-				"Girls’ High School",
-				"Government Science College – Team B",
-				"Kalutara Balika National School – Team A",
-				"Sarasavi Uyana College – Team A",
-				"Taxila Central College"
-			]
-		}
-	}
+      "threeD": [
+        "You have to create a composition according to the theme that will be uploaded to the official website on 1st March 2022 at 00:00",
+        "You can only use assets made by you. Any indication in plagiarising assets, will result in immediate disqualification",
+        "The composition should be made using  a 3D software",
+        "The relevant project file should be submitted along with a rendered image of the composition.The textures used should also be sent along with the project file",
+        "If you used a reference image they should also be sent with the project file"
+      ],
+      "poster": [
+        "Usage of any templates will result in an immediate disqualification",
+        "External images relevant to the scenario can be used",
+        "Up to 3 posters max can be designed to express the given scenario",
+        "The dimensions of the post should be either \"1080 px x 1080 px\" or \"1080 px x 1350 px\" which are the ideal dimensions for social media posting",
+        "The Posters should have a consistent theme",
+        "The posters should be sent as .png or .jpg with the relevant project files",
+        "The external images should also be submitted with the posters"
+      ]
+    },
+    "themes": {
+      "threeD": {
+        "title": [
+          "Select a theme from the following and create a 3D composition"
+        ],
+        "themes": ["Sri lankan Culture", "Sunset", "Winter"]
+      },
+      "logo": {
+        "details": [
+          "The name of the company is drinkIT (drink-lowercase, IT-uppercase). It is a canned beverage company established in 2007. It has both a local and global market. It specializes in different flavours of soda. Their current logo was designed when the company was established. It has not been changed or updated until now. Your job is to redesign the logo for drinkIT while preserving the integrity of the old logo. When redesigning the logo, an icon or artwork that resembles a soda container(can) must be used. And the use of a green hue is a must. Other than that, you have full creative freedom. Also, keep in mind that the new logo should be versatile since it will be printed on small surfaces such as soda cans and large surfaces like billboards. A minimal design isn't required, but it would be appreciated."
+        ]
+      },
+      "poster": {
+        "details": [
+          "The theme of the posts is as follows. A large tech conference called \"Nexus\" is planned to be organized by a major Sri Lankan corporation named \"dotnet.\". You are the media coordinator of that corporation. Individuals of various fields will be attending the conference. You must make 1-3 post(s) to market the conference mentioned above. If it is difficult to give the needed details in 1 post, you are free to make a 2nd and a 3rd post. The logo of \"dotnet.\" corporation is provided. The other details (dates, guests, different fields, etc.) are completely up to you (including the decision of whether they should be included or not)."
+        ]
+      }
+    },
+    "submit": {
+      "link": ["https://forms.gle/bFgs95XFnRxzEcbq7"]
+    }
+  },
+  "AnalytIQ": {
+    "navbar": [
+      {
+        "text": "Home",
+        "link": "#home",
+        "target": "_self"
+      },
+      {
+        "text": "2nd Round Qualifiers",
+        "link": "#qualifiers",
+        "target": "_self"
+      },
+      {
+        "text": "Rules",
+        "link": "#rules",
+        "target": "_self"
+      }
+    ],
+    "rules": [
+      "Only 2 teams are allowed to participate from one school.",
+      "A team should consist of 4 members.",
+      "All the registrants should be born after 31.01.2003 and before 01.02.2007.",
+      "The quiz will be held only in English medium.",
+      "The first round will be held on 6th March 2022 at 8.00 am",
+      "The registrations will be closed on 3rd March at 23:59.",
+      "Further rules & regulations about the competition will be sent to the WhatsApp groups once you are added."
+    ],
+    "secondRound": {
+      "one": [
+        "Gateway College – Team A",
+        "Royal College",
+        "Bandaranayake College",
+        "St. Anthony’s College – Team A",
+        "Sirimavo Bandaranaike Vidyalaya – Team A",
+        "Mahinda College",
+        "Gateway College – Team B",
+        "St. Sylvester’s College",
+        "Yasodara Devi Balika Vidyalaya – Team B ",
+        "Government Science College – Team A "
+      ],
+      "two": [
+        "Central College Kuliyapitiya",
+        "Asoka Vidyalaya – Team A",
+        "Cambridge School of Colombo – Team A",
+        "Musaeus College – Team A",
+        "Sirimavo Bandaranaike Vidyalaya – Team B",
+        "Girls’ High School",
+        "Government Science College – Team B",
+        "Kalutara Balika National School – Team A",
+        "Sarasavi Uyana College – Team A",
+        "Taxila Central College"
+      ]
+    }
+  }
 }
