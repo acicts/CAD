@@ -9,19 +9,23 @@ import Contact from "../components/CodeFLow/sections/Contact";
 import Prizes from "../components/CodeFLow/sections/Prizes";
 import Submit from "../components/CodeFLow/sections/Submit";
 import "./CodeFlow.css";
+import Sponsors from "../components/CodeFLow/sections/Sponsors";
+import LeaderBoard from "../components/CodeFLow/sections/LeaderBoard";
 
 const CodeFlow = () => {
-  return (
-    <Layout>
-      <Home />
-      <About />
-      <Themes />
-      <Rules />
-      <Submit />
-      <FAQ />
-      <Contact />
-    </Layout>
-  );
+	return (
+		<Layout>
+			<Home />
+			<About />
+			<Themes />
+			<Rules />
+			<LeaderBoard />
+			<Sponsors />
+			<Submit />
+			<FAQ />
+			<Contact />
+		</Layout>
+	);
 };
 
 export default CodeFlow;
