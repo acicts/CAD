@@ -97,6 +97,19 @@
 .postDesign .third .img{
     background: url("../../images/DimensionX/post-3.jpg");
 }
+.manipulation .first .img{
+    background: url("../../images/DimensionX/mani-1.jpg");
+}
+.logoDesign .first .img{
+    background: url("../../images/DimensionX/logo-1.png");
+}
+.logoDesign .second .img{
+    background: url("../../images/DimensionX/logo-2.png");
+}
+.logoDesign .third .img{
+    background: url("../../images/DimensionX/logo-3.png");
+    
+}
 .postDesign .first .img,
 .postDesign .second .img,
 .postDesign .third .img,
