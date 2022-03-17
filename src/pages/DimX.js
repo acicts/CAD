@@ -4,7 +4,7 @@ import About from "../components/DimensionX/Sections/About";
 import Contact from "../components/DimensionX/Sections/Contact";
 import Home from "../components/DimensionX/Sections/Home";
 import Prizes from "../components/DimensionX/Sections/Prizes";
-import Submit from "../components/DimensionX/Sections/Submit";
+import Winners from "../components/DimensionX/Sections/Winners";
 import Rules from "../components/DimensionX/Sections/Rules";
 import Themes from "../components/DimensionX/Sections/Themes";
 
@@ -16,7 +16,7 @@ const DimX = () => {
         <About />
         <Rules />
         <Themes />
-        <Submit/>
+        <Winners/>
         <Prizes/>
         <Contact />
       </Layout>
