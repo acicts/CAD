@@ -99,6 +99,13 @@
 }
 .manipulation .first .img{
     background: url("../../images/DimensionX/mani-1.jpg");
+
+}
+.manipulation .second .img{
+    background: url("../../images/DimensionX/mani-2.jpg");
+}
+.manipulation .third .img{
+    background: url("../../images/DimensionX/mani-3.jpg");
 }
 .logoDesign .first .img{
     background: url("../../images/DimensionX/logo-1.png");

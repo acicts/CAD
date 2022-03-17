@@ -78,19 +78,19 @@ function Winners(){
                 <div className={classes.second}>
                     <h1 className={classes.place}>2nd place</h1>
                     <div className={classes.img}></div>
-                    <h1 className={classes.name}>@Pasindu Yahampath</h1>
+                    <h1 className={classes.name}>@Matheesha Gamalthage</h1>
                 </div>
 
                 <div className={classes.first}>
                     <h1 className={classes.place}>1st place</h1>
                     <div className={classes.img}></div>
-                    <h1 className={classes.name}>@Denuwan Abayaweera</h1>
+                    <h1 className={classes.name}>@Senul</h1>
                 </div>
 
                 <div className={classes.third}>
                     <h1 className={classes.place}>3rd place</h1>
                     <div className={classes.img}></div>
-                    <h1 className={classes.name}>@Chanux Bro</h1>
+                    <h1 className={classes.name}>@Dumindu Sankalpa</h1>
                 </div>
             </div>
         </div>
