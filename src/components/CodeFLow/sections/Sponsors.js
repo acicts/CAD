@@ -10,14 +10,14 @@ const Sponsors = () => {
     <section className={classes.Container} id="sponsors">
       <SectionTopic title={'Sponsors'} color={'white'} pendulamColor={'white'}>
         <div className={classes.LogoContainer}>
-          <div>
+          <a href="https://99x.io/" target="_blank">
             <img src={Sponsor1Logo} alt="99x-logo" />
             <p>Educational Sponsor</p>
-          </div>
-          <div>
+          </a>
+          <a href="https://zone24x7.com/" target="_blank">
             <img src={Sponsor2Logo} alt="24x7-logo" />
             <p>Financial Sponsor</p>
-          </div>
+          </a>
         </div>
       </SectionTopic>
     </section>
