@@ -47,8 +47,26 @@
 .manipulation .first,
 .postDesign .first,
 .threeD .first{
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
     margin: 0px 30px;
+}
+
+.first .img {
+    transform: scale(1.15);
+}
+
+.first .place {
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+.first .name {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.img {
+    object-fit: cover !important;
 }
 
 .place{
@@ -61,14 +79,17 @@
 .threeD .first .img{
     height: 30vh;
     width: 60vh;
+    transform: scale(1.15);
     background: #40dc96a4;
     background: url("../../images/DimensionX/1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px 10px;
+    margin: 0px 30px;
    
 }
+
+
 .threeD .second .img{
     height: 30vh;
     width: 60vh;
@@ -90,6 +111,7 @@
 
 .postDesign .first .img{
     background: url("../../images/DimensionX/post-1.jpg");
+
 }
 .postDesign .second .img{
     background: url("../../images/DimensionX/post-2.jpg");
