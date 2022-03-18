@@ -276,7 +276,7 @@
     .headerSecondary,
     .headerSecondaryFirst{
         font-size: 1.5rem;
-        margin: 0;
+        margin-bottom: 25px;
     }
     .manipulation,
     .logoDesign,
@@ -286,7 +286,7 @@
         margin: -220px;
     }
     .container{
-        height: 360vh;
+        height: 390vh;
     }
 }
 @media(max-width:400px){
