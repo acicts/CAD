@@ -166,7 +166,7 @@ function Winners(){
                 hideDownload={true}
                 hideZoom={true}
             />
-                    <h1 className={classes.name}>@Matheesha Gamalthage</h1>
+                    <h1 className={classes.name}>@Matheesha Gamalathge</h1>
                 </div>
 
                 <div className={classes.first}>
